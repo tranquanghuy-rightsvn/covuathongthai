@@ -1,0 +1,211 @@
+/* ===== Trang chủ ===== */
+.gap-50{margin-top:50px}
+
+/* Hero */
+.hero img{width:100%;height:auto}
+.hero+.band{margin-top:-5px;position:relative}
+
+/* Lời giới thiệu */
+.intro{padding:10px 10px}
+.intro .container{display:flex;align-items:flex-start}
+.intro__text{flex:0 0 607px;padding:10px}
+.intro__text p{width:542px;margin-bottom:18px;font-family:var(--f-open);font-size:18px;line-height:40px;text-align:justify}
+.intro__video{flex:0 0 693px;padding:10px}
+.video-16x9{position:relative;aspect-ratio:16/9;background:#000}
+.video-16x9 iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+/* Dịch vụ (ảnh) */
+.services{height:590px}
+.services img{width:1287px;height:590px;margin-inline:auto}
+
+/* Ảnh lớp học */
+.photo{margin-top:40px;padding:5px}
+.photo img{width:1290px;height:675px;margin-inline:auto;object-fit:cover}
+
+/* Quote đỏ */
+.quote-red{margin-top:25px;background:var(--red);padding:28px 10px 29px}
+.quote-red h2{max-width:1170px;margin-inline:auto;color:#fff;font-family:var(--f-open);font-size:46px;line-height:56px;font-weight:700;text-align:center}
+
+/* Giới thiệu chương trình học */
+.program{position:relative;margin-top:50px;background:#e2e2e2;padding:49px 10px 50px}
+.program__shape{position:absolute;top:-1px;left:0;width:100%;height:83px;fill:#fff;pointer-events:none}
+.program .container{position:relative}
+.program h2{color:var(--red);font-size:30px;line-height:30px;font-weight:700;text-align:center;margin-bottom:20px}
+.program p{font-size:18px;line-height:30px;text-align:justify}
+
+/* Con bạn nhận được gì */
+.benefit{margin-top:50px;padding-inline:10px}
+.benefit h2{color:var(--red);font-family:var(--f-open);font-size:30px;line-height:48px;font-weight:700;text-align:center;text-transform:uppercase;margin-bottom:8px}
+.benefit__sub{font-size:30px;font-weight:700;text-align:center;margin-bottom:20px}
+.benefit__lead{font-size:18px;line-height:30px;text-align:justify}
+
+/* Các khối giá trị (dùng chung cho 2 section) */
+.values{padding-inline:10px}
+.values .container{display:grid;grid-template-columns:620px 620px;column-gap:30px}
+.values__col{display:flex;flex-direction:column;justify-content:space-between;min-height:386px}
+.vbox h3{margin:20px 0 10px;color:var(--red);font-family:var(--f-open);font-size:23px;line-height:36.8px;font-weight:700;text-align:justify}
+.vbox p{font-size:18px;text-align:justify}
+.vbox--center h3{text-align:center}
+.vbox--center p{text-align:center;font-style:italic;font-size:16px}
+.vdiv{height:31px;display:flex;align-items:center;flex:0 0 auto}
+.vdiv::before{content:"";width:100%;border-top:1px solid var(--red-line)}
+
+.btn{display:inline-block;background:#a70000;color:#fff;font-weight:700;text-transform:uppercase;border-radius:20px;transition:background-color .2s,transform .2s}
+.btn:hover{background:#c90808;transform:translateY(-2px)}
+.explore{padding:10px;text-align:center}
+.explore .btn{font-size:26px;line-height:26px;padding:12px 24px}
+
+/* Đội ngũ giáo viên */
+.team{margin-top:50px;padding:10px 10px 39px}
+.team .container{max-width:1280px}
+.team h2{color:var(--red);font-family:var(--f-open);font-size:37px;line-height:59.2px;font-weight:700;text-align:center;margin-bottom:8px}
+.team__sub{font-size:30px;text-align:center;margin-bottom:40px}
+.team .carousel{--pv:5;--gap:15px}
+.member{padding-top:10px;text-align:center}
+.member__thumb{display:block;width:190px;height:190px;padding:7px;margin:0 auto 25px;border:2px dashed #dcdcff;border-radius:50%;transition:transform .3s}
+.member:hover .member__thumb{transform:rotate(-6deg) scale(1.03)}
+.member__thumb img{width:172px;height:172px;border-radius:50%;object-fit:cover}
+.member h3{font-size:17.6px;font-weight:500;margin-bottom:8px}
+.member p{font-size:16px}
+
+/* Cờ vua trong giáo dục & thể thao */
+.edu{background:#e6e6e6;padding:0 10px 70px}
+.edu .container{grid-template-columns:620px 650px}
+.edu .values__col{min-height:781px}
+.edu .values__col+.values__col{margin-top:-9px}
+
+/* Carousel ảnh */
+.gallery{padding:20px 10px}
+.gallery .carousel{--pv:2;--gap:25px;max-width:1170px;margin-inline:auto}
+.gallery img{width:100%;aspect-ratio:1024/683;object-fit:cover;border-radius:20px}
+
+/* Testimonials */
+.testi{padding:10px}
+.testi .carousel{--pv:3;--gap:5px;max-width:1254px;margin-inline:auto}
+.testi .carousel__btn{color:var(--red);top:350px}
+.testi .carousel__btn--prev{left:-23px}
+.testi .carousel__btn--next{right:-23px}
+.testi .carousel__dots{margin-top:16px;margin-bottom:5px}
+.tcard{background:#fff;border:5px solid var(--red-2);border-radius:20px;overflow:hidden}
+.tcard__head{display:flex;gap:9px;background:var(--red-2);padding:10px 10px 8px;border-bottom:1px solid #e1e8ed;height:94px;color:#fff}
+.tcard__head img{flex:0 0 67px;width:67px;height:67px;border-radius:50px;object-fit:cover}
+.tcard__name{display:block;font-size:17px;line-height:25.5px}
+.stars{display:block;color:#f0c20c;font-size:17px;line-height:25.5px;letter-spacing:0;height:25.5px;margin-top:-1px}
+.tcard__title{display:block;font-size:16px;line-height:24px;margin-top:-1px}
+.tcard__text{padding:8px 10px 10px;font-size:16px;line-height:32px}
+
+/* Quote xám */
+.quote-gray{margin-top:50px;background:#d1d1d1;height:160px;display:flex;align-items:center;justify-content:center;padding-inline:10px}
+.quote-gray h2{color:#414141;font-size:37px;line-height:50px;font-weight:700;text-align:center}
+
+/* Tin tức */
+.news{padding:10px 10px 10px}
+.news .container{max-width:1280px}
+.news__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
+.post{border:1px solid transparent}
+.post__thumb{display:block;aspect-ratio:405/267;overflow:hidden;border-radius:15px}
+.post__thumb img{width:100%;height:calc(100% + 3px);margin-top:-1.7px;object-fit:cover;transition:transform .4s}
+.post:hover .post__thumb img{transform:scale(1.05)}
+.post h3{margin-top:20px;padding-right:10px;font-size:16px;line-height:25.6px;font-weight:500;color:var(--red)}
+.post h3 a:hover{text-decoration:underline}
+.post__more{display:inline-block;margin-top:11px;font-size:16px;font-weight:600}
+.post__more:hover{color:var(--red)}
+.news__more{text-align:center;margin-top:30px}
+.news__more .btn{display:inline-flex;align-items:center;gap:6px;font-size:16px;line-height:16px;font-weight:400;text-transform:none;padding:12px 24px;background:var(--red-2)}
+.news__more svg{width:14px;height:14px;fill:#fff}
+
+/* Bản đồ */
+.map{padding:10px 10px 14px}
+.map iframe{display:block;width:100%;height:480px;border:0}
+
+/* Đối tác */
+.partners{margin-top:100px;padding:5px 5px 4px}
+.partners h2{color:var(--red);font-family:var(--f-open);font-size:37px;line-height:59.2px;font-weight:700;text-align:center;margin-bottom:29px}
+.partners .carousel{--pv:10;--gap:0px}
+.partners .carousel__btn{color:#000;top:95px}
+.partners .carousel__btn svg{width:18px;height:18px}
+.partners .carousel__btn--prev{left:0}
+.partners .carousel__btn--next{right:0}
+.partners .carousel__dots{margin-top:25px}
+.partners .carousel__dots button{width:6px;height:6px;background:var(--red);opacity:.25}
+.partners .carousel__dots button.active{opacity:1}
+
+/* ===== Responsive ===== */
+@media (max-width:1366px) and (min-width:1025px){
+  .intro__text{flex:1 1 auto}
+  .intro__text p{width:auto}
+  .intro__video{display:none}
+  .quote-red{padding-block:10px;margin-top:0}
+}
+@media (max-width:1366px){
+  .services img{width:min(1287px,100%);height:auto}
+  .services{height:auto}
+  .photo img{width:min(1290px,100%);height:auto;aspect-ratio:1290/675}
+}
+@media (max-width:1320px){
+  .intro__text{flex:1 1 47%}
+  .intro__text p{width:auto}
+  .intro__video{flex:1 1 53%}
+  .values .container{grid-template-columns:1fr 1fr}
+  .edu .container{grid-template-columns:1fr 1fr}
+  .testi .carousel{margin-inline:23px}
+}
+@media (max-width:1024px){
+  .hero+.band{margin-top:0}
+  .intro .container{flex-direction:column;align-items:stretch}
+  .intro__text,.intro__video{flex:none;width:100%}
+  .intro__text p{font-size:16px;line-height:30px}
+  .services{padding-inline:0}
+  .services img{width:100%}
+  .quote-red h2{font-size:34px;line-height:44px}
+  .values__col{min-height:0;justify-content:flex-start}
+  .edu .values__col{min-height:0}
+  .edu .values__col+.values__col{margin-top:0}
+  .team .carousel{--pv:3}
+  .testi .carousel{--pv:1}
+  .testi .carousel__btn{top:50%}
+  .news__grid{grid-template-columns:1fr 1fr}
+  .partners .carousel{--pv:5}
+  .partners{margin-top:50px}
+  .gallery{padding-inline:0}
+}
+@media (max-width:767px){
+  .hero+.band{margin-top:0}
+  .photo img{aspect-ratio:365/305}
+  .post__thumb{aspect-ratio:355/212}
+  .intro{padding:10px;margin-bottom:30px}
+  .intro__text,.intro__video{padding:0}
+  .intro__text p{line-height:40px;margin-bottom:20px}
+  .services{padding-inline:2px}
+  .program{margin-top:10px;padding:12px 6px 16px}
+  .benefit{margin-top:0;padding:27px 12px 7px}
+  .team{margin-top:0;padding:30px 10px 35px}
+  .team__sub{margin-bottom:30px}
+  .photo img{border-radius:0}
+  .quote-red{padding:25px 11px}
+  .quote-red h2{font-size:19px;line-height:26.6px}
+  .program h2{font-size:23px;line-height:34.5px}
+  .program p,.benefit__lead{font-size:16px}
+  .benefit h2{font-size:20px;line-height:32px}
+  .benefit__sub{font-size:24px}
+  .values .container,.edu .container{grid-template-columns:1fr}
+  .vbox h3{font-size:22px;line-height:35.2px}
+  .vbox p{font-size:16px}
+  .vbox--center h3{text-align:center}
+  .explore .btn{font-size:20px;line-height:20px}
+  .team__sub{font-size:22px}
+  .team .carousel{--pv:2;--gap:15px}
+  .member__thumb{width:170px;height:170px;max-width:100%}
+  .member__thumb img{width:152px;height:152px}
+  .gallery{padding:10px 0 0}
+  .gallery .carousel{--pv:1;--gap:0px}
+  .gallery img{border-radius:0}
+  .testi .carousel{margin-inline:8px}
+  .testi .carousel__btn--prev{left:-6px}
+  .testi .carousel__btn--next{right:-6px}
+  .quote-gray h2{font-size:26px;line-height:39px}
+  .news__grid{grid-template-columns:1fr}
+  .partners h2{font-size:22px;line-height:35.2px;margin-bottom:15px}
+  .band--xs h2{font-size:19px;line-height:28.5px}
+  .band--xl h2{font-size:37px;line-height:37px}
+}

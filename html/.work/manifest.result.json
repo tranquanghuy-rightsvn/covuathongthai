@@ -1,0 +1,347 @@
+[
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2023/09/logo-ichess.png",
+    "dest": "images/logo-ichess.png",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/02/GV_002.jpg",
+    "dest": "images/GV_002.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/02/GV_004.jpg",
+    "dest": "images/GV_004.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/05/ichess2-2048x939.jpg",
+    "dest": "images/ichess2-2048x939.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/05/Hoc-co-vua-iChess-mua-he-2026_banner_02-655x1024.jpg",
+    "dest": "images/Hoc-co-vua-iChess-mua-he-2026_banner_02-655x1024.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/02/GV_001.jpg",
+    "dest": "images/GV_001.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/05/Dao-tao-trung-tam-ichess.jpg",
+    "dest": "images/Dao-tao-trung-tam-ichess.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/02/GV_006.jpg",
+    "dest": "images/GV_006.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/02/GV_005.jpg",
+    "dest": "images/GV_005.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/03/hoc-co-vua-mua-he-iChess-2026_banner_01.jpg",
+    "dest": "images/hoc-co-vua-mua-he-iChess-2026_banner_01.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/02/GV_007.jpg",
+    "dest": "images/GV_007.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/02/GV_001-1.jpg",
+    "dest": "images/GV_001-1.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/05/DSC05644-1024x683.jpg",
+    "dest": "images/DSC05644-1024x683.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/03/DSC00073-1024x683.jpg",
+    "dest": "images/DSC00073-1024x683.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/05/DSC07502-1024x683.jpg",
+    "dest": "images/DSC07502-1024x683.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/05/DSC05699-1024x683.jpg",
+    "dest": "images/DSC05699-1024x683.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/03/DSC01494-1024x683.jpg",
+    "dest": "images/DSC01494-1024x683.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/05/DSC06650-1024x683.jpg",
+    "dest": "images/DSC06650-1024x683.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/03/DSC01579-1024x683.jpg",
+    "dest": "images/DSC01579-1024x683.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/05/DSC06738-1024x683.jpg",
+    "dest": "images/DSC06738-1024x683.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2026/03/hinh-anh-phu-huynh-ichess.jpg",
+    "dest": "images/hinh-anh-phu-huynh-ichess.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2026/03/hinh-phu-huynh.jpg",
+    "dest": "images/hinh-phu-huynh.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2026/03/Phu-huynh-Yen-Ngo-Kien-Van-iChess.png",
+    "dest": "images/Phu-huynh-Yen-Ngo-Kien-Van-iChess.png",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2026/03/phu-huynh-Hai-Phuong.png",
+    "dest": "images/phu-huynh-Hai-Phuong.png",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/03/DSC00123-1024x683.jpg",
+    "dest": "images/DSC00123-1024x683.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2026/03/Danh-gia-phu-huynh-ichess.png",
+    "dest": "images/Danh-gia-phu-huynh-ichess.png",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2026/03/Phu-huynh-Anh-Khoi.png",
+    "dest": "images/Phu-huynh-Anh-Khoi.png",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2026/03/Y-Kien-phu-huynh-tai-ichess.png",
+    "dest": "images/Y-Kien-phu-huynh-tai-ichess.png",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/03/DSC06655-1024x683.jpg",
+    "dest": "images/DSC06655-1024x683.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/03/DSC06637-1024x683.jpg",
+    "dest": "images/DSC06637-1024x683.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2026/06/Tam-Ly-Thi-Dau-Co-Vua-4-Nguyen-Tac-Giup-Ban-Choi-Hay-Hon-Va-Tang-Elo-Nhanh-Chong-Le-Quang-Lim-768x461.jpg",
+    "dest": "images/Tam-Ly-Thi-Dau-Co-Vua-4-Nguyen-Tac-Giup-Ban-Choi-Hay-Hon-Va-Tang-Elo-Nhanh-Chong-Le-Quang-Lim-768x461.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2026/03/phu-huynh-be-jre.jpg",
+    "dest": "images/phu-huynh-be-jre.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2026/05/Loi-Cam-On-Chan-Thanh-Den-Toan-The-Ban-To-Chuc-Giai-Co-Vua-Hanh-Trinh-Truyen-Cam-Hung-2026-16-768x470.jpg",
+    "dest": "images/Loi-Cam-On-Chan-Thanh-Den-Toan-The-Ban-To-Chuc-Giai-Co-Vua-Hanh-Trinh-Truyen-Cam-Hung-2026-16-768x470.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/01/Doi-Tac-iChess_01-7.jpg",
+    "dest": "images/Doi-Tac-iChess_01-7.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2026/05/Day-Con-Tu-Duy-Cua-Nha-Vo-Dich-Vi-Sao-Co-Vua-La-Mon-Qua-Dau-Doi-Tuyet-Voi-Nhat-Co-Vua-iChess-768x432.jpg",
+    "dest": "images/Day-Con-Tu-Duy-Cua-Nha-Vo-Dich-Vi-Sao-Co-Vua-La-Mon-Qua-Dau-Doi-Tuyet-Voi-Nhat-Co-Vua-iChess-768x432.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/03/DSC06796-1024x683.jpg",
+    "dest": "images/DSC06796-1024x683.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2026/03/Anh-phu-huynh-chi-huong.jpg",
+    "dest": "images/Anh-phu-huynh-chi-huong.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/01/Doi-Tac-iChess_01-5.jpg",
+    "dest": "images/Doi-Tac-iChess_01-5.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/01/Doi-Tac-iChess_01-6.jpg",
+    "dest": "images/Doi-Tac-iChess_01-6.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/01/Doi-Tac-iChess_01-4.jpg",
+    "dest": "images/Doi-Tac-iChess_01-4.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/01/Doi-Tac-iChess_01-1.jpeg",
+    "dest": "images/Doi-Tac-iChess_01-1.jpeg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/01/Doi-Tac-iChess_01-3.jpg",
+    "dest": "images/Doi-Tac-iChess_01-3.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/01/Doi-Tac-iChess_01-1.jpg",
+    "dest": "images/Doi-Tac-iChess_01-1.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/01/Doi-Tac-iChess_01-2.jpg",
+    "dest": "images/Doi-Tac-iChess_01-2.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/01/Doi-Tac-iChess_01-14.jpg",
+    "dest": "images/Doi-Tac-iChess_01-14.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/01/Doi-Tac-iChess_01-13.jpg",
+    "dest": "images/Doi-Tac-iChess_01-13.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/01/Doi-Tac-iChess_01-12.jpg",
+    "dest": "images/Doi-Tac-iChess_01-12.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/01/Doi-Tac-iChess_01-11.jpg",
+    "dest": "images/Doi-Tac-iChess_01-11.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/01/Doi-Tac-iChess_01-8.jpg",
+    "dest": "images/Doi-Tac-iChess_01-8.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/01/Doi-Tac-iChess_01-10.jpg",
+    "dest": "images/Doi-Tac-iChess_01-10.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2023/09/iChess-Wh.png",
+    "dest": "images/iChess-Wh.png",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/plugins/button-contact-vr/legacy/img/Facebook.png",
+    "dest": "images/Facebook.png",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/plugins/button-contact-vr/legacy/img/zalo.png",
+    "dest": "images/zalo.png",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/01/Doi-Tac-iChess_01-9.jpg",
+    "dest": "images/Doi-Tac-iChess_01-9.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/03/Banner-ichess_02.jpg",
+    "dest": "images/Banner-ichess_02.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/thim-fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2",
+    "dest": "fonts/montserrat-vietnamese.woff2",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2025/05/Banner-ichess_02.jpg",
+    "dest": "images/Banner-ichess_02.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/thim-fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2",
+    "dest": "fonts/montserrat-latin-ext.woff2",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/elementor/google-fonts/fonts/montserrat-jtuqjig1_i6t8kchkm459wxrxi7mw9c.woff2",
+    "dest": "fonts/montserrat-italic-vietnamese.woff2",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/thim-fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+    "dest": "fonts/montserrat-latin.woff2",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/thim-fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2",
+    "dest": "fonts/opensans-vietnamese.woff2",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/elementor/google-fonts/fonts/montserrat-jtuqjig1_i6t8kchkm459wxrxy7mw9c.woff2",
+    "dest": "fonts/montserrat-italic-latin-ext.woff2",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/elementor/google-fonts/fonts/montserrat-jtuqjig1_i6t8kchkm459wxrys7m.woff2",
+    "dest": "fonts/montserrat-italic-latin.woff2",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/thim-fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2",
+    "dest": "fonts/opensans-latin-ext.woff2",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/elementor/google-fonts/fonts/quicksand-6xktdszam9ie8kbpra_hjvqncom.woff2",
+    "dest": "fonts/quicksand-latin-ext.woff2",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/elementor/google-fonts/fonts/quicksand-6xktdszam9ie8kbpra_hjfqncom.woff2",
+    "dest": "fonts/quicksand-vietnamese.woff2",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/2024/12/Giai-dau-co-vua-Giang-sinh-iChess_01-13-scaled.jpg",
+    "dest": "images/Giai-dau-co-vua-Giang-sinh-iChess_01-13-scaled.jpg",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/thim-fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
+    "dest": "fonts/opensans-latin.woff2",
+    "ok": true
+  },
+  {
+    "url": "https://ichess.edu.vn/wp-content/uploads/elementor/google-fonts/fonts/quicksand-6xktdszam9ie8kbpra_hk1qn.woff2",
+    "dest": "fonts/quicksand-latin.woff2",
+    "ok": true
+  }
+]

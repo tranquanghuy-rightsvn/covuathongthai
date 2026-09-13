@@ -1,0 +1,801 @@
+{
+ "bands": [
+  {
+   "i": 3,
+   "tag": "P",
+   "r": [
+    0,
+    906,
+    1920,
+    50
+   ],
+   "s": {
+    "fontFamily": "Montserrat",
+    "fontSize": "37px",
+    "lineHeight": "50px",
+    "fontWeight": "700",
+    "textTransform": "none"
+   },
+   "box": [
+    0,
+    884,
+    1920,
+    94
+   ]
+  },
+  {
+   "i": 5,
+   "tag": "P",
+   "r": [
+    0,
+    1419,
+    1920,
+    50
+   ],
+   "s": {
+    "fontFamily": "Montserrat",
+    "fontSize": "37px",
+    "lineHeight": "50px",
+    "fontWeight": "700",
+    "textTransform": "none"
+   },
+   "box": [
+    0,
+    1397,
+    1920,
+    94
+   ]
+  },
+  {
+   "i": 15,
+   "tag": "H2",
+   "r": [
+    0,
+    4674,
+    1920,
+    40
+   ],
+   "s": {
+    "fontFamily": "\"Open Sans\"",
+    "fontSize": "40px",
+    "lineHeight": "40px",
+    "fontWeight": "700",
+    "textTransform": "none"
+   },
+   "box": [
+    0,
+    4644,
+    1920,
+    100
+   ]
+  },
+  {
+   "i": 17,
+   "tag": "H2",
+   "r": [
+    0,
+    5676,
+    1920,
+    37
+   ],
+   "s": {
+    "fontFamily": "\"Open Sans\"",
+    "fontSize": "37px",
+    "lineHeight": "37px",
+    "fontWeight": "700",
+    "textTransform": "none"
+   },
+   "box": [
+    0,
+    5645,
+    1920,
+    100
+   ]
+  },
+  {
+   "i": 19,
+   "tag": "H2",
+   "r": [
+    0,
+    6278,
+    1920,
+    37
+   ],
+   "s": {
+    "fontFamily": "\"Open Sans\"",
+    "fontSize": "37px",
+    "lineHeight": "37px",
+    "fontWeight": "700",
+    "textTransform": "none"
+   },
+   "box": [
+    0,
+    6246,
+    1920,
+    100
+   ]
+  },
+  {
+   "i": 21,
+   "tag": "H2",
+   "r": [
+    0,
+    7218,
+    1920,
+    37
+   ],
+   "s": {
+    "fontFamily": "\"Open Sans\"",
+    "fontSize": "37px",
+    "lineHeight": "37px",
+    "fontWeight": "700",
+    "textTransform": "none"
+   },
+   "box": [
+    0,
+    7186,
+    1920,
+    100
+   ]
+  },
+  {
+   "i": 24,
+   "tag": "H2",
+   "r": [
+    0,
+    8030,
+    1920,
+    37
+   ],
+   "s": {
+    "fontFamily": "\"Open Sans\"",
+    "fontSize": "37px",
+    "lineHeight": "37px",
+    "fontWeight": "700",
+    "textTransform": "none"
+   },
+   "box": [
+    0,
+    7998,
+    1920,
+    100
+   ]
+  },
+  {
+   "i": 26,
+   "tag": "H2",
+   "r": [
+    0,
+    8639,
+    1920,
+    37
+   ],
+   "s": {
+    "fontFamily": "\"Open Sans\"",
+    "fontSize": "37px",
+    "lineHeight": "37px",
+    "fontWeight": "700",
+    "textTransform": "uppercase"
+   },
+   "box": [
+    0,
+    8607,
+    1920,
+    100
+   ]
+  }
+ ],
+ "s09": {
+  "fontFamily": "\"Open Sans\"",
+  "textTransform": "none"
+ },
+ "s23": {
+  "fontFamily": "Montserrat, sans-serif"
+ },
+ "s23outer": [
+  [
+   0,
+   7788,
+   1920,
+   160
+  ],
+  {
+   "paddingTop": "0px",
+   "paddingLeft": "0px",
+   "backgroundColor": "rgba(0, 0, 0, 0)"
+  }
+ ],
+ "float": "<div id=\"button-contact-vr\" class=\"\">\n            <div id=\"gom-all-in-one\"><!-- v3 -->\n                \n                \n                \n                                    <!-- fanpage -->\n                    <div id=\"fanpage-vr\" class=\"button-contact\">\n                        <div class=\"phone-vr\">\n                            <div class=\"phone-vr-circle-fill\"></div>\n                            <div class=\"phone-vr-img-circle\">\n                                <a target=\"_blank\" href=\"https://www.facebook.com/covuatruyencamhung\">\n                                    <img alt=\"Fanpage\" src=\"https://ichess.edu.vn/wp-content/plugins/button-contact-vr/legacy/img/Facebook.png\">\n                                </a>\n                            </div>\n                        </div>\n                    </div>\n                    <!-- end fanpage -->\n                \n\n                \n                \n                \n                \n                \n                                    <!-- zalo -->\n                    <div id=\"zalo-vr\" class=\"button-contact\">\n                        <div class=\"phone-vr\">\n                            <div class=\"phone-vr-circle-fill\"></div>\n                            <div class=\"phone-vr-img-circle\">\n                                <a target=\"_blank\" href=\"https://zalo.me/3519488029034299650\">\n                                    <img alt=\"Zalo\" src=\"https://ichess.edu.vn/wp-content/plugins/button-contact-vr/legacy/img/zalo.png\">\n                     ",
+ "floatCss": [
+  {
+   "t": "DIV",
+   "c": "",
+   "r": [
+    1830,
+    1270,
+    90,
+    175
+   ],
+   "s": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "width": "90px",
+    "height": "175px",
+    "animationName": "none",
+    "position": "static",
+    "boxShadow": "none"
+   }
+  },
+  {
+   "t": "DIV",
+   "c": "button-contact",
+   "r": [
+    1830,
+    1270,
+    90,
+    90
+   ],
+   "s": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "width": "90px",
+    "height": "90px",
+    "animationName": "none",
+    "position": "relative",
+    "boxShadow": "none"
+   }
+  },
+  {
+   "t": "DIV",
+   "c": "phone-vr",
+   "r": [
+    1830,
+    1270,
+    90,
+    90
+   ],
+   "s": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "width": "90px",
+    "height": "90px",
+    "animationName": "none",
+    "position": "relative",
+    "boxShadow": "none"
+   }
+  },
+  {
+   "t": "DIV",
+   "c": "phone-vr-circle-fill",
+   "r": [
+    1845,
+    1285,
+    59,
+    59
+   ],
+   "s": {
+    "backgroundColor": "rgba(24, 119, 242, 0.7)",
+    "borderRadius": "50%",
+    "width": "65px",
+    "height": "65px",
+    "animationName": "zoom",
+    "position": "absolute",
+    "boxShadow": "rgba(24, 119, 242, 0.643) 0px 0px 0px 0.138123px"
+   }
+  },
+  {
+   "t": "DIV",
+   "c": "phone-vr-img-circle",
+   "r": [
+    1849,
+    1289,
+    53,
+    52
+   ],
+   "s": {
+    "backgroundColor": "rgb(24, 119, 242)",
+    "borderRadius": "50%",
+    "width": "40px",
+    "height": "40px",
+    "animationName": "phone-vr-circle-fill",
+    "position": "absolute",
+    "boxShadow": "none"
+   }
+  },
+  {
+   "t": "A",
+   "c": "",
+   "r": [
+    1867,
+    1297,
+    16,
+    37
+   ],
+   "s": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "width": "0px",
+    "height": "40px",
+    "animationName": "none",
+    "position": "static",
+    "boxShadow": "none"
+   }
+  },
+  {
+   "t": "IMG",
+   "c": "",
+   "r": [
+    1852,
+    1292,
+    46,
+    45
+   ],
+   "s": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "width": "35px",
+    "height": "35px",
+    "animationName": "none",
+    "position": "absolute",
+    "boxShadow": "none"
+   }
+  },
+  {
+   "t": "DIV",
+   "c": "button-contact",
+   "r": [
+    1830,
+    1355,
+    90,
+    90
+   ],
+   "s": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "width": "90px",
+    "height": "90px",
+    "animationName": "none",
+    "position": "relative",
+    "boxShadow": "none"
+   }
+  },
+  {
+   "t": "DIV",
+   "c": "phone-vr",
+   "r": [
+    1830,
+    1355,
+    90,
+    90
+   ],
+   "s": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "width": "90px",
+    "height": "90px",
+    "animationName": "none",
+    "position": "relative",
+    "boxShadow": "none"
+   }
+  },
+  {
+   "t": "DIV",
+   "c": "phone-vr-circle-fill",
+   "r": [
+    1845,
+    1370,
+    59,
+    59
+   ],
+   "s": {
+    "backgroundColor": "rgba(33, 150, 243, 0.7)",
+    "borderRadius": "50%",
+    "width": "65px",
+    "height": "65px",
+    "animationName": "zoom",
+    "position": "absolute",
+    "boxShadow": "rgba(33, 150, 243, 0.992) 0px 0px 0px 0.138123px"
+   }
+  },
+  {
+   "t": "DIV",
+   "c": "phone-vr-img-circle",
+   "r": [
+    1849,
+    1374,
+    53,
+    52
+   ],
+   "s": {
+    "backgroundColor": "rgb(33, 150, 243)",
+    "borderRadius": "50%",
+    "width": "40px",
+    "height": "40px",
+    "animationName": "phone-vr-circle-fill",
+    "position": "absolute",
+    "boxShadow": "none"
+   }
+  },
+  {
+   "t": "A",
+   "c": "",
+   "r": [
+    1867,
+    1382,
+    16,
+    37
+   ],
+   "s": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "width": "0px",
+    "height": "40px",
+    "animationName": "none",
+    "position": "static",
+    "boxShadow": "none"
+   }
+  },
+  {
+   "t": "IMG",
+   "c": "",
+   "r": [
+    1858,
+    1384,
+    34,
+    33
+   ],
+   "s": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "width": "26.3125px",
+    "height": "25px",
+    "animationName": "none",
+    "position": "absolute",
+    "boxShadow": "none"
+   }
+  }
+ ],
+ "pNav": [
+  {
+   "c": "elementor-container elementor-column-gap-narrow",
+   "r": [
+    0,
+    9311,
+    1920,
+    332
+   ],
+   "s": {
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  },
+  {
+   "c": "owl-nav owl-buttons",
+   "r": [
+    5,
+    9620,
+    1910,
+    0
+   ],
+   "s": {
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  },
+  {
+   "c": "owl-dots owl-pagination",
+   "r": [
+    5,
+    9620,
+    1910,
+    19
+   ],
+   "s": {
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+   }
+  }
+ ],
+ "pBul": [],
+ "tBul": [
+  {
+   "c": "swiper-pagination-bullet",
+   "r": [
+    939,
+    7111,
+    6,
+    6
+   ],
+   "s": {
+    "backgroundColor": "rgb(0, 0, 0)",
+    "opacity": "0.2"
+   }
+  },
+  {
+   "c": "swiper-pagination-bullet swiper-pagination-bullet-active",
+   "r": [
+    957,
+    7111,
+    6,
+    6
+   ],
+   "s": {
+    "backgroundColor": "rgb(0, 0, 0)",
+    "opacity": "1"
+   }
+  }
+ ],
+ "cBul": [
+  {
+   "c": "swiper-pagination-bullet",
+   "r": [
+    885,
+    6161,
+    6,
+    6
+   ],
+   "s": {
+    "backgroundColor": "rgb(0, 0, 0)",
+    "opacity": "0.2"
+   }
+  },
+  {
+   "c": "swiper-pagination-bullet swiper-pagination-bullet-active",
+   "r": [
+    903,
+    6161,
+    6,
+    6
+   ],
+   "s": {
+    "backgroundColor": "rgb(0, 0, 0)",
+    "opacity": "1"
+   }
+  },
+  {
+   "c": "swiper-pagination-bullet",
+   "r": [
+    921,
+    6161,
+    6,
+    6
+   ],
+   "s": {
+    "backgroundColor": "rgb(0, 0, 0)",
+    "opacity": "0.2"
+   }
+  },
+  {
+   "c": "swiper-pagination-bullet",
+   "r": [
+    939,
+    6161,
+    6,
+    6
+   ],
+   "s": {
+    "backgroundColor": "rgb(0, 0, 0)",
+    "opacity": "0.2"
+   }
+  }
+ ],
+ "pSlide": null,
+ "pSwiper": null,
+ "carArrow": "\n\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-eicon-chevron-left\" viewBox=\"0 0 1000 1000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z\"></path></svg>\t\t\t\t\t",
+ "teamPag": [],
+ "s14box": [
+  [
+   320,
+   4117,
+   1280,
+   59
+  ],
+  [
+   320,
+   4262,
+   1280,
+   292
+  ]
+ ],
+ "s04": [
+  [
+   310,
+   978,
+   1300,
+   419
+  ],
+  {
+   "fontFamily": "\"Open Sans\", sans-serif"
+  }
+ ],
+ "s11p": [
+  {
+   "r": [
+    310,
+    3455,
+    1300,
+    37
+   ],
+   "s": {
+    "fontFamily": "Montserrat",
+    "fontSize": "30px",
+    "fontWeight": "700",
+    "color": "rgb(0, 0, 0)",
+    "lineHeight": "normal",
+    "textTransform": "none"
+   }
+  },
+  {
+   "r": [
+    310,
+    3512,
+    1300,
+    90
+   ],
+   "s": {
+    "fontFamily": "Montserrat",
+    "fontSize": "18px",
+    "fontWeight": "400",
+    "color": "rgb(0, 0, 0)",
+    "lineHeight": "30px",
+    "textTransform": "none"
+   }
+  }
+ ],
+ "s12img": [],
+ "testiHeadFont": {
+  "fontFamily": "Montserrat",
+  "fontWeight": "400"
+ },
+ "newsTitleR": [
+  {
+   "t": "A",
+   "c": "",
+   "r": [
+    321,
+    8399,
+    374,
+    45
+   ],
+   "txt": "4 Nguyên Tắc Vàng Về"
+  },
+  {
+   "t": "A",
+   "c": "elementor-post__read-more",
+   "r": [
+    321,
+    8457,
+    99,
+    19
+   ],
+   "txt": "Xem thêm »"
+  }
+ ],
+ "toolbarLinks": [
+  {
+   "r": [
+    315,
+    543,
+    61,
+    11
+   ],
+   "h": "<a class=\"register js-show-popup\" href=\"https://ichess.edu.vn/account/?action=register\">Đăng ký |</a>"
+  },
+  {
+   "r": [
+    376,
+    543,
+    74,
+    11
+   ],
+   "h": "<a class=\"login js-show-popup\" href=\"https://ichess.edu.vn/account/\">Đăng nhập</a>"
+  }
+ ],
+ "caret": [
+  {
+   "t": "A",
+   "c": "",
+   "r": [
+    850,
+    579,
+    127,
+    60
+   ],
+   "h": "<a href=\"#\">Khóa học</a>"
+  },
+  {
+   "t": "SPAN",
+   "c": "icon-toggle",
+   "r": [
+    0,
+    527,
+    0,
+    0
+   ],
+   "h": "<span class=\"icon-toggle\"><i class=\"edu-angle-down\"></i></span>"
+  },
+  {
+   "t": "UL",
+   "c": "sub-menu dropdown-left-side",
+   "r": [
+    850,
+    639,
+    280,
+    253
+   ],
+   "h": "<ul class=\"sub-menu dropdown-left-side\">\n\t<li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-41584\"><a href=\"https://ichess.edu.vn/kho"
+  },
+  {
+   "t": "A",
+   "c": "",
+   "r": [
+    880,
+    822,
+    220,
+    28
+   ],
+   "h": "<a href=\"https://ichess.edu.vn/khoa-hoc-co-vua-online\">Học trực tuyến (Online)</a>"
+  }
+ ],
+ "caretAfter": {
+  "paddingRight": "20px"
+ },
+ "caretPseudo": [
+  "\"\"",
+  "eduma-icon",
+  "none",
+  "none"
+ ],
+ "subLi": [
+  {
+   "r": [
+    880,
+    654,
+    220,
+    28
+   ],
+   "s": {
+    "padding": "4px 0px",
+    "textAlign": "left",
+    "fontFamily": "Montserrat",
+    "fontWeight": "400",
+    "lineHeight": "normal",
+    "fontSize": "16px"
+   }
+  },
+  {
+   "r": [
+    880,
+    682,
+    220,
+    28
+   ],
+   "s": {
+    "padding": "4px 0px",
+    "textAlign": "left",
+    "fontFamily": "Montserrat",
+    "fontWeight": "400",
+    "lineHeight": "normal",
+    "fontSize": "16px"
+   }
+  }
+ ],
+ "subUl": {
+  "paddingLeft": "0px",
+  "textAlign": "right",
+  "left": "0px",
+  "top": "60px"
+ },
+ "backtop": [
+  [
+   1860,
+   1552,
+   40,
+   40
+  ],
+  "<div class=\"scroll-circle-progress active\" id=\"back-to-top\"><svg width=\"100%\" height=\"100%\" viewBox=\"-1 -1 102 102\">\n\t\t\t\t\t<path d=\"M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98\" style=\"transition: stroke-dashoffset 10ms linear; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 290.348;\"></path>\n\t\t\t\t</svg><i class=\"edu-chevron-up\" aria-hidden=\"true\"></i></div>"
+ ]
+}

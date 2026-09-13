@@ -1,0 +1,143 @@
+{
+ "wrapper": [
+  {
+   "tag": "div",
+   "id": "",
+   "cls": "content-pusher",
+   "top": 0,
+   "h": 10315,
+   "w": 1920,
+   "txt": "Đăng ký |Đăng nhập TRANG CHỦ GIỚI THIỆU KHÓA HỌC KHÓA HỌC ONLINE TIN TỨC & SỰ KIỆN CỬA HÀNG LIÊN HỆ LỜI GIỚI THIỆU Trung"
+  },
+  {
+   "tag": "div",
+   "id": "back-to-top",
+   "cls": "scroll-circle-progress active",
+   "top": 1520,
+   "h": 40,
+   "w": 40,
+   "txt": ""
+  }
+ ],
+ "elsections": [
+  {
+   "tag": "section",
+   "id": "",
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-9e3b914 elementor-section-stretched elementor-section-full_width elementor-section-height-min-height elementor-section-items",
+   "top": 495,
+   "h": 0,
+   "w": 0,
+   "txt": "KHAI GIẢNG KHÓA HỌCCỜ VUA DÀNH CHO TRẺ EMHOTLINE: 0365 998 894 GIẢI CỜ VUA MÙA HÈ 2025 ĐĂNG KÝ GIẢI ĐẤU"
+  },
+  {
+   "tag": "section",
+   "id": "",
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-338fcd02 elementor-section-stretched elementor-section-full_width elementor-section-height-min-height elementor-section-item",
+   "top": 495,
+   "h": 0,
+   "w": 0,
+   "txt": "KHAI GIẢNG KHÓA HỌCCỜ VUA DÀNH CHO TRẺ EM HOTLINE: 0365 998 894 ĐĂNG KÝ GIẢI ĐẤU"
+  },
+  {
+   "tag": "section",
+   "id": "",
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-59d5ad66 elementor-section-stretched elementor-section-full_width elementor-section-height-min-height elementor-section-item",
+   "top": 495,
+   "h": 0,
+   "w": 0,
+   "txt": "KHAI GIẢNG KHÓA HỌCCỜ VUA DÀNH CHO TRẺ EM HOTLINE: 0365 998 894 ĐĂNG KÝ GIẢI ĐẤU"
+  },
+  {
+   "tag": "section",
+   "id": "",
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-84a0991 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-defaul",
+   "top": 2121,
+   "h": 685,
+   "w": 1920,
+   "txt": ""
+  },
+  {
+   "tag": "section",
+   "id": "",
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-b7d7bc2 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-defaul",
+   "top": 3399,
+   "h": 203,
+   "w": 1920,
+   "txt": "CON BẠN SẼ NHẬN ĐƯỢC GÌ KHI HỌC CỜ VUA TẠI ICHESS? Việc lựa chọn môi trường học cờ vua phù hợp đóng vai trò quan trọng t"
+  },
+  {
+   "tag": "section",
+   "id": "",
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-112b52b elementor-section-stretched elementor-section-content-middle elementor-section-boxed elementor-section-height-defaul",
+   "top": 3602,
+   "h": 386,
+   "w": 1920,
+   "txt": "ĐỘI NGŨ GIÁO VIÊN TẬN TÂM Trẻ được hướng dẫn bởi các huấn luyện viên và giáo viên có trình độ và kinh nghiệm thi đấu giả"
+  },
+  {
+   "tag": "section",
+   "id": "",
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-e15e825 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-defaul",
+   "top": 4107,
+   "h": 486,
+   "w": 1920,
+   "txt": "ĐỘI NGŨ GIÁO VIÊN CỦA CHÚNG TÔI Giáo viên huấn luyện giàu kinh nghiệm đào tạo cờ Vua Trần Thị Ngọc Bích Huấn luyện viên "
+  },
+  {
+   "tag": "section",
+   "id": "",
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-121b0da2 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-defau",
+   "top": 4242,
+   "h": 342,
+   "w": 1920,
+   "txt": "Trần Thị Ngọc Bích Huấn luyện viên quốc gia, (IS) FIDE Trần Đức Long Huấn luyện viên quốc gia, (IS) FIDE Trần Đức Hải Hu"
+  },
+  {
+   "tag": "section",
+   "id": "",
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-3121dcd elementor-section-stretched elementor-section-content-middle elementor-section-boxed elementor-section-height-defaul",
+   "top": 4744,
+   "h": 851,
+   "w": 1920,
+   "txt": "CỜ VUA TRONG GIÁO DỤC Chìa khóa của trí tuệ PHÁT TRIỂN TƯ DUY Cờ vua giúp rèn luyện tư duy logic, trí tưởng tượng và sự "
+  },
+  {
+   "tag": "section",
+   "id": "",
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-be74e88 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-defaul",
+   "top": 8098,
+   "h": 459,
+   "w": 1920,
+   "txt": "4 Nguyên Tắc Vàng Về Tâm Lý Thi Đấu Cờ Vua Mọi Kỳ Thủ Đều Nên Biết Xem thêm » Khai Mạc Giải Cờ Vua iChess Hành Trình Tru"
+  },
+  {
+   "tag": "section",
+   "id": "",
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-04be7fe have_border_top none_line elementor-section-stretched elementor-section-full_width elementor-section-height-default ",
+   "top": 9311,
+   "h": 332,
+   "w": 1920,
+   "txt": "ĐỐI TÁC CỦA CHÚNG TÔI"
+  },
+  {
+   "tag": "section",
+   "id": "",
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-a834365 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-defaul",
+   "top": 9674,
+   "h": 485,
+   "w": 1920,
+   "txt": "Trung tâm cờ vua Truyền Cảm Hứng – iChess là đơn vị dạy cờ vua cho trẻ em từ 4 đến 14 tuổi tại Thành Phố Hồ Chí Minh. Vớ"
+  }
+ ],
+ "header": [
+  {
+   "tag": "header",
+   "id": "masthead",
+   "cls": "site-header bg-custom-sticky sticky-header header_default header_v1 affix",
+   "top": 495,
+   "h": 121,
+   "w": 1920,
+   "txt": "Đăng ký |Đăng nhập TRANG CHỦ GIỚI THIỆU KHÓA HỌC KHÓA HỌC ONLINE TIN TỨC & SỰ KIỆN CỬA HÀNG LIÊN HỆ"
+  }
+ ]
+}

@@ -1,0 +1,568 @@
+{
+ "title": "iChess Cờ Vua Truyền Cảm Hứng | iChess.edu.vn",
+ "scrollH": 10315,
+ "bodyClass": "home wp-singular page-template page-template-elementor_header_footer page page-id-17019 wp-embed-responsive wp-theme-eduma wp-child-theme-eduma-child theme-eduma woocommerce-js group-blog thim-body-load-overlay bg-boxed-image size_wide thim-style-content-layout_style_3 thim-course-content-new-1 switch-layout-normal thim-popup-feature learnpress-v4 nofixcss elementor-default elementor-template-full-width elementor-kit-8947 elementor-page elementor-page-17019 e--ua-blink e--ua-mac e--ua-webkit",
+ "generator": "WordPress 7.0.4",
+ "sections": [
+  {
+   "tag": "div",
+   "id": "",
+   "cls": "mobile-menu-wrapper",
+   "top": 2,
+   "h": 1080
+  },
+  {
+   "tag": "div",
+   "id": "wrapper-container",
+   "cls": "wrapper-container",
+   "top": 0,
+   "h": 10315
+  },
+  {
+   "tag": "script",
+   "id": "",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "div",
+   "id": "",
+   "cls": "fb-customerchat",
+   "top": 10315,
+   "h": 0
+  },
+  {
+   "tag": "div",
+   "id": "",
+   "cls": "gallery-slider-content",
+   "top": 10315,
+   "h": 0
+  },
+  {
+   "tag": "div",
+   "id": "button-contact-vr",
+   "cls": "",
+   "top": 750,
+   "h": 170
+  },
+  {
+   "tag": "script",
+   "id": "",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "style",
+   "id": "",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "style",
+   "id": "",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "style",
+   "id": "",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "div",
+   "id": "thim-popup-login",
+   "cls": "",
+   "top": 434,
+   "h": 216
+  },
+  {
+   "tag": "link",
+   "id": "elementor-post-26877-css",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "link",
+   "id": "e-animation-zoomIn-css",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "link",
+   "id": "e-animation-float-css",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "link",
+   "id": "elementor-post-28374-css",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "link",
+   "id": "elementor-post-28377-css",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "link",
+   "id": "elementor-post-24413-css",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "link",
+   "id": "elementor-post-17841-css",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "link",
+   "id": "widget-social-icons-css",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "link",
+   "id": "e-apple-webkit-css",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "link",
+   "id": "widget-icon-list-css",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "link",
+   "id": "widget-social-css",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "link",
+   "id": "elementor-gf-local-quicksand-css",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "link",
+   "id": "elementor-icons-thim-ekits-fonts-css",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "mpay-qrcode-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "underscore-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "wp-util-js-extra",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "wp-util-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "backbone-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "wpems-modal-js-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "wpems-carousel-js-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "awsm-job-scripts-js-extra",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "awsm-job-scripts-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "rocket-browser-checker-js-after",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "rocket-preload-links-js-extra",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "rocket-preload-links-js-after",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "woocommerce-analytics-client-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "dflip-script-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "sourcebuster-js-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "wc-order-attribution-js-extra",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "wc-order-attribution-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "elementor-webpack-runtime-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "elementor-frontend-modules-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "jquery-ui-core-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "elementor-frontend-js-before",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "elementor-frontend-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "span",
+   "id": "elementor-device-mode",
+   "cls": "elementor-screen-only",
+   "top": -160001,
+   "h": 1
+  },
+  {
+   "tag": "script",
+   "id": "imagesloaded-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "swiper-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "jetpack-stats-js-before",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "jetpack-stats-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "thim-main-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "thim-scripts-js-extra",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "thim-scripts-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "wc-js-cookie-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "wc-cart-fragments-js-extra",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "wc-cart-fragments-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "elementor-pro-webpack-runtime-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "wp-i18n-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "wp-i18n-js-after",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "elementor-pro-frontend-js-before",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "elementor-pro-frontend-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "pro-elements-handlers-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "svg",
+   "id": "",
+   "cls": "[object SVGAnimatedString]",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "thim-ekit-frontend-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "wp-url-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "wp-api-fetch-js-translations",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "wp-api-fetch-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "wp-api-fetch-js-after",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "thim-ekit-widgets-js-extra",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "thim-ekit-widgets-js",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  },
+  {
+   "tag": "script",
+   "id": "",
+   "cls": "",
+   "top": 2,
+   "h": 0
+  }
+ ]
+}
