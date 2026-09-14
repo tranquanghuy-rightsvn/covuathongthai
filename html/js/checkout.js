@@ -1,9 +1,9 @@
-/* Modal đặt hàng: chọn phương thức thanh toán (chuyển khoản / tiền mặt / liên hệ điện thoại). */
+/* Trang thanh toán: chọn phương thức (chuyển khoản / tiền mặt / liên hệ điện thoại), gửi đơn hàng local. */
 (function () {
-  var modal = document.querySelector("[data-checkout-modal]");
-  if (!modal || !window.TTCCart) return;
+  var body = document.querySelector("[data-checkout-body]");
+  if (!body || !window.TTCCart) return;
 
-  // TODO: cập nhật thông tin ngân hàng thật trước khi vận hành chính thức.
+  // TODO: cập nhật thông tin ngân hàng thật trước khi vận hành chính thức. QR hiện là ảnh minh hoạ (demo), chưa liên kết tài khoản thật.
   var CONFIG = {
     hotline: "0365.998.894",
     hotlineTel: "tel:0365998894",
@@ -15,43 +15,51 @@
     }
   };
 
-  var form = modal.querySelector("[data-checkout-form]");
-  var stepForm = modal.querySelector('[data-checkout-step="form"]');
-  var stepResult = modal.querySelector('[data-checkout-step="result"]');
+  var empty = document.querySelector("[data-checkout-empty]");
+  var thanks = document.querySelector("[data-checkout-thanks]");
+  var form = document.querySelector("[data-checkout-form]");
 
   function genOrderCode() {
     return "DH" + Date.now().toString(36).toUpperCase();
   }
 
-  function fillSummary() {
-    var items = TTCCart.read();
-    var total = items.reduce(function (s, i) { return s + i.qty * i.price; }, 0);
-    var list = modal.querySelector("[data-checkout-items]");
-    list.innerHTML = "";
-    items.forEach(function (it) {
-      var li = document.createElement("li");
-      li.innerHTML = '<span class="n"></span><span class="q"></span><span class="p"></span>';
-      li.querySelector(".n").textContent = it.name;
-      li.querySelector(".q").textContent = "x" + it.qty;
-      li.querySelector(".p").textContent = TTCCart.money(it.qty * it.price);
-      list.appendChild(li);
+  document.querySelectorAll("[data-hotline-tel]").forEach(function (el) {
+    el.href = CONFIG.hotlineTel;
+    el.textContent = "Gọi " + CONFIG.hotline;
+  });
+  document.querySelectorAll("[data-zalo-link]").forEach(function (el) { el.href = CONFIG.zaloUrl; });
+  var bankNameEl = document.querySelector("[data-bank-name]");
+  var bankAccountEl = document.querySelector("[data-bank-account]");
+  var bankHolderEl = document.querySelector("[data-bank-holder]");
+  if (bankNameEl) bankNameEl.textContent = CONFIG.bank.name;
+  if (bankAccountEl) bankAccountEl.textContent = CONFIG.bank.account;
+  if (bankHolderEl) bankHolderEl.textContent = CONFIG.bank.holder;
+
+  var items = TTCCart.read();
+  if (items.length === 0) {
+    empty.hidden = false;
+    return;
+  }
+  body.hidden = false;
+
+  var total = items.reduce(function (s, i) { return s + i.qty * i.price; }, 0);
+  var list = document.querySelector("[data-checkout-items]");
+  items.forEach(function (it) {
+    var li = document.createElement("li");
+    li.innerHTML = '<span class="n"></span><span class="q"></span><span class="p"></span>';
+    li.querySelector(".n").textContent = it.name;
+    li.querySelector(".q").textContent = "x" + it.qty;
+    li.querySelector(".p").textContent = TTCCart.money(it.qty * it.price);
+    list.appendChild(li);
+  });
+  document.querySelector("[data-checkout-total]").innerHTML = TTCCart.money(total);
+
+  form.addEventListener("change", function (e) {
+    if (e.target.name !== "method") return;
+    document.querySelectorAll("[data-checkout-method]").forEach(function (box) {
+      box.classList.toggle("is-open", box.dataset.checkoutMethod === e.target.value);
     });
-    modal.querySelector("[data-checkout-total]").innerHTML = TTCCart.money(total);
-  }
-
-  function open() {
-    fillSummary();
-    form.reset();
-    stepForm.hidden = false;
-    stepResult.hidden = true;
-    modal.hidden = false;
-    document.body.style.overflow = "hidden";
-  }
-
-  function close() {
-    modal.hidden = true;
-    document.body.style.overflow = "";
-  }
+  });
 
   function callBtnsHtml() {
     return (
@@ -62,7 +70,7 @@
     );
   }
 
-  function resultHtml(method, code, total) {
+  function thanksBodyHtml(method, code) {
     if (method === "bank") {
       return (
         "<p>Vui lòng chuyển khoản theo thông tin bên dưới, sau đó gọi hotline hoặc nhắn Zalo để Trung tâm xác nhận đơn hàng.</p>" +
@@ -87,39 +95,18 @@
     );
   }
 
-  document.addEventListener("click", function (e) {
-    if (e.target.closest("[data-cart-checkout]")) {
-      e.preventDefault();
-      open();
-      return;
-    }
-    if (e.target.closest("[data-checkout-close]") && !modal.hidden) {
-      close();
-      return;
-    }
-    if (e.target.closest("[data-checkout-done]")) {
-      TTCCart.clear();
-      close();
-    }
-  });
-
-  document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape" && !modal.hidden) close();
-  });
-
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     if (!form.reportValidity()) return;
 
-    var items = TTCCart.read();
-    var total = items.reduce(function (s, i) { return s + i.qty * i.price; }, 0);
     var method = form.method.value;
     var code = genOrderCode();
 
-    modal.querySelector("[data-checkout-code]").textContent = code;
-    modal.querySelector("[data-checkout-result-body]").innerHTML = resultHtml(method, code, total);
+    document.querySelector("[data-checkout-code]").textContent = code;
+    document.querySelector("[data-checkout-thanks-body]").innerHTML = thanksBodyHtml(method, code);
 
-    stepForm.hidden = true;
-    stepResult.hidden = false;
+    body.hidden = true;
+    thanks.hidden = false;
+    TTCCart.clear();
   });
 })();

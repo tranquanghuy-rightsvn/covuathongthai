@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Giỏ hàng | Học viện cờ vua Thông Thái</title>
+<title>Thanh toán | Học viện cờ vua Thông Thái</title>
 <link rel="preload" href="fonts/montserrat-vietnamese.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/montserrat-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/main.css">
@@ -78,44 +78,107 @@
 
 <div class="header-spacer"></div>
 
-<nav class="crumbs" aria-label="Đường dẫn"><div class="wrap"><ul><li><a href="index.html">Trang chủ</a></li><li><a href="cua-hang.html">Cửa hàng</a></li><li aria-current="page">Giỏ hàng</li></ul></div></nav>
+<nav class="crumbs" aria-label="Đường dẫn"><div class="wrap"><ul><li><a href="index.html">Trang chủ</a></li><li><a href="cua-hang.html">Cửa hàng</a></li><li><a href="gio-hang.html">Giỏ hàng</a></li><li aria-current="page">Thanh toán</li></ul></div></nav>
 
 <main>
-  <div class="page-head"><div class="wrap"><h1 class="page-title">Giỏ hàng</h1></div></div>
-  <div class="wrap cart-page">
+  <div class="page-head"><div class="wrap"><h1 class="page-title">Thanh toán</h1></div></div>
+  <div class="wrap checkout-page">
 
-    <div class="cart-empty" data-cartpage-empty>
+    <div class="cart-empty" data-checkout-empty hidden>
       <svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>
       <p>Chưa có sản phẩm nào trong giỏ hàng.</p>
       <a class="cart-empty__btn" href="cua-hang.html">Quay lại cửa hàng</a>
     </div>
 
-    <div class="cart-grid" data-cartpage-body hidden>
-      <div class="cart-main">
-        <div class="cart-table-wrap">
-          <table class="cart-table">
-            <thead>
-              <tr><th scope="col">Sản phẩm</th><th scope="col">Giá</th><th scope="col">Số lượng</th><th scope="col">Tạm tính</th><th><span class="sr-only">Xóa</span></th></tr>
-            </thead>
-            <tbody data-cartpage-rows></tbody>
-          </table>
-        </div>
-        <div class="cart-actions">
-          <a class="cart-btn-line" href="cua-hang.html">Tiếp tục mua sắm</a>
-          <button class="cart-btn-line cart-btn-line--danger" type="button" data-cart-clear>Xóa toàn bộ giỏ hàng</button>
-        </div>
+    <div class="checkout-grid" data-checkout-body hidden>
+      <div class="checkout-main">
+
+        <form class="checkout-form" id="checkout-form" data-checkout-form novalidate>
+          <div class="checkout-section">
+            <h2 class="checkout-section__title">Thông tin giao hàng</h2>
+            <div class="checkout-field">
+              <label for="co-name">Họ và tên <span class="req">*</span></label>
+              <input type="text" id="co-name" name="name" required autocomplete="name">
+            </div>
+            <div class="checkout-field">
+              <label for="co-phone">Số điện thoại <span class="req">*</span></label>
+              <input type="tel" id="co-phone" name="phone" required autocomplete="tel" inputmode="tel" pattern="(0|\+84)[0-9]{9,10}" title="Nhập số điện thoại hợp lệ, ví dụ 0912345678">
+            </div>
+            <div class="checkout-field">
+              <label for="co-address">Địa chỉ (nếu cần giao hàng)</label>
+              <input type="text" id="co-address" name="address" autocomplete="street-address">
+            </div>
+            <div class="checkout-field">
+              <label for="co-note">Ghi chú</label>
+              <textarea id="co-note" name="note" rows="2"></textarea>
+            </div>
+          </div>
+
+          <div class="checkout-section">
+            <h2 class="checkout-section__title">Phương thức thanh toán</h2>
+
+            <div class="checkout-method" data-checkout-method="bank">
+              <label class="checkout-method__head">
+                <input type="radio" name="method" value="bank" required>
+                <span>Chuyển khoản ngân hàng</span>
+              </label>
+              <div class="checkout-method__body">
+                <img class="checkout-qr" src="images/qr-placeholder.svg" alt="Mã QR minh hoạ (demo), chưa liên kết tài khoản thật" width="150" height="150">
+                <dl class="checkout-bank">
+                  <div><dt>Ngân hàng</dt><dd data-bank-name></dd></div>
+                  <div><dt>Số tài khoản</dt><dd data-bank-account></dd></div>
+                  <div><dt>Chủ tài khoản</dt><dd data-bank-holder></dd></div>
+                </dl>
+                <p>Vui lòng ghi đúng nội dung chuyển khoản (họ tên + số điện thoại) để Trung tâm dễ đối soát đơn hàng.</p>
+              </div>
+            </div>
+
+            <div class="checkout-method" data-checkout-method="cash">
+              <label class="checkout-method__head">
+                <input type="radio" name="method" value="cash" required>
+                <span>Tiền mặt (khi nhận hàng / tại Trung tâm)</span>
+              </label>
+              <div class="checkout-method__body">
+                <p>Bạn thanh toán trực tiếp bằng tiền mặt khi nhận hàng hoặc khi đến Trung tâm.</p>
+              </div>
+            </div>
+
+            <div class="checkout-method" data-checkout-method="phone">
+              <label class="checkout-method__head">
+                <input type="radio" name="method" value="phone" required>
+                <span>Liên hệ qua điện thoại để được tư vấn</span>
+              </label>
+              <div class="checkout-method__body">
+                <p>Trung tâm sẽ gọi lại theo số điện thoại bạn để lại, hoặc bạn có thể chủ động liên hệ ngay:</p>
+                <div class="checkout-actions">
+                  <a class="checkout-btn checkout-btn--call" data-hotline-tel href="#">Gọi hotline</a>
+                  <a class="checkout-btn checkout-btn--zalo" data-zalo-link href="#" target="_blank" rel="noopener">Nhắn Zalo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+
       </div>
 
-      <aside class="cart-sum">
-        <h2 class="cart-sum__title">Cộng giỏ hàng</h2>
-        <dl class="cart-sum__list">
-          <div><dt>Tạm tính</dt><dd data-cartpage-sub>0&nbsp;VNĐ</dd></div>
-          <div><dt>Số lượng</dt><dd data-cartpage-qty>0 sản phẩm</dd></div>
-          <div><dt>Phí giao hàng</dt><dd>Trung tâm báo sau khi xác nhận</dd></div>
-          <div class="cart-sum__grand"><dt>Tổng cộng</dt><dd data-cartpage-total>0&nbsp;VNĐ</dd></div>
-        </dl>
-        <a class="cart-checkout" href="thanh-toan.html">Tiến hành đặt hàng</a>
+      <aside class="checkout-summary">
+        <h2 class="checkout-summary__title">Đơn hàng của bạn</h2>
+        <ul class="checkout-summary__list" data-checkout-items></ul>
+        <div class="checkout-summary__total"><span>Tổng cộng</span><strong data-checkout-total>0&nbsp;VNĐ</strong></div>
+        <button class="checkout-submit" type="submit" form="checkout-form">Xác nhận đặt hàng</button>
       </aside>
+    </div>
+
+    <div class="checkout-thanks" data-checkout-thanks hidden>
+      <svg viewBox="0 0 512 512" aria-hidden="true"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm-40 372L96 260l31-31 89 89 169-169 31 31z"/></svg>
+      <h2>Đặt hàng thành công</h2>
+      <p>Cảm ơn bạn đã đặt hàng tại <strong>Học viện cờ vua Thông Thái</strong>, chúng tôi sẽ liên hệ xác nhận sớm.</p>
+      <p>Mã đơn hàng của bạn: <span class="checkout-thanks__code" data-checkout-code></span></p>
+      <div class="checkout-thanks__body" data-checkout-thanks-body></div>
+      <div class="checkout-actions" style="max-width:420px;margin:0 auto">
+        <a class="checkout-btn checkout-btn--call" href="cua-hang.html" style="background:#777">Tiếp tục mua sắm</a>
+        <a class="checkout-btn checkout-btn--zalo" href="index.html" style="background:var(--red)">Về trang chủ</a>
+      </div>
     </div>
 
   </div>
@@ -162,6 +225,6 @@
 
 <script src="js/main.js" defer></script>
 <script src="js/cart.js" defer></script>
-<script src="js/shop.js" defer></script>
+<script src="js/checkout.js" defer></script>
 </body>
 </html>
