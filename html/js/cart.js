@@ -160,13 +160,6 @@
       clear();
       return;
     }
-    var pay = e.target.closest("[data-cart-checkout]");
-    if (pay) {
-      e.preventDefault();
-      var note = document.querySelector("[data-cart-note]");
-      if (note) note.hidden = false;
-      return;
-    }
     // mobile: bấm icon để mở/đóng danh sách; desktop vẫn mở trang giỏ hàng
     var cartBtn = e.target.closest(".cart-btn");
     var widget = document.querySelector(".cart-widget");
@@ -195,4 +188,6 @@
 
   window.addEventListener("storage", function (e) { if (e.key === KEY) render(); });
   render();
+
+  window.TTCCart = { read: read, clear: clear, render: render, money: money };
 })();

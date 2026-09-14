@@ -115,12 +115,62 @@
           <div class="cart-sum__grand"><dt>Tổng cộng</dt><dd data-cartpage-total>0&nbsp;VNĐ</dd></div>
         </dl>
         <button class="cart-checkout" type="button" data-cart-checkout>Tiến hành đặt hàng</button>
-        <p class="cart-sum__note" data-cart-note hidden>Vui lòng gọi hotline <strong>0365.998.894</strong> hoặc nhắn Zalo để Trung tâm xác nhận đơn hàng.</p>
       </aside>
     </div>
 
   </div>
 </main>
+
+<div class="checkout-modal" data-checkout-modal hidden>
+  <div class="checkout-modal__overlay" data-checkout-close></div>
+  <div class="checkout-modal__panel" role="dialog" aria-modal="true" aria-labelledby="checkout-modal-title">
+    <button class="checkout-modal__close" type="button" aria-label="Đóng" data-checkout-close>&times;</button>
+
+    <div class="checkout-step" data-checkout-step="form">
+      <h2 id="checkout-modal-title" class="checkout-modal__title">Thông tin đặt hàng</h2>
+      <form class="checkout-form" data-checkout-form novalidate>
+        <div class="checkout-field">
+          <label for="co-name">Họ và tên <span class="req">*</span></label>
+          <input type="text" id="co-name" name="name" required autocomplete="name">
+        </div>
+        <div class="checkout-field">
+          <label for="co-phone">Số điện thoại <span class="req">*</span></label>
+          <input type="tel" id="co-phone" name="phone" required autocomplete="tel" inputmode="tel" pattern="(0|\+84)[0-9]{9,10}" title="Nhập số điện thoại hợp lệ, ví dụ 0912345678">
+        </div>
+        <div class="checkout-field">
+          <label for="co-address">Địa chỉ (nếu cần giao hàng)</label>
+          <input type="text" id="co-address" name="address" autocomplete="street-address">
+        </div>
+        <div class="checkout-field">
+          <label for="co-note">Ghi chú</label>
+          <textarea id="co-note" name="note" rows="2"></textarea>
+        </div>
+
+        <fieldset class="checkout-methods">
+          <legend>Phương thức thanh toán <span class="req">*</span></legend>
+          <label class="checkout-method"><input type="radio" name="method" value="bank" required><span>Chuyển khoản ngân hàng</span></label>
+          <label class="checkout-method"><input type="radio" name="method" value="cash" required><span>Tiền mặt (khi nhận hàng / tại Trung tâm)</span></label>
+          <label class="checkout-method"><input type="radio" name="method" value="phone" required><span>Liên hệ qua điện thoại để được tư vấn</span></label>
+        </fieldset>
+
+        <div class="checkout-summary">
+          <div class="checkout-summary__head">Đơn hàng của bạn</div>
+          <ul class="checkout-summary__list" data-checkout-items></ul>
+          <div class="checkout-summary__total"><span>Tổng cộng</span><strong data-checkout-total>0&nbsp;VNĐ</strong></div>
+        </div>
+
+        <button class="checkout-submit" type="submit">Xác nhận đặt hàng</button>
+      </form>
+    </div>
+
+    <div class="checkout-step" data-checkout-step="result" hidden>
+      <h2 class="checkout-modal__title">Đặt hàng thành công</h2>
+      <p class="checkout-result__code">Mã đơn hàng của bạn: <strong data-checkout-code></strong></p>
+      <div class="checkout-result__body" data-checkout-result-body></div>
+      <button class="checkout-done" type="button" data-checkout-done>Hoàn tất</button>
+    </div>
+  </div>
+</div>
 
 <footer>
   <div class="footer-main">
@@ -164,5 +214,6 @@
 <script src="js/main.js" defer></script>
 <script src="js/cart.js" defer></script>
 <script src="js/shop.js" defer></script>
+<script src="js/checkout.js" defer></script>
 </body>
 </html>
