@@ -161,8 +161,8 @@
 .checkout-field{margin-bottom:16px}
 .checkout-field label{display:block;margin-bottom:6px;font-family:var(--f-open);font-size:14px;font-weight:600;color:#333}
 .checkout-field .req{color:var(--red-2)}
-.checkout-field input,.checkout-field textarea{width:100%;padding:11px 14px;border:1px solid #e5e5e5;border-radius:3px;font-family:var(--f-open);font-size:15px}
-.checkout-field input:focus,.checkout-field textarea:focus{outline:0;border-color:var(--red-2)}
+.checkout-field input,.checkout-field textarea,.checkout-field select{width:100%;padding:11px 14px;border:1px solid #e5e5e5;border-radius:3px;font-family:var(--f-open);font-size:15px;background:#fff;color:#333}
+.checkout-field input:focus,.checkout-field textarea:focus,.checkout-field select:focus{outline:0;border-color:var(--red-2)}
 .checkout-field textarea{resize:vertical}
 
 .checkout-method{border:1px solid #e5e5e5;border-radius:3px;margin-bottom:12px;overflow:hidden;transition:border-color .2s}

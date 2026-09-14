@@ -7,6 +7,10 @@
 <link rel="preload" href="fonts/montserrat-vietnamese.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/montserrat-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/main.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="stylesheet" href="css/page.css">
 <link rel="stylesheet" href="css/shop.css">
 </head>
@@ -105,8 +109,20 @@
               <input type="tel" id="co-phone" name="phone" required autocomplete="tel" inputmode="tel" pattern="(0|\+84)[0-9]{9,10}" title="Nhập số điện thoại hợp lệ, ví dụ 0912345678">
             </div>
             <div class="checkout-field">
-              <label for="co-address">Địa chỉ (nếu cần giao hàng)</label>
-              <input type="text" id="co-address" name="address" autocomplete="street-address">
+              <label for="co-province">Tỉnh / Thành phố <span class="req">*</span></label>
+              <select id="co-province" name="province" required data-province-select autocomplete="address-level1">
+                <option value="">-- Chọn tỉnh/thành phố --</option>
+              </select>
+            </div>
+            <div class="checkout-field">
+              <label for="co-ward">Xã / Phường <span class="req">*</span></label>
+              <select id="co-ward" name="ward" required disabled data-ward-select autocomplete="address-level2">
+                <option value="">-- Chọn tỉnh/thành phố trước --</option>
+              </select>
+            </div>
+            <div class="checkout-field">
+              <label for="co-address">Địa chỉ chi tiết (số nhà, tên đường...) <span class="req">*</span></label>
+              <input type="text" id="co-address" name="address" required autocomplete="street-address">
             </div>
             <div class="checkout-field">
               <label for="co-note">Ghi chú</label>
@@ -143,19 +159,6 @@
               </div>
             </div>
 
-            <div class="checkout-method" data-checkout-method="phone">
-              <label class="checkout-method__head">
-                <input type="radio" name="method" value="phone" required>
-                <span>Liên hệ qua điện thoại để được tư vấn</span>
-              </label>
-              <div class="checkout-method__body">
-                <p>Trung tâm sẽ gọi lại theo số điện thoại bạn để lại, hoặc bạn có thể chủ động liên hệ ngay:</p>
-                <div class="checkout-actions">
-                  <a class="checkout-btn checkout-btn--call" data-hotline-tel href="#">Gọi hotline</a>
-                  <a class="checkout-btn checkout-btn--zalo" data-zalo-link href="#" target="_blank" rel="noopener">Nhắn Zalo</a>
-                </div>
-              </div>
-            </div>
           </div>
         </form>
 
@@ -225,6 +228,7 @@
 
 <script src="js/main.js" defer></script>
 <script src="js/cart.js" defer></script>
+<script src="js/vn-provinces.js" defer></script>
 <script src="js/checkout.js" defer></script>
 </body>
 </html>
