@@ -1,0 +1,10 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch();
+const p = await (await b.newContext({ viewport:{width:1440,height:900} })).newPage();
+await p.goto('http://localhost:8899/cua-hang.html', { waitUntil:'load' });
+await p.click('.pcard:nth-child(1) [data-add-to-cart]');
+await p.waitForTimeout(400);
+await p.hover('.cart-btn');
+await p.waitForTimeout(500);
+await p.screenshot({ path:'qa-cart-full.png' });
+await b.close();
