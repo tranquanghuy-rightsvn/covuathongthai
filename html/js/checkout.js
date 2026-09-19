@@ -1,4 +1,4 @@
-/* Trang thanh toán: chọn phương thức (chuyển khoản / tiền mặt / liên hệ điện thoại), gửi đơn hàng local. */
+/* Trang thanh toán: chọn phương thức (chuyển khoản / tiền mặt), gửi đơn hàng local. */
 (function () {
   var body = document.querySelector("[data-checkout-body]");
   if (!body || !window.TTCCart) return;
@@ -23,11 +23,6 @@
     return "DH" + Date.now().toString(36).toUpperCase();
   }
 
-  document.querySelectorAll("[data-hotline-tel]").forEach(function (el) {
-    el.href = CONFIG.hotlineTel;
-    el.textContent = "Gọi " + CONFIG.hotline;
-  });
-  document.querySelectorAll("[data-zalo-link]").forEach(function (el) { el.href = CONFIG.zaloUrl; });
   var bankNameEl = document.querySelector("[data-bank-name]");
   var bankAccountEl = document.querySelector("[data-bank-account]");
   var bankHolderEl = document.querySelector("[data-bank-holder]");
@@ -83,14 +78,8 @@
         "</dl>" + callBtnsHtml()
       );
     }
-    if (method === "cash") {
-      return (
-        "<p>Bạn sẽ thanh toán tiền mặt khi nhận hàng hoặc tại Trung tâm. Vui lòng gọi hotline hoặc nhắn Zalo để xác nhận đơn hàng.</p>" +
-        callBtnsHtml()
-      );
-    }
     return (
-      "<p>Vui lòng gọi hotline hoặc nhắn Zalo ngay để tư vấn viên xác nhận đơn hàng cho bạn.</p>" +
+      "<p>Bạn sẽ thanh toán tiền mặt khi nhận hàng hoặc tại Trung tâm. Vui lòng gọi hotline hoặc nhắn Zalo để xác nhận đơn hàng.</p>" +
       callBtnsHtml()
     );
   }

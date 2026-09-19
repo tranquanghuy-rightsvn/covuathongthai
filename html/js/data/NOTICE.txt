@@ -1,0 +1,4 @@
+vn-provinces.json / vn-wards.json
+Nguồn: package npm "vietnam-address-data" (https://github.com/phucanhle/vn-xaphuong-2025), MIT License.
+Dữ liệu 34 tỉnh/thành phố và 3.321 xã/phường/đặc khu theo Nghị quyết 1171/NQ-UBTVQH15,
+áp dụng từ 01/07/2025 (bãi bỏ cấp quận/huyện).
