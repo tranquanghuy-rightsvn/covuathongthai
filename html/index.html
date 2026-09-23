@@ -1,286 +1,1593 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Học viện cờ vua Thông Thái</title>
-<link rel="preload" href="fonts/montserrat-vietnamese.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/montserrat-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="css/main.css">
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-<link rel="stylesheet" href="css/home.css">
-</head>
-<body>
-
-<header class="site-header">
-  <div class="navbar">
-    <a class="logo" href="index.html"><img src="images/logo.jpg" alt="Học viện cờ vua Thông Thái" width="68" height="68"></a>
-    <nav aria-label="Menu chính">
-      <ul class="menu">
-        <li class="active"><a href="index.html">Trang chủ</a></li>
-        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
-        <li class="has-sub"><a href="khoa-hoc.html">Khóa học</a>
-          <ul class="sub-menu">
-            <li><a href="khoa-hoc-dolphin.html">Khóa học Dolphin</a></li><li><a href="khoa-hoc-turtle.html">Khóa học Turtle</a></li><li><a href="khoa-hoc-bee.html">Khóa học Bee</a></li><li><a href="khoa-hoc-monkey.html">Khóa học Monkey</a></li><li><a href="khoa-hoc-elephant.html">Khóa học Elephant</a></li><li><a href="khoa-trung-cap-jaguar.html">Khóa trung cấp Jaguar</a></li><li><a href="khoa-hoc-co-vua-online.html">Học trực tuyến (Online)</a></li><li><a href="khoa-hoc-co-vua-online.html#hoc-online-1-kem-1">Học online 1 kèm 1</a></li><li><a href="khoa-hoc-co-vua-online.html#hoc-online-1-kem-2">Học online 1 kèm 2</a></li><li><a href="khoa-hoc-co-vua-online.html#hoc-online-nhom">Học online nhóm 3-6 học viên</a></li><li><a href="khoa-hoc-co-vua-tai-nha.html">Học kèm tại nhà</a></li>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Học viện cờ vua Thông Thái</title>
+    <link
+      rel="preload"
+      href="fonts/montserrat-vietnamese.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/montserrat-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16.png"
+    />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="navbar">
+        <a class="logo" href="index.html"
+          ><img
+            src="images/logo.jpg"
+            alt="Học viện cờ vua Thông Thái"
+            width="68"
+            height="68"
+        /></a>
+        <nav aria-label="Menu chính">
+          <ul class="menu">
+            <li class="active"><a href="index.html">Trang chủ</a></li>
+            <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+            <li class="has-sub">
+              <a href="khoa-hoc.html">Khóa học</a>
+              <ul class="sub-menu">
+                <li><a href="khoa-hoc-dolphin.html">Khóa học Dolphin</a></li>
+                <li><a href="khoa-hoc-turtle.html">Khóa học Turtle</a></li>
+                <li><a href="khoa-hoc-bee.html">Khóa học Bee</a></li>
+                <li><a href="khoa-hoc-monkey.html">Khóa học Monkey</a></li>
+                <li><a href="khoa-hoc-elephant.html">Khóa học Elephant</a></li>
+                <li>
+                  <a href="khoa-trung-cap-jaguar.html">Khóa trung cấp Jaguar</a>
+                </li>
+                <li>
+                  <a href="khoa-hoc-co-vua-online.html"
+                    >Học trực tuyến (Online)</a
+                  >
+                </li>
+                <li>
+                  <a href="khoa-hoc-co-vua-online.html#hoc-online-1-kem-1"
+                    >Học online 1 kèm 1</a
+                  >
+                </li>
+                <li>
+                  <a href="khoa-hoc-co-vua-online.html#hoc-online-1-kem-2"
+                    >Học online 1 kèm 2</a
+                  >
+                </li>
+                <li>
+                  <a href="khoa-hoc-co-vua-online.html#hoc-online-nhom"
+                    >Học online nhóm 3-6 học viên</a
+                  >
+                </li>
+                <li>
+                  <a href="khoa-hoc-co-vua-tai-nha.html">Học kèm tại nhà</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="khoa-hoc-online.html">Khóa Học Online</a></li>
+            <li class="has-sub">
+              <a href="tin-tuc.html">Tin tức &amp; Sự kiện</a>
+              <ul class="sub-menu right">
+                <li><a href="tin-tuc.html">Tin tức</a></li>
+                <li><a href="kien-thuc-co-vua.html">Kiến thức cờ vua</a></li>
+                <li>
+                  <a href="co-vua-cuoc-song.html">Cờ vua &amp; Cuộc sống</a>
+                </li>
+                <li>
+                  <a href="cau-chuyen-cuoc-song.html">Câu chuyện cuộc sống</a>
+                </li>
+                <li><a href="su-kien-giai-dau.html">Sự kiện và giải đấu</a></li>
+              </ul>
+            </li>
+            <li><a href="cua-hang.html">Cửa hàng</a></li>
+            <li><a href="lien-he.html">Liên hệ</a></li>
           </ul>
-        </li>
-        <li><a href="khoa-hoc-online.html">Khóa Học Online</a></li>
-        <li class="has-sub"><a href="tin-tuc.html">Tin tức &amp; Sự kiện</a>
-          <ul class="sub-menu right">
-            <li><a href="tin-tuc.html">Tin tức</a></li><li><a href="kien-thuc-co-vua.html">Kiến thức cờ vua</a></li><li><a href="co-vua-cuoc-song.html">Cờ vua &amp; Cuộc sống</a></li><li><a href="cau-chuyen-cuoc-song.html">Câu chuyện cuộc sống</a></li><li><a href="su-kien-giai-dau.html">Sự kiện và giải đấu</a></li>
-          </ul>
-        </li>
-        <li><a href="cua-hang.html">Cửa hàng</a></li>
-        <li><a href="lien-he.html">Liên hệ</a></li>
-      </ul>
-    </nav>
-    <div class="navbar__end">
-      <div class="cart-widget">
-      <a class="cart-btn" href="gio-hang.html" aria-label="Giỏ hàng" aria-haspopup="true" aria-expanded="false">
-        <svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>
-        <span class="cart-count" data-cart-count hidden>0</span>
-      </a>
-      <div class="cart-drop" data-cart-drop>
-        <div class="cart-drop__head">Giỏ hàng</div>
-        <ul class="cart-drop__list" data-cart-list></ul>
-        <p class="cart-drop__empty" data-cart-empty>Chưa có sản phẩm nào trong giỏ hàng.</p>
-        <div class="cart-drop__foot" data-cart-foot hidden>
-          <div class="cart-drop__total"><span>Tổng cộng</span><strong data-cart-total>0&nbsp;VNĐ</strong></div>
-          <a class="cart-drop__go" href="gio-hang.html">Xem giỏ hàng</a>
-          <a class="cart-drop__more" href="cua-hang.html">Tiếp tục mua sắm</a>
+        </nav>
+        <div class="navbar__end">
+          <div class="cart-widget">
+            <a
+              class="cart-btn"
+              href="gio-hang.html"
+              aria-label="Giỏ hàng"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <svg viewBox="0 0 576 512" aria-hidden="true">
+                <path
+                  d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"
+                />
+              </svg>
+              <span class="cart-count" data-cart-count hidden>0</span>
+            </a>
+            <div class="cart-drop" data-cart-drop>
+              <div class="cart-drop__head">Giỏ hàng</div>
+              <ul class="cart-drop__list" data-cart-list></ul>
+              <p class="cart-drop__empty" data-cart-empty>
+                Chưa có sản phẩm nào trong giỏ hàng.
+              </p>
+              <div class="cart-drop__foot" data-cart-foot hidden>
+                <div class="cart-drop__total">
+                  <span>Tổng cộng</span
+                  ><strong data-cart-total>0&nbsp;VNĐ</strong>
+                </div>
+                <a class="cart-drop__go" href="gio-hang.html">Xem giỏ hàng</a>
+                <a class="cart-drop__more" href="cua-hang.html"
+                  >Tiếp tục mua sắm</a
+                >
+              </div>
+            </div>
+          </div>
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-label="Mở menu"
+            aria-expanded="false"
+          >
+            <span></span>
+          </button>
         </div>
       </div>
-    </div>
-      <button class="nav-toggle" type="button" aria-label="Mở menu" aria-expanded="false"><span></span></button>
-    </div>
-  </div>
-</header>
+    </header>
 
-<div class="mnav" aria-label="Menu di động">
-  <div class="mnav__overlay"></div>
-  <div class="mnav__panel">
-    <button class="mnav__close" type="button" aria-label="Đóng menu">&times;</button>
-    <ul class="mnav__list">
-      <li><a href="index.html">Trang chủ</a></li>
-      <li><a href="gioi-thieu.html">Giới thiệu</a></li>
-      <li><details><summary>Khóa học</summary>
-        <a href="khoa-hoc-dolphin.html">Khóa học Dolphin</a><a href="khoa-hoc-turtle.html">Khóa học Turtle</a><a href="khoa-hoc-bee.html">Khóa học Bee</a><a href="khoa-hoc-monkey.html">Khóa học Monkey</a><a href="khoa-hoc-elephant.html">Khóa học Elephant</a><a href="khoa-trung-cap-jaguar.html">Khóa trung cấp Jaguar</a><a href="khoa-hoc-co-vua-online.html">Học trực tuyến (Online)</a><a href="khoa-hoc-co-vua-online.html#hoc-online-1-kem-1">Học online 1 kèm 1</a><a href="khoa-hoc-co-vua-online.html#hoc-online-1-kem-2">Học online 1 kèm 2</a><a href="khoa-hoc-co-vua-online.html#hoc-online-nhom">Học online nhóm 3-6 học viên</a><a href="khoa-hoc-co-vua-tai-nha.html">Học kèm tại nhà</a>
-      </details></li>
-      <li><a href="khoa-hoc-online.html">Khóa Học Online</a></li>
-      <li><details><summary>Tin tức &amp; Sự kiện</summary>
-        <a href="tin-tuc.html">Tin tức</a><a href="kien-thuc-co-vua.html">Kiến thức cờ vua</a><a href="co-vua-cuoc-song.html">Cờ vua &amp; Cuộc sống</a><a href="cau-chuyen-cuoc-song.html">Câu chuyện cuộc sống</a><a href="su-kien-giai-dau.html">Sự kiện và giải đấu</a>
-      </details></li>
-      <li><a href="cua-hang.html">Cửa hàng</a></li>
-      <li><a href="lien-he.html">Liên hệ</a></li>
-    </ul>
-  </div>
-</div>
-
-<div class="header-spacer"></div>
-
-<main>
-  <section class="hero">
-    <a href="https://zalo.me/3519488029034299650" target="_blank" rel="noopener">
-      <picture>
-        <source media="(max-width: 767px)" srcset="assets/home-banner-hero-mobile.webp" type="image/webp" width="996" height="1579">
-        <img src="assets/home-banner-hero-desktop.webp" alt="Cùng Thông Thái học cờ vua hè 2026" width="1706" height="922" fetchpriority="high">
-      </picture>
-    </a>
-  </section>
-
-  <div class="band band--sm"><h2>LỜI GIỚI THIỆU</h2></div>
-  <section class="intro">
-    <div class="container">
-      <div class="intro__text">
-        <p>Học viện cờ vua Thông Thái là đơn vị dạy cờ vua cho trẻ em từ 4 đến 14 tuổi tại Hà Nội và Bắc Ninh. Với phương châm: “Vui chơi – Tự tin – Bản lĩnh” mà Học viện cờ vua Thông Thái theo đuổi để tạo nên môi trường học chất lượng và dịch vụ tốt nhất khi tìm đến với bộ môn cờ vua.<br>Học viện cờ vua Thông Thái tự tin mang đến cho trẻ một nền tảng cờ vua thực sự chắc chắn được hướng dẫn bởi những người thầy tận tâm, giàu kinh nghiệm và yêu trẻ.</p>
+    <div class="mnav" aria-label="Menu di động">
+      <div class="mnav__overlay"></div>
+      <div class="mnav__panel">
+        <button class="mnav__close" type="button" aria-label="Đóng menu">
+          &times;
+        </button>
+        <ul class="mnav__list">
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+          <li>
+            <details>
+              <summary>Khóa học</summary>
+              <a href="khoa-hoc-dolphin.html">Khóa học Dolphin</a
+              ><a href="khoa-hoc-turtle.html">Khóa học Turtle</a
+              ><a href="khoa-hoc-bee.html">Khóa học Bee</a
+              ><a href="khoa-hoc-monkey.html">Khóa học Monkey</a
+              ><a href="khoa-hoc-elephant.html">Khóa học Elephant</a
+              ><a href="khoa-trung-cap-jaguar.html">Khóa trung cấp Jaguar</a
+              ><a href="khoa-hoc-co-vua-online.html">Học trực tuyến (Online)</a
+              ><a href="khoa-hoc-co-vua-online.html#hoc-online-1-kem-1"
+                >Học online 1 kèm 1</a
+              ><a href="khoa-hoc-co-vua-online.html#hoc-online-1-kem-2"
+                >Học online 1 kèm 2</a
+              ><a href="khoa-hoc-co-vua-online.html#hoc-online-nhom"
+                >Học online nhóm 3-6 học viên</a
+              ><a href="khoa-hoc-co-vua-tai-nha.html">Học kèm tại nhà</a>
+            </details>
+          </li>
+          <li><a href="khoa-hoc-online.html">Khóa Học Online</a></li>
+          <li>
+            <details>
+              <summary>Tin tức &amp; Sự kiện</summary>
+              <a href="tin-tuc.html">Tin tức</a
+              ><a href="kien-thuc-co-vua.html">Kiến thức cờ vua</a
+              ><a href="co-vua-cuoc-song.html">Cờ vua &amp; Cuộc sống</a
+              ><a href="cau-chuyen-cuoc-song.html">Câu chuyện cuộc sống</a
+              ><a href="su-kien-giai-dau.html">Sự kiện và giải đấu</a>
+            </details>
+          </li>
+          <li><a href="cua-hang.html">Cửa hàng</a></li>
+          <li><a href="lien-he.html">Liên hệ</a></li>
+        </ul>
       </div>
-      <div class="intro__video">
-        <div class="video-16x9">
-          <video
-            controls
-            loading="lazy"
-            poster="assets/intro-facility-01.jpg"
-            style="width: 100%; height: 100%; object-fit: cover;">
-            <source src="assets/video-gioi-thieu.mp4" type="video/mp4">
-            Trình duyệt của bạn không hỗ trợ video HTML5.
-          </video>
+    </div>
+
+    <div class="header-spacer"></div>
+
+    <main>
+      <section class="hero">
+        <a
+          href="https://zalo.me/3519488029034299650"
+          target="_blank"
+          rel="noopener"
+        >
+          <picture>
+            <source
+              media="(max-width: 767px)"
+              srcset="assets/home-banner-hero-mobile.webp"
+              type="image/webp"
+              width="996"
+              height="1579"
+            />
+            <img
+              src="assets/home-banner-hero-desktop.webp"
+              alt="Cùng Thông Thái học cờ vua hè 2026"
+              width="1706"
+              height="922"
+              fetchpriority="high"
+            />
+          </picture>
+        </a>
+      </section>
+
+      <section class="letter-intro">
+        <div class="container">
+          <h2 class="letter-intro__title">
+            Thư ngỏ &amp; Giới thiệu tổng quan
+          </h2>
+          <div class="letter-intro__grid">
+            <div class="letter-card">
+              <p class="letter-card__badge">
+                <span>01</span> Thư ngỏ tâm huyết
+              </p>
+              <p class="letter-card__greet">
+                Kính gửi: Quý đối tác, Quý nhà trường và Quý phụ huynh kính mến!
+              </p>
+              <p>
+                <strong>Học viện Cờ vua Thông Thái</strong> được xây dựng với
+                mong muốn đưa bộ môn cờ vua đến gần hơn với trẻ em, góp phần
+                phát triển tư duy logic, khả năng tập trung, tính kỷ luật và sự
+                tự tin kiên định.
+              </p>
+              <p>
+                Chúng tôi hướng tới việc tạo ra môi trường học tập tích cực, nơi
+                mỗi học viên được rèn luyện, khám phá khả năng và từng bước
+                trưởng thành qua từng ván cờ.
+              </p>
+              <p>
+                Học viện mong muốn được đồng hành cùng các trường học, trung tâm
+                giáo dục và gia đình trong hành trình phát triển trí tuệ toàn
+                diện cho thế hệ trẻ.
+              </p>
+              <div class="letter-card__sign">
+                <span
+                  >Trân trọng cảm ơn!<br /><strong
+                    >Ban giám đốc Học viện</strong
+                  ></span
+                >
+                <span class="letter-card__brand">Thông Thái Chess</span>
+              </div>
+            </div>
+            <div class="intro-col">
+              <div class="intro-card">
+                <p class="intro-card__badge">
+                  <span>02</span> Giới thiệu tổng quan
+                </p>
+                <ul class="intro-card__list">
+                  <li>
+                    <svg viewBox="0 0 576 512" aria-hidden="true">
+                      <path
+                        d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"
+                      />
+                    </svg>
+                    <div>
+                      <strong>Tên đơn vị:</strong
+                      ><span>Học viện Cờ vua Thông Thái</span>
+                    </div>
+                  </li>
+                  <li>
+                    <svg viewBox="0 0 384 512" aria-hidden="true">
+                      <path
+                        d="M172 501C27 291 0 269 0 192 0 86 86 0 192 0s192 86 192 192c0 77-27 99-172 309-10 14-30 14-40 0zm20-229a80 80 0 100-160 80 80 0 000 160z"
+                      />
+                    </svg>
+                    <div>
+                      <strong>Địa chỉ trụ sở:</strong
+                      ><span>110 Lý Thường Kiệt, Vũ Ninh, TP. Bắc Ninh</span>
+                    </div>
+                  </li>
+                  <li>
+                    <svg viewBox="0 0 448 512" aria-hidden="true">
+                      <path
+                        d="M400 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h352c27 0 48-21 48-48V80c0-27-21-48-48-48zM94 416c-6 0-12-5-12-12 0-176 142-318 318-318 6 0 11 4 12 9l15 64c1 6-2 12-7 14l-70 30c-5 2-11 1-14-4l-31-38c-49 23-88 62-111 111l38 31c4 3 6 9 4 14l-30 70c-2 5-8 8-14 7l-64-15c-5-1-9-6-9-12z"
+                      />
+                    </svg>
+                    <div>
+                      <strong>Điện thoại / Hotline:</strong
+                      ><span>0968 998 610</span>
+                    </div>
+                  </li>
+                  <li>
+                    <svg viewBox="0 0 448 512" aria-hidden="true">
+                      <path
+                        d="M416 320c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32H320c-17.7 0-32 14.3-32 32v32H160V64c0-17.7-14.3-32-32-32H32C14.3 32 0 46.3 0 64V288c0 17.7 14.3 32 32 32h96c17.7 0 32-14.3 32-32v-32h128v32c0 17.7 14.3 32 32 32h96zM224 384c-88.4 0-160 33.4-160 74.7V480h320v-21.3c0-41.3-71.6-74.7-160-74.7z"
+                      />
+                    </svg>
+                    <div>
+                      <strong>Lĩnh vực hoạt động:</strong
+                      ><span
+                        >Đào tạo cờ vua, phát triển tư duy, tổ chức hoạt động và
+                        giao lưu cờ vua chuyên nghiệp.</span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <p class="intro-quote">
+                <span aria-hidden="true">&ldquo;</span>Cùng con kiến tạo tương
+                lai vững bước bằng từng nước cờ đúng!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pillars">
+        <div class="container">
+          <div class="pillars__card">
+            <p class="pillars__eyebrow">Định hướng hoạt động</p>
+            <h2 class="pillars__title">5 Mũi nhọn cốt lõi</h2>
+            <div class="pillars__grid">
+              <div class="pillar">
+                <span class="pillar__icon"
+                  ><svg viewBox="0 0 448 512" aria-hidden="true">
+                    <path
+                      d="M416 320c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32H320c-17.7 0-32 14.3-32 32v32H160V64c0-17.7-14.3-32-32-32H32C14.3 32 0 46.3 0 64V288c0 17.7 14.3 32 32 32h96c17.7 0 32-14.3 32-32v-32h128v32c0 17.7 14.3 32 32 32h96zM224 384c-88.4 0-160 33.4-160 74.7V480h320v-21.3c0-41.3-71.6-74.7-160-74.7z"
+                    /></svg
+                ></span>
+                <h3>Đào tạo cờ vua</h3>
+                <p>
+                  Chương trình bài bản theo từng độ tuổi, từ nhập môn đến nâng
+                  cao.
+                </p>
+              </div>
+              <div class="pillar">
+                <span class="pillar__icon"
+                  ><svg viewBox="0 0 512 512" aria-hidden="true">
+                    <path
+                      d="M272 384c9.6-31.9 29.5-59.1 49.2-86.2c7-9.6 14-19.3 20.4-29.3c19-29.4 30.4-64.4 30.4-100.5C372 78.8 293.2 0 196 0S20 78.8 20 176c0 36.1 11.4 71.1 30.4 100.5c6.5 10 13.5 19.7 20.4 29.3c19.8 27.1 39.7 54.4 49.2 86.2H272zm-152 96c0 26.5 21.5 48 48 48h64c26.5 0 48-21.5 48-48v-16H120v16z"
+                      transform="translate(60,0)"
+                    /></svg
+                ></span>
+                <h3>Phát triển tư duy</h3>
+                <p>Rèn luyện logic, khả năng tập trung và tư duy phản biện.</p>
+              </div>
+              <div class="pillar">
+                <span class="pillar__icon"
+                  ><svg viewBox="0 0 576 512" aria-hidden="true">
+                    <path
+                      d="M552 64H448V24c0-13.3-10.7-24-24-24H152c-13.3 0-24 10.7-24 24v40H24C10.7 64 0 74.7 0 88v56c0 66.3 51.5 120.7 116.7 125.6C130.8 296.6 152.9 320 180 320h40v96h-48c-17.7 0-32 14.3-32 32v32h228c-4.4-11.2-8-24.1-8-32V416c0-17.7-14.3-32-32-32h-48v-96h40c27.1 0 49.2-23.4 63.3-50.4C460.5 264.7 512 210.3 512 144V88c0-13.3-10.7-24-24-24zM64 144V112h64v112c0 8.2 1.1 16.1 2.9 23.8C97.7 236.3 64 194.1 64 144zm448 0c0 50.1-33.7 92.3-66.9 103.8c1.8-7.7 2.9-15.6 2.9-23.8V112h64v32z"
+                    /></svg
+                ></span>
+                <h3>Tổ chức giải đấu</h3>
+                <p>Sân chơi cọ xát, rèn bản lĩnh và tinh thần thi đấu.</p>
+              </div>
+              <div class="pillar">
+                <span class="pillar__icon"
+                  ><svg viewBox="0 0 640 512" aria-hidden="true">
+                    <path
+                      d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"
+                    /></svg
+                ></span>
+                <h3>Hợp tác mở CLB tại trường học &amp; trung tâm</h3>
+                <p>
+                  Đồng hành cùng trường học, trung tâm giáo dục trên toàn quốc.
+                </p>
+              </div>
+              <div class="pillar">
+                <span class="pillar__icon"
+                  ><svg viewBox="0 0 448 512" aria-hidden="true">
+                    <path
+                      d="M224 256a128 128 0 100-256 128 128 0 000 256zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                    /></svg
+                ></span>
+                <h3>Cung cấp HLV, giáo viên, gia sư</h3>
+                <p>
+                  Đội ngũ giàu kinh nghiệm, tận tâm đồng hành cùng học viên.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote-red">
+        <h2>“Cờ vua không chỉ là trò chơi, đó là hành trang cho cuộc sống!”</h2>
+      </section>
+
+      <section class="training">
+        <div class="container">
+          <div class="training__head">
+            <h2 class="training__title">Giới thiệu về chương trình học</h2>
+            <p class="training__subtitle">
+              Học theo phương pháp giảng dạy SIGP, chương trình được thiết kế
+              theo cấp độ từ cơ bản đến nâng cao, đặt tên theo các loài vật giúp
+              trẻ từ 4–14 tuổi dễ nhớ, dễ tiếp cận và tiếp thu tự nhiên, hứng
+              thú, hiệu quả.
+            </p>
+          </div>
+          <div class="training__grid">
+            <div class="training__programs">
+              <div class="program-card program-card--pink">
+                <div class="program-card__head">
+                  <span class="program-card__icon" aria-hidden="true">♟</span>
+                  <h3>Chương trình Mầm non</h3>
+                  <span class="program-card__age">Độ tuổi: 4 – 6 tuổi</span>
+                </div>
+                <ul class="program-card__list">
+                  <li>Làm quen với cờ vua qua trò chơi vui nhộn.</li>
+                  <li>Phát triển khả năng quan sát, ghi nhớ hình ảnh.</li>
+                  <li>
+                    Hình thành thói quen ngồi tập trung, kích thích tư duy
+                    logic.
+                  </li>
+                </ul>
+              </div>
+              <div class="program-card program-card--orange">
+                <div class="program-card__head">
+                  <span class="program-card__icon" aria-hidden="true">♞</span>
+                  <h3>Chương trình Tiểu học</h3>
+                  <span class="program-card__age">Độ tuổi: 6 – 10 tuổi</span>
+                </div>
+                <ul class="program-card__list">
+                  <li>Nắm vững kiến thức, luật chơi cờ vua cơ bản.</li>
+                  <li>Rèn luyện tư duy đa chiều, tính kiên nhẫn.</li>
+                  <li>Tự tin thi đấu, giao lưu cọ xát cùng bạn bè.</li>
+                </ul>
+              </div>
+              <div class="program-card program-card--blue">
+                <div class="program-card__head">
+                  <span class="program-card__icon" aria-hidden="true">♜</span>
+                  <h3>Chương trình Thiếu niên</h3>
+                  <span class="program-card__age">Độ tuổi: 11 – 15 tuổi</span>
+                </div>
+                <ul class="program-card__list">
+                  <li>
+                    Nâng cao kỹ năng chiến thuật: khai cuộc, trung cuộc &amp;
+                    tàn cuộc.
+                  </li>
+                  <li>Phát triển tư duy phản biện, lập kế hoạch tác chiến.</li>
+                  <li>
+                    Tham gia các giải đấu chính thức cấp trường, cấp thành phố.
+                  </li>
+                </ul>
+              </div>
+              <div class="program-card program-card--green">
+                <div class="program-card__head">
+                  <span class="program-card__icon" aria-hidden="true">♛</span>
+                  <h3>Chương trình Nâng cao</h3>
+                  <span class="program-card__age"
+                    >Từ 16 tuổi trở lên &amp; Kỳ thủ tiềm năng</span
+                  >
+                </div>
+                <ul class="program-card__list">
+                  <li>
+                    Luyện tập chuyên sâu, phân tích ván cờ cùng chuyên gia.
+                  </li>
+                  <li>
+                    Định hướng thi đấu chuyên nghiệp, tích lũy điểm Elo quốc tế
+                    FIDE.
+                  </li>
+                  <li>Hỗ trợ tham gia giải đấu Quốc gia &amp; Mở rộng.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="training__highlight">
+              <div class="feature-card">
+                <div class="feature-card__media">
+                  <img
+                    src="assets/intro-facility-04.jpg"
+                    alt="Học viên luyện tập cờ vua tại Học viện cờ vua Thông Thái"
+                    loading="lazy"
+                  />
+                  <div class="feature-card__overlay">
+                    <span class="feature-card__tag">Môi trường thân thiện</span>
+                    <h3>Cờ vua – Kiến tạo những công dân toàn cầu!</h3>
+                  </div>
+                </div>
+                <div class="feature-card__body">
+                  <p class="feature-card__label">
+                    <svg viewBox="0 0 576 512" aria-hidden="true">
+                      <path
+                        d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7L287.9 439.6 150.7 509.2c-8 4.3-17.8 3.6-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L30.7 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L265.9 13.5C269.9 5.2 278.3 0 287.9 0z"
+                      /></svg
+                    >Đặc điểm nổi bật của học viện:
+                  </p>
+                  <div class="feature-card__points">
+                    <div>
+                      <strong>Phương pháp hiện đại:</strong
+                      ><span
+                        >Lý thuyết cô đọng, thực hành tương tác trực tiếp.</span
+                      >
+                    </div>
+                    <div>
+                      <strong>HLV chuyên nghiệp:</strong
+                      ><span>Tận tâm, giàu thành tích, có chứng chỉ FIDE.</span>
+                    </div>
+                    <div>
+                      <strong>Lộ trình rõ ràng:</strong
+                      ><span>Phù hợp theo độ tuổi và năng lực từng bé.</span>
+                    </div>
+                    <div>
+                      <strong>Đánh giá toàn diện:</strong
+                      ><span
+                        >Theo dõi sự tiến bộ, báo cáo định kỳ cho phụ
+                        huynh.</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cta-card">
+                <h3>Kiểm tra năng lực tư duy 0 đồng</h3>
+                <p>
+                  Đánh giá độ tập trung, tư duy logic và xếp lớp học phù hợp với
+                  Kiện tướng.
+                </p>
+                <a class="cta-card__btn" href="dang-ky-hoc-thu.html"
+                  >Đặt lịch đánh giá ngay hôm nay</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="team">
+        <div class="container">
+          <div class="team__head">
+            <h2>Đội ngũ huấn luyện viên &amp; giáo viên</h2>
+            <p class="team__sub">
+              Đội ngũ giàu kinh nghiệm, tâm huyết, được đào tạo bài bản và có
+              chứng chỉ chuyên môn cao
+            </p>
+          </div>
+          <div class="team__grid">
+            <div class="tmember">
+              <div class="tmember__photo">
+                <img
+                  src="images/san-pham/hlv-nguyen-van-hung.jpg"
+                  alt="ThS. Nguyễn Văn Hùng"
+                  loading="lazy"
+                />
+                <span class="tmember__badge" aria-hidden="true">♚</span>
+                <div class="tmember__overlay">
+                  <span class="tmember__role">Giám đốc chuyên môn</span>
+                  <h3>ThS. Nguyễn Văn Hùng</h3>
+                </div>
+              </div>
+              <div class="tmember__body">
+                <p class="tmember__highlight">
+                  <svg viewBox="0 0 576 512" aria-hidden="true">
+                    <path
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7L287.9 439.6 150.7 509.2c-8 4.3-17.8 3.6-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L30.7 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L265.9 13.5C269.9 5.2 278.3 0 287.9 0z"
+                    /></svg
+                  >Kiện tướng FIDE (Elo 2200+)
+                </p>
+                <p class="tmember__exp">
+                  <svg viewBox="0 0 512 512" aria-hidden="true">
+                    <path
+                      d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"
+                    /></svg
+                  >15 năm kinh nghiệm giảng dạy &amp; huấn luyện
+                </p>
+              </div>
+            </div>
+            <div class="tmember">
+              <div class="tmember__photo">
+                <img
+                  src="images/san-pham/hlv-le-minh-tuan.jpg"
+                  alt="HLV Lê Minh Tuấn"
+                  loading="lazy"
+                />
+                <span class="tmember__badge" aria-hidden="true">♛</span>
+                <div class="tmember__overlay">
+                  <span class="tmember__role">Huấn luyện viên cao cấp</span>
+                  <h3>HLV. Lê Minh Tuấn</h3>
+                </div>
+              </div>
+              <div class="tmember__body">
+                <p class="tmember__highlight">
+                  <svg viewBox="0 0 576 512" aria-hidden="true">
+                    <path
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7L287.9 439.6 150.7 509.2c-8 4.3-17.8 3.6-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L30.7 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L265.9 13.5C269.9 5.2 278.3 0 287.9 0z"
+                    /></svg
+                  >Kiện tướng quốc gia Việt Nam
+                </p>
+                <p class="tmember__exp">
+                  <svg viewBox="0 0 512 512" aria-hidden="true">
+                    <path
+                      d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"
+                    /></svg
+                  >12 năm kinh nghiệm giảng dạy cờ vua
+                </p>
+              </div>
+            </div>
+            <div class="tmember">
+              <div class="tmember__photo">
+                <img
+                  src="images/san-pham/hlv-pham-thi-ha.jpg"
+                  alt="HLV Phạm Thị Hà"
+                  loading="lazy"
+                />
+                <span class="tmember__badge" aria-hidden="true">♛</span>
+                <div class="tmember__overlay">
+                  <span class="tmember__role">Huấn luyện viên cao cấp</span>
+                  <h3>HLV. Phạm Thị Hà</h3>
+                </div>
+              </div>
+              <div class="tmember__body">
+                <p class="tmember__highlight">
+                  <svg viewBox="0 0 576 512" aria-hidden="true">
+                    <path
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7L287.9 439.6 150.7 509.2c-8 4.3-17.8 3.6-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L30.7 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L265.9 13.5C269.9 5.2 278.3 0 287.9 0z"
+                    /></svg
+                  >Sư phạm Cờ vua
+                </p>
+                <p class="tmember__exp">
+                  <svg viewBox="0 0 512 512" aria-hidden="true">
+                    <path
+                      d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"
+                    /></svg
+                  >10 năm kinh nghiệm giảng dạy cờ vua
+                </p>
+              </div>
+            </div>
+            <div class="tmember">
+              <div class="tmember__photo">
+                <img
+                  src="images/san-pham/hlv-tran-duc-anh.jpg"
+                  alt="HLV Trần Đức Anh"
+                  loading="lazy"
+                />
+                <span class="tmember__badge" aria-hidden="true">♞</span>
+                <div class="tmember__overlay">
+                  <span class="tmember__role">Huấn luyện viên</span>
+                  <h3>HLV. Trần Đức Anh</h3>
+                </div>
+              </div>
+              <div class="tmember__body">
+                <p class="tmember__highlight">
+                  <svg viewBox="0 0 576 512" aria-hidden="true">
+                    <path
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7L287.9 439.6 150.7 509.2c-8 4.3-17.8 3.6-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L30.7 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L265.9 13.5C269.9 5.2 278.3 0 287.9 0z"
+                    /></svg
+                  >Kỳ thủ phong trào xuất sắc
+                </p>
+                <p class="tmember__exp">
+                  <svg viewBox="0 0 512 512" aria-hidden="true">
+                    <path
+                      d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"
+                    /></svg
+                  >8 năm kinh nghiệm giảng dạy cờ vua
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="standards">
+        <div class="container">
+          <div class="standards__panel">
+            <div class="standards__grid">
+              <div class="standards__col">
+                <h3 class="standards__title">Tiêu chuẩn đội ngũ giảng dạy</h3>
+                <div class="standards__criteria">
+                  <div class="standards__item">
+                    <span class="standards__icon"
+                      ><svg viewBox="0 0 576 512" aria-hidden="true">
+                        <path
+                          d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"
+                        /></svg
+                    ></span>
+                    <div>
+                      <h4>Tốt nghiệp bài bản</h4>
+                      <p>
+                        Đại học / Cao đẳng sư phạm hoặc TDTT chuyên ngành cờ
+                        vua.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="standards__item">
+                    <span class="standards__icon"
+                      ><svg viewBox="0 0 576 512" aria-hidden="true">
+                        <path
+                          d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7L287.9 439.6 150.7 509.2c-8 4.3-17.8 3.6-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L30.7 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L265.9 13.5C269.9 5.2 278.3 0 287.9 0z"
+                        /></svg
+                    ></span>
+                    <div>
+                      <h4>Có chứng chỉ sư phạm</h4>
+                      <p>
+                        Được đào tạo nghiệp vụ tâm lý trẻ em và giảng dạy hiện
+                        đại.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="standards__item">
+                    <span
+                      class="standards__icon standards__icon--heart"
+                      aria-hidden="true"
+                      >♥</span
+                    >
+                    <div>
+                      <h4>Tận tâm &amp; kiên nhẫn</h4>
+                      <p>
+                        Thực sự yêu quý trẻ, tôn trọng sự phát triển tự nhiên
+                        của học viên.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="standards__item">
+                    <span class="standards__icon"
+                      ><svg viewBox="0 0 512 512" aria-hidden="true">
+                        <path
+                          d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"
+                        /></svg
+                    ></span>
+                    <div>
+                      <h4>Bồi dưỡng định kỳ</h4>
+                      <p>
+                        Thường xuyên nâng cao chuyên môn cùng các Kiện tướng
+                        quốc tế.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <p class="standards__quote">
+                  “Chúng tôi tin rằng, mỗi đứa trẻ đều có thể trở thành phiên
+                  bản tốt nhất của chính mình qua cờ vua!”
+                </p>
+              </div>
+              <div class="org-card">
+                <p class="org-card__head">
+                  <svg viewBox="0 0 640 512" aria-hidden="true">
+                    <path
+                      d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"
+                    /></svg
+                  >Cơ cấu tổ chức tinh gọn
+                </p>
+                <ol class="org-card__list">
+                  <li>
+                    <span class="org-card__num">1</span>
+                    <div>
+                      <strong>Ban Giám Đốc:</strong> Định hướng chiến lược &amp;
+                      chất lượng.
+                    </div>
+                  </li>
+                  <li>
+                    <span class="org-card__num">2</span>
+                    <div>
+                      <strong>Đội ngũ Huấn luyện viên:</strong> Phụ trách đào
+                      tạo &amp; thi đấu đỉnh cao.
+                    </div>
+                  </li>
+                  <li>
+                    <span class="org-card__num">3</span>
+                    <div>
+                      <strong>Đội ngũ Giáo viên:</strong> Giảng dạy chương
+                      trình, theo sát tiến độ.
+                    </div>
+                  </li>
+                  <li>
+                    <span class="org-card__num">4</span>
+                    <div>
+                      <strong>Đội ngũ Hỗ trợ &amp; CSKH:</strong> Truyền thông,
+                      cơ sở vật chất &amp; phụ huynh.
+                    </div>
+                  </li>
+                </ol>
+                <div class="org-card__stat">
+                  <span class="org-card__percent">100%</span>
+                  <span class="org-card__caption"
+                    >Giáo viên đạt chuẩn chứng chỉ chuyên môn cờ vua</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="method">
+        <div class="container">
+          <div class="method__head">
+            <h2 class="method__title">
+              Phương pháp giảng dạy &amp; lộ trình học tập
+            </h2>
+            <p class="method__quote">
+              “Mỗi ván cờ là một bài học quý giá cho cuộc sống!”
+            </p>
+            <span class="method__divider" aria-hidden="true"></span>
+          </div>
+          <div class="method__panel">
+            <p class="method__subhead">
+              Phương pháp giảng dạy hiện đại tại Thông Thái
+            </p>
+            <div class="method__grid">
+              <div class="mcard">
+                <span class="mcard__icon"
+                  ><svg viewBox="0 0 448 512" aria-hidden="true">
+                    <path
+                      d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128z"
+                      transform="translate(-80,0) scale(0.9)"
+                    />
+                    <path
+                      d="M224 256a128 128 0 100-256 128 128 0 000 256zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                    /></svg
+                ></span>
+                <h3>Lấy học viên làm trung tâm</h3>
+                <p>
+                  Tôn trọng cá tính riêng, kích thích và phát huy tối đa năng
+                  khiếu của mỗi em.
+                </p>
+              </div>
+              <div class="mcard">
+                <span class="mcard__icon"
+                  ><svg viewBox="0 0 512 512" aria-hidden="true">
+                    <path
+                      d="M272 384c9.6-31.9 29.5-59.1 49.2-86.2c7-9.6 14-19.3 20.4-29.3c19-29.4 30.4-64.4 30.4-100.5C372 78.8 293.2 0 196 0S20 78.8 20 176c0 36.1 11.4 71.1 30.4 100.5c6.5 10 13.5 19.7 20.4 29.3c19.8 27.1 39.7 54.4 49.2 86.2H272zm-152 96c0 26.5 21.5 48 48 48h64c26.5 0 48-21.5 48-48v-16H120v16z"
+                      transform="translate(60,0)"
+                    /></svg
+                ></span>
+                <h3>Học qua trải nghiệm</h3>
+                <p>
+                  Kết hợp chặt chẽ lý thuyết, thực chiến thi đấu và mini game tư
+                  duy trực quan.
+                </p>
+              </div>
+              <div class="mcard">
+                <span class="mcard__icon"
+                  ><svg viewBox="0 0 576 512" aria-hidden="true">
+                    <path
+                      d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19z"
+                    /></svg
+                ></span>
+                <h3>Cá nhân hóa lộ trình</h3>
+                <p>
+                  Giáo trình thiết kế chuyên biệt phù hợp năng lực, tốc độ tiếp
+                  thu của học viên.
+                </p>
+              </div>
+              <div class="mcard">
+                <span class="mcard__icon"
+                  ><svg viewBox="0 0 512 512" aria-hidden="true">
+                    <path
+                      d="M416 208c0 45.9-14.9 88.3-40 122.7V464c0 26.5-21.5 48-48 48H176c-26.5 0-48-21.5-48-48V330.7c-25.1-34.4-40-76.8-40-122.7C88 93.1 181.1 0 296 0s208 93.1 208 208zM176 480h48v-32h-48v32zm112 0h48v-32h-48v32z"
+                    /></svg
+                ></span>
+                <h3>Ứng dụng công nghệ</h3>
+                <p>
+                  Ứng dụng phần mềm phân tích ván đấu (ChessBase, Lichess), giải
+                  câu đố trực tuyến.
+                </p>
+              </div>
+              <div class="mcard">
+                <span class="mcard__icon"
+                  ><svg viewBox="0 0 512 512" aria-hidden="true">
+                    <path
+                      d="M256 0c17 0 33 8 42 17l187 187c19 19 19 51 0 70L292 467c-19 19-51 19-70 0L36 280c-9-9-17-25-17-42V64c0-35 29-64 64-64h173zM112 96a48 48 0 100 96 48 48 0 000-96z"
+                    /></svg
+                ></span>
+                <h3>Môi trường tích cực</h3>
+                <p>
+                  Thân thiện, đề cao tinh thần thể thao, xây dựng tình yêu học
+                  tập lâu dài.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="achieve">
+        <div class="container">
+          <div class="achieve__head">
+            <h2 class="achieve__title">
+              Thành tích, giải thưởng &amp; hoạt động
+            </h2>
+            <p class="achieve__quote">
+              “Mỗi thành công là một bước tiến của học viên và của Học viện!”
+            </p>
+            <span class="achieve__divider" aria-hidden="true"></span>
+          </div>
+
+          <div class="achieve__stats">
+            <div class="stat-card">
+              <h3>+50</h3>
+              <p>Huy chương các cấp</p>
+              <span
+                >Học viên đạt huy chương tại các giải cờ vua cấp tỉnh, thành phố
+                và khu vực.</span
+              >
+            </div>
+            <div class="stat-card">
+              <h3>+200</h3>
+              <p>Học viên xuất sắc</p>
+              <span
+                >Học viên xuất sắc tham gia các giải đấu cờ vua trong và ngoài
+                tỉnh.</span
+              >
+            </div>
+            <div class="stat-card">
+              <h3>100%</h3>
+              <p>Tiến bộ rõ rệt</p>
+              <span
+                >Học sinh tiến bộ rõ rệt về tư duy, kỹ năng và thái độ học
+                tập.</span
+              >
+            </div>
+            <div class="stat-card">
+              <h3>TOP 5</h3>
+              <p>Trung tâm cờ vua uy tín</p>
+              <span
+                >Trung tâm cờ vua uy tín tại Bắc Ninh, giai đoạn 2022 –
+                2025.</span
+              >
+            </div>
+          </div>
+
+          <div class="achieve__block">
+            <p class="achieve__subhead">Giải thưởng và chứng nhận tiêu biểu</p>
+            <div class="achieve__grid">
+              <div class="achieve-card">
+                <span class="achieve-card__icon"
+                  ><svg viewBox="0 0 576 512" aria-hidden="true">
+                    <path
+                      d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"
+                    /></svg
+                ></span>
+                <h4>Bằng khen</h4>
+                <p>
+                  Của UBND tỉnh Bắc Ninh về thành tích trong công tác đào tạo
+                  năng khiếu cờ vua.
+                </p>
+              </div>
+              <div class="achieve-card">
+                <span class="achieve-card__icon"
+                  ><svg viewBox="0 0 448 512" aria-hidden="true">
+                    <path
+                      d="M224 256a128 128 0 100-256 128 128 0 000 256zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                    /></svg
+                ></span>
+                <h4>Giấy chứng nhận</h4>
+                <p>
+                  Đạt tiêu chuẩn Trung tâm đào tạo cờ vua chất lượng năm 2023.
+                </p>
+              </div>
+              <div class="achieve-card">
+                <span class="achieve-card__icon"
+                  ><svg viewBox="0 0 576 512" aria-hidden="true">
+                    <path
+                      d="M552 64H448V24c0-13.3-10.7-24-24-24H152c-13.3 0-24 10.7-24 24v40H24C10.7 64 0 74.7 0 88v56c0 66.3 51.5 120.7 116.7 125.6C130.8 296.6 152.9 320 180 320h40v96h-48c-17.7 0-32 14.3-32 32v32h228c-4.4-11.2-8-24.1-8-32V416c0-17.7-14.3-32-32-32h-48v-96h40c27.1 0 49.2-23.4 63.3-50.4C460.5 264.7 512 210.3 512 144V88c0-13.3-10.7-24-24-24zM64 144V112h64v112c0 8.2 1.1 16.1 2.9 23.8C97.7 236.3 64 194.1 64 144zm448 0c0 50.1-33.7 92.3-66.9 103.8c1.8-7.7 2.9-15.6 2.9-23.8V112h64v32z"
+                    /></svg
+                ></span>
+                <h4>Giải thưởng</h4>
+                <p>
+                  Đơn vị có đóng góp tích cực cho phong trào cờ vua trẻ em Việt
+                  Nam.
+                </p>
+              </div>
+              <div class="achieve-card">
+                <span class="achieve-card__icon"
+                  ><svg viewBox="0 0 576 512" aria-hidden="true">
+                    <path
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7L287.9 439.6 150.7 509.2c-8 4.3-17.8 3.6-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L30.7 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L265.9 13.5C269.9 5.2 278.3 0 287.9 0z"
+                    /></svg
+                ></span>
+                <h4>Chứng nhận</h4>
+                <p>
+                  Đạt giải “Đơn vị tiêu biểu” trong phong trào thể dục thể thao
+                  năm 2024.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="achieve__block">
+            <p class="achieve__subhead">Hoạt động nổi bật</p>
+            <div class="achieve__grid">
+              <div class="achieve-card achieve-card--photo">
+                <span class="achieve-card__photo"
+                  ><img
+                    src="images/san-pham/act-giai-dau-dinh-ky.jpg"
+                    alt="Giải Cờ vua Thông Thái mở rộng"
+                    loading="lazy"
+                /></span>
+                <p>Tổ chức giải đấu cờ vua định kỳ hàng năm</p>
+              </div>
+              <div class="achieve-card achieve-card--photo">
+                <span class="achieve-card__photo"
+                  ><img
+                    src="images/san-pham/act-giao-luu-truong-hoc.jpg"
+                    alt="Cờ vua kết nối trường học"
+                    loading="lazy"
+                /></span>
+                <p>Chương trình giao lưu cờ vua với các trường học</p>
+              </div>
+              <div class="achieve-card achieve-card--photo">
+                <span class="achieve-card__photo"
+                  ><img
+                    src="images/san-pham/act-doi-tuyen-thi-dau.jpg"
+                    alt="Đội tuyển cờ vua Học viện Thông Thái"
+                    loading="lazy"
+                /></span>
+                <p>Tham gia các giải đấu cấp tỉnh, thành phố</p>
+              </div>
+              <div class="achieve-card achieve-card--photo">
+                <span class="achieve-card__photo"
+                  ><img
+                    src="images/san-pham/act-thien-nguyen.jpg"
+                    alt="Cờ vua vì cộng đồng"
+                    loading="lazy"
+                /></span>
+                <p>Hoạt động thiện nguyện và lan tỏa giá trị cờ vua</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gm">
+        <div class="container">
+          <div class="gm__head">
+            <span class="gm__eyebrow">Kho tư liệu hình ảnh</span>
+            <h2 class="gm__title">Hình ảnh hoạt động thực tế</h2>
+          </div>
+          <div class="gm__tabs">
+            <button class="gm__tab active" type="button" data-filter="all">Tất cả (10)</button>
+            <button class="gm__tab" type="button" data-filter="lop-hoc">Lớp học</button>
+            <button class="gm__tab" type="button" data-filter="giai-dau">Giải đấu</button>
+          </div>
+          <div class="gm__grid">
+            <figure class="gm__card gm__card--large" data-category="lop-hoc">
+              <img src="assets/home-class-01.jpg" alt="Vinh danh tại Giải vô địch cờ vua trẻ Quốc gia" loading="lazy">
+              <span class="gm__tag">Lớp Học</span>
+              <figcaption>Vinh danh tại Giải vô địch cờ vua trẻ Quốc gia</figcaption>
+            </figure>
+            <figure class="gm__card" data-category="lop-hoc">
+              <img src="assets/home-class-02.jpg" alt="Trao giải cúp Chiến Binh Thông Thái" loading="lazy">
+              <span class="gm__tag">Lớp Học</span>
+              <figcaption>Trao giải cúp Chiến Binh Thông Thái</figcaption>
+            </figure>
+            <figure class="gm__card" data-category="lop-hoc">
+              <img src="assets/home-gallery-01.jpg" alt="Không khí sôi động tại buổi thi đấu tập trung" loading="lazy">
+              <span class="gm__tag">Lớp Học</span>
+              <figcaption>Không khí sôi động tại buổi thi đấu tập trung</figcaption>
+            </figure>
+            <figure class="gm__card gm__card--tall" data-category="lop-hoc">
+              <img src="assets/home-gallery-02.jpg" alt="Học viện đồng hành cùng hoạt động thể thao địa phương" loading="lazy">
+              <span class="gm__tag">Lớp Học</span>
+              <figcaption>Học viện đồng hành cùng hoạt động thể thao địa phương</figcaption>
+            </figure>
+            <figure class="gm__card" data-category="lop-hoc">
+              <img src="assets/home-gallery-03.jpg" alt="Buổi luyện tập cùng các anh chị lớn" loading="lazy">
+              <span class="gm__tag">Lớp Học</span>
+              <figcaption>Buổi luyện tập cùng các anh chị lớn</figcaption>
+            </figure>
+            <figure class="gm__card" data-category="lop-hoc">
+              <img src="assets/home-gallery-04.jpg" alt="Giờ học cờ vua tại lớp" loading="lazy">
+              <span class="gm__tag">Lớp Học</span>
+              <figcaption>Giờ học cờ vua tại lớp</figcaption>
+            </figure>
+            <figure class="gm__card gm__card--wide" data-category="lop-hoc">
+              <img src="assets/home-gallery-05.jpg" alt="Học viên tập trung phân tích thế cờ" loading="lazy">
+              <span class="gm__tag">Lớp Học</span>
+              <figcaption>Học viên tập trung phân tích thế cờ</figcaption>
+            </figure>
+            <figure class="gm__card" data-category="lop-hoc">
+              <img src="assets/home-gallery-06.jpg" alt="Không gian học tập tại Học viện" loading="lazy">
+              <span class="gm__tag">Lớp Học</span>
+              <figcaption>Không gian học tập tại Học viện</figcaption>
+            </figure>
+            <figure class="gm__card" data-category="giai-dau">
+              <img src="assets/home-gallery-08.jpg" alt="Giao lưu thân thiện sau trận đấu" loading="lazy">
+              <span class="gm__tag">Giải Đấu</span>
+              <figcaption>Giao lưu thân thiện sau trận đấu</figcaption>
+            </figure>
+            <figure class="gm__card gm__card--wide" data-category="giai-dau">
+              <img src="assets/home-gallery-09.jpg" alt="Hình ảnh giải đấu cờ vua" loading="lazy">
+              <span class="gm__tag">Giải Đấu</span>
+              <figcaption>Hình ảnh giải đấu cờ vua</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <div class="gm-lightbox" data-gm-lightbox hidden>
+        <button class="gm-lightbox__close" type="button" data-gm-close aria-label="Đóng">&times;</button>
+        <button class="gm-lightbox__nav gm-lightbox__nav--prev" type="button" data-gm-prev aria-label="Ảnh trước"><svg viewBox="0 0 1000 1000" aria-hidden="true"><path d="M646 125c-17 0-33 8-42 17L308 442c-12 12-16 29-16 45 0 17 4 34 16 46l296 321c13 13 25 21 42 21s33-4 46-17c12-12 21-29 21-46 0-16-5-33-21-45L438 487l254-262c8-8 16-21 16-38 0-16-4-33-16-45-17-13-29-17-46-17z"/></svg></button>
+        <figure class="gm-lightbox__figure">
+          <img data-gm-image src="" alt="">
+          <figcaption data-gm-caption></figcaption>
+        </figure>
+        <button class="gm-lightbox__nav gm-lightbox__nav--next" type="button" data-gm-next aria-label="Ảnh sau"><svg viewBox="0 0 1000 1000" aria-hidden="true"><path d="M354 875c17 0 33-8 42-17l296-300c12-12 16-29 16-45 0-17-4-34-16-46L396 146c-13-13-25-21-42-21s-33 4-46 17c-12 12-21 29-21 46 0 16 5 33 21 45l254 280-254 262c-8 8-16 21-16 38 0 16 4 33 16 45 17 13 29 17 46 17z"/></svg></button>
+      </div>
+
+      <section class="contact-cta">
+        <div class="container">
+          <div class="contact-cta__panel">
+            <div class="contact-cta__grid">
+              <div class="contact-cta__info">
+                <span class="contact-cta__eyebrow">Hồ sơ năng lực</span>
+                <h2 class="contact-cta__title">
+                  Thông tin liên hệ &amp; đăng ký
+                </h2>
+                <p class="contact-cta__desc">
+                  Rất hân hạnh được đồng hành cùng Quý phụ huynh, Quý nhà trường
+                  và các đối tác giáo dục!
+                </p>
+                <div class="contact-cta__list">
+                  <div class="contact-cta__item">
+                    <span class="contact-cta__icon"
+                      ><svg viewBox="0 0 448 512" aria-hidden="true">
+                        <path
+                          d="M400 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h352c27 0 48-21 48-48V80c0-27-21-48-48-48zM94 416c-6 0-12-5-12-12 0-176 142-318 318-318 6 0 11 4 12 9l15 64c1 6-2 12-7 14l-70 30c-5 2-11 1-14-4l-31-38c-49 23-88 62-111 111l38 31c4 3 6 9 4 14l-30 70c-2 5-8 8-14 7l-64-15c-5-1-9-6-9-12z"
+                        /></svg
+                    ></span>
+                    <div>
+                      <span>Điện thoại / Hotline</span
+                      ><strong>0968 998 610</strong>
+                    </div>
+                  </div>
+                  <div class="contact-cta__item">
+                    <span class="contact-cta__icon"
+                      ><svg viewBox="0 0 384 512" aria-hidden="true">
+                        <path
+                          d="M172 501C27 291 0 269 0 192 0 86 86 0 192 0s192 86 192 192c0 77-27 99-172 309-10 14-30 14-40 0zm20-229a80 80 0 100-160 80 80 0 000 160z"
+                        /></svg
+                    ></span>
+                    <div>
+                      <span>Địa chỉ trung tâm</span
+                      ><strong
+                        >110 Lý Thường Kiệt, Phường Vũ Ninh, TP. Bắc
+                        Ninh</strong
+                      >
+                    </div>
+                  </div>
+                  <div class="contact-cta__item">
+                    <span class="contact-cta__icon"
+                      ><svg viewBox="0 0 576 512" aria-hidden="true">
+                        <path
+                          d="M160 448c-26 0-48-19-64-32C22 363 0 344 0 336v104c0 13 11 24 24 24h272c13 0 24-11 24-24V336c0 8-22 27-96 80-16 13-38 32-64 32zm160-256H32c-18 0-32 14-32 32v16c26 20 23 20 116 87 10 7 29 25 44 25 15 0 34-18 44-25 93-67 90-67 116-87v-16c0-18-14-32-32-32zm224-96H224c-18 0-32 14-32 32v32h128c33 0 60 26 64 57v128h160c18 0 32-14 32-32V128c0-18-14-32-32-32z"
+                        /></svg
+                    ></span>
+                    <div>
+                      <span>Email chính thức</span
+                      ><strong>thongthai.covua@gmail.com</strong>
+                    </div>
+                  </div>
+                  <div class="contact-cta__item">
+                    <span class="contact-cta__icon"
+                      ><svg viewBox="0 0 512 512" aria-hidden="true">
+                        <path
+                          d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.1-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64h185.3c2.1 20.4 3.3 41.8 3.3 64zm28.8-64h123.1c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142.9 75.4 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C47.6 83.8 112.2 29.1 190.5 8.4C165.1 42.6 145.3 96.1 135.2 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.2 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 47.6 428.2 18.6 352H135.2zm358.2 0c-29 76.2-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"
+                        /></svg
+                    ></span>
+                    <div>
+                      <span>Trang thông tin / Website</span
+                      ><strong>www.thongthai.edu.vn</strong>
+                    </div>
+                  </div>
+                  <div class="contact-cta__item">
+                    <span class="contact-cta__icon contact-cta__icon--fb"
+                      ><img
+                        src="images/Facebook.png"
+                        alt=""
+                        width="20"
+                        height="20"
+                    /></span>
+                    <div>
+                      <span>Fanpage Facebook</span
+                      ><strong>Học viện Cờ vua Thông Thái</strong>
+                    </div>
+                  </div>
+                  <div class="contact-cta__item">
+                    <span class="contact-cta__icon"
+                      ><svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                          d="M3 3h7v7H3V3zm2 2v3h3V5H5zm-2 9h7v7H3v-7zm2 2v3h3v-3H5zm9-13h7v7h-7V3zm2 2v3h3V5h-3zM13 13h2v2h-2v-2zm4 0h2v2h-2v-2zm-4 4h2v2h-2v-2zm4 0h4v4h-4v-4z"
+                        /></svg
+                    ></span>
+                    <div>
+                      <span>Quét mã QR</span
+                      ><strong
+                        >Quét để kết nối Zalo tư vấn nhanh nhất hoặc nhận trọn
+                        bộ tài liệu cờ vua.</strong
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-cta__form-wrap">
+                <h3>Phiếu đăng ký tư vấn &amp; hợp tác</h3>
+                <p>
+                  Vui lòng điền thông tin bên dưới, Học viện sẽ liên hệ lại
+                  trong vòng 15 - 30 phút để hỗ trợ Quý khách.
+                </p>
+                <form class="contact-form" data-form>
+                  <div class="contact-form__row">
+                    <div class="contact-form__field">
+                      <label for="cta_name"
+                        >Họ và tên phụ huynh / đại diện <span>*</span></label
+                      >
+                      <input
+                        id="cta_name"
+                        name="cta_name"
+                        type="text"
+                        placeholder="Ví dụ: Nguyễn Văn An"
+                        required
+                      />
+                    </div>
+                    <div class="contact-form__field">
+                      <label for="cta_phone"
+                        >Số điện thoại liên hệ <span>*</span></label
+                      >
+                      <input
+                        id="cta_phone"
+                        name="cta_phone"
+                        type="tel"
+                        placeholder="Ví dụ: 0912 345 678"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="contact-form__row">
+                    <div class="contact-form__field">
+                      <label for="cta_need"
+                        >Nhu cầu đăng ký <span>*</span></label
+                      >
+                      <select id="cta_need" name="cta_need" required>
+                        <option>Đăng ký kiểm tra tư duy &amp; học thử</option>
+                        <option>Đăng ký học chính thức</option>
+                        <option>Hợp tác cùng trường học / trung tâm</option>
+                        <option>Tư vấn khác</option>
+                      </select>
+                    </div>
+                    <div class="contact-form__field">
+                      <label for="cta_age"
+                        >Độ tuổi của bé / Tên trường học</label
+                      >
+                      <input
+                        id="cta_age"
+                        name="cta_age"
+                        type="text"
+                        placeholder="Ví dụ: Bé 6 tuổi hoặc Trường TH..."
+                      />
+                    </div>
+                  </div>
+                  <div class="contact-form__field">
+                    <label for="cta_note"
+                      >Ghi chú hoặc mong muốn của gia đình / đơn vị</label
+                    >
+                    <textarea
+                      id="cta_note"
+                      name="cta_note"
+                      rows="3"
+                      placeholder="Bé chưa biết gì về cờ hoặc đã biết đi quân căn bản..."
+                    ></textarea>
+                  </div>
+                  <button class="contact-form__submit" type="submit">
+                    <svg viewBox="0 0 512 512" aria-hidden="true">
+                      <path
+                        d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.5l102.6 45.3 322.5-217.6c5.9-4 12.9 4.7 8.3 9.7L192.5 391.9l-9.4 92.7c-3.7 36.3 41.2 55.2 65.5 27.9l71.2-79.8 129.8 72.5c22.4 12.5 49.8-4.4 51.2-30l90.5-590c1.4-23.6-25.5-38.7-45.1-27.1z"
+                      />
+                    </svg>
+                    Gửi Đăng Ký Tư Vấn Ngay
+                  </button>
+                  <p class="contact-form__lock">
+                    <svg viewBox="0 0 448 512" aria-hidden="true">
+                      <path
+                        d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zM224 400c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm104-176H120v-72c0-57.3 46.7-104 104-104s104 46.7 104 104v72z"
+                      />
+                    </svg>
+                    Thông tin được cam kết bảo mật 100% theo chính sách học
+                    viện.
+                  </p>
+                  <p class="form-note" data-form-note hidden role="status">
+                    Xin cảm ơn! Học viện sẽ liên hệ lại với Quý khách trong thời
+                    gian sớm nhất.
+                  </p>
+                </form>
+              </div>
+            </div>
+
+            <div class="contact-cta__footer">
+              <h3>Kiến tạo tương lai bằng những nước cờ đúng!</h3>
+              <p>
+                “Cảm ơn Quý đối tác, nhà trường và phụ huynh đã tin tưởng và
+                đồng hành cùng chúng tôi!”
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-main">
+        <div class="container">
+          <div class="fcol fcol--about">
+            <a class="flogo" href="index.html"
+              ><img
+                src="images/logo.jpg"
+                alt="Học viện cờ vua Thông Thái"
+                width="120"
+                height="120"
+                loading="lazy"
+            /></a>
+            <p class="fabout">
+              <strong>Học viện cờ vua Thông Thái</strong> là đơn vị đào tạo cờ
+              vua cho trẻ em và thanh thiếu niên tại Bắc Ninh. Với phương châm:
+              <strong>“Giáo dục trí tâm – ươm mầm trí tuệ”</strong>, Học viện cờ
+              vua Thông Thái theo đuổi để tạo nên môi trường học chất lượng và
+              dịch vụ tốt nhất khi tìm đến với bộ môn cờ vua.
+            </p>
+            <div class="fsocial">
+              <a
+                class="fb"
+                href="https://www.facebook.com/covuatruyencamhung"
+                target="_blank"
+                rel="noopener"
+                aria-label="Facebook"
+                ><svg viewBox="0 0 512 512">
+                  <path
+                    d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.8 90.7 226.4 209.3 245V327.7h-63V256h63v-54.6c0-62.2 37-96.5 93.7-96.5 27.1 0 55.5 4.8 55.5 4.8v61h-31.3c-30.8 0-40.4 19.1-40.4 38.7V256h68.8l-11 71.7h-57.8V501C413.3 482.4 504 379.8 504 256z"
+                  /></svg
+              ></a>
+              <a
+                class="yt"
+                href="https://youtu.be/h-dsYDquWeo"
+                target="_blank"
+                rel="noopener"
+                aria-label="Youtube"
+                ><svg viewBox="0 0 576 512">
+                  <path
+                    d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6C14.9 167 14.9 256.4 14.9 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2-142.7 81.2z"
+                  /></svg
+              ></a>
+            </div>
+          </div>
+          <div class="fcol">
+            <h4 class="fhead">Trụ sở chính</h4>
+            <ul class="flist">
+              <li>
+                <span class="t"
+                  ><svg viewBox="0 0 384 512">
+                    <path
+                      d="M172 501C27 291 0 269 0 192 0 86 86 0 192 0s192 86 192 192c0 77-27 99-172 309-10 14-30 14-40 0zm20-229a80 80 0 100-160 80 80 0 000 160z"
+                    /></svg
+                  >Địa chỉ: 110 Lý Thường Kiệt, Vũ Ninh, TP. Bắc Ninh</span
+                >
+              </li>
+              <li>
+                <span class="t"
+                  ><svg viewBox="0 0 448 512">
+                    <path
+                      d="M400 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h352c27 0 48-21 48-48V80c0-27-21-48-48-48zM94 416c-6 0-12-5-12-12 0-176 142-318 318-318 6 0 11 4 12 9l15 64c1 6-2 12-7 14l-70 30c-5 2-11 1-14-4l-31-38c-49 23-88 62-111 111l38 31c4 3 6 9 4 14l-30 70c-2 5-8 8-14 7l-64-15c-5-1-9-6-9-12z"
+                    /></svg
+                  >Hotline: 0968 998 610</span
+                >
+              </li>
+              <li>
+                <span class="t"
+                  ><svg viewBox="0 0 576 512">
+                    <path
+                      d="M160 448c-26 0-48-19-64-32C22 363 0 344 0 336v104c0 13 11 24 24 24h272c13 0 24-11 24-24V336c0 8-22 27-96 80-16 13-38 32-64 32zm160-256H32c-18 0-32 14-32 32v16c26 20 23 20 116 87 10 7 29 25 44 25 15 0 34-18 44-25 93-67 90-67 116-87v-16c0-18-14-32-32-32zm224-96H224c-18 0-32 14-32 32v32h128c33 0 60 26 64 57v128h160c18 0 32-14 32-32V128c0-18-14-32-32-32z"
+                    /></svg
+                  >info@thongthai.edu.vn</span
+                >
+              </li>
+              <li>
+                <span class="t"
+                  ><svg viewBox="0 0 576 512">
+                    <path
+                      d="M160 448c-26 0-48-19-64-32C22 363 0 344 0 336v104c0 13 11 24 24 24h272c13 0 24-11 24-24V336c0 8-22 27-96 80-16 13-38 32-64 32zm160-256H32c-18 0-32 14-32 32v16c26 20 23 20 116 87 10 7 29 25 44 25 15 0 34-18 44-25 93-67 90-67 116-87v-16c0-18-14-32-32-32zm224-96H224c-18 0-32 14-32 32v32h128c33 0 60 26 64 57v128h160c18 0 32-14 32-32V128c0-18-14-32-32-32z"
+                    /></svg
+                  >thongthai.covua@gmail.com</span
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.thongthai.edu.vn"
+                  target="_blank"
+                  rel="noopener"
+                  ><svg viewBox="0 0 512 512">
+                    <path
+                      d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.1-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64h185.3c2.1 20.4 3.3 41.8 3.3 64zm28.8-64h123.1c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142.9 75.4 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C47.6 83.8 112.2 29.1 190.5 8.4C165.1 42.6 145.3 96.1 135.2 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.2 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 47.6 428.2 18.6 352H135.2zm358.2 0c-29 76.2-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"
+                    /></svg
+                  >www.thongthai.edu.vn</a
+                >
+              </li>
+            </ul>
+            <h4 class="fhead fhead--next">Thông tin</h4>
+            <ul class="flist">
+              <li>
+                <a href="gioi-thieu.html"
+                  ><svg viewBox="0 0 576 512">
+                    <path
+                      d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"
+                    /></svg
+                  >Về chúng tôi</a
+                >
+              </li>
+              <li>
+                <a href="khoa-hoc.html"
+                  ><svg viewBox="0 0 576 512">
+                    <path
+                      d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"
+                    /></svg
+                  >Khóa học</a
+                >
+              </li>
+              <li>
+                <a href="tuyen-dung.html"
+                  ><svg viewBox="0 0 640 512">
+                    <path
+                      d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"
+                    /></svg
+                  >Tuyển dụng</a
+                >
+              </li>
+              <li>
+                <a href="lien-he.html"
+                  ><svg viewBox="0 0 640 512">
+                    <path
+                      d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"
+                    /></svg
+                  >Liên hệ</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="fcol">
+            <h4 class="fhead">Học viện cờ vua Thông Thái</h4>
+            <ul class="flist">
+              <li>
+                <a href="khoa-hoc-online.html"
+                  ><svg viewBox="0 0 576 512">
+                    <path
+                      d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"
+                    /></svg
+                  >Khóa học</a
+                >
+              </li>
+              <li>
+                <a href="tin-tuc.html"
+                  ><svg viewBox="0 0 576 512">
+                    <path
+                      d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"
+                    /></svg
+                  >Tin tức</a
+                >
+              </li>
+              <li>
+                <a href="hinh-anh.html"
+                  ><svg viewBox="0 0 512 512">
+                    <path
+                      d="M464 448H48c-27 0-48-21-48-48V112c0-27 21-48 48-48h416c27 0 48 21 48 48v288c0 27-21 48-48 48zM112 120a56 56 0 100 112 56 56 0 000-112zM64 384h384V272l-88-88c-5-5-12-5-17 0L208 320l-56-56c-5-5-12-5-17 0l-71 72v48z"
+                    /></svg
+                  >Hình ảnh</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><svg viewBox="0 0 640 512">
+                    <path
+                      d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"
+                    /></svg
+                  >Thông tin nội bộ</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><svg viewBox="0 0 448 512">
+                    <path
+                      d="M224 256a128 128 0 100-256 128 128 0 000 256zm90 32h-17a174 174 0 01-146 0h-17C60 288 0 348 0 422v42c0 27 21 48 48 48h352c27 0 48-21 48-48v-42c0-74-60-134-134-134z"
+                    /></svg
+                  >Tài khoản GV</a
+                >
+              </li>
+            </ul>
+            <h4 class="fhead fhead--next">Hỗ trợ khách hàng</h4>
+            <ul class="flist">
+              <li>
+                <a href="chinh-sach-khach-hang.html"
+                  ><svg viewBox="0 0 576 512">
+                    <path
+                      d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"
+                    /></svg
+                  >Chính sách khách hàng</a
+                >
+              </li>
+              <li>
+                <a href="faqs-phu-huynh.html"
+                  ><svg viewBox="0 0 576 512">
+                    <path
+                      d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"
+                    /></svg
+                  >FAQs Phụ Huynh</a
+                >
+              </li>
+              <li>
+                <a href="dieu-khoan.html"
+                  ><svg viewBox="0 0 512 512">
+                    <path
+                      d="M464 448H48c-27 0-48-21-48-48V112c0-27 21-48 48-48h416c27 0 48 21 48 48v288c0 27-21 48-48 48zM112 120a56 56 0 100 112 56 56 0 000-112zM64 384h384V272l-88-88c-5-5-12-5-17 0L208 320l-56-56c-5-5-12-5-17 0l-71 72v48z"
+                    /></svg
+                  >Điều khoản</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="fcol fcol--cta">
+            <div class="fcta">
+              <h4>Học thử miễn phí</h4>
+              <p>
+                Đăng ký ngay để con được trải nghiệm buổi học cờ vua đầu tiên
+                cùng Học viện cờ vua Thông Thái, hoàn toàn miễn phí.
+              </p>
+              <a class="btn" href="dang-ky-hoc-thu.html">Đăng ký học thử</a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <div class="band band--sm"><h2>DỊCH VỤ CỦA CHÚNG TÔI</h2></div>
-  <section class="services">
-    <picture>
-      <source media="(max-width: 1024px)" srcset="images/Dao-tao-trung-tam-ichess.jpg" width="2341" height="2560">
-      <img src="images/ichess2-2048x939.jpg" alt="Dịch vụ: đào tạo tại trung tâm, trực tuyến, coaching 1-1, tổ chức giải đấu, hợp tác giảng dạy, cung cấp sản phẩm cờ" width="2048" height="939" loading="lazy">
-    </picture>
-  </section>
-
-  <section class="photo">
-    <img src="assets/home-class-01.png" alt="Học viên nhận quà tại giải đấu" width="2560" height="1707" loading="lazy">
-  </section>
-
-  <section class="quote-red"><h2>"Trẻ em học cờ vua để chiến thắng trên bàn cờ và trưởng thành ngoài cuộc sống"</h2></section>
-
-  <section class="program">
-    <svg class="program__shape" viewBox="0 0 1000 100" preserveAspectRatio="none" aria-hidden="true">
-      <path opacity=".33" d="M473 67.3c-203.9 88.3-263.1-34-320.3 0C66 119.1 0 59.7 0 59.7V0h1000v59.7s-62.1 26.1-94.9 29.3c-32.8 3.3-62.8-12.3-75.8-22.1C806 49.6 745.3 8.7 694.9 4.7S492.4 59 473 67.3z"/>
-      <path opacity=".66" d="M734 67.3c-45.5 0-77.2-23.2-129.1-39.1-28.6-8.7-150.3-10.1-254 39.1s-91.7-34.4-149.2 0C115.7 118.3 0 39.8 0 39.8V0h1000v36.5s-28.2-18.5-92.1-18.5c-97.7.1-132.2 49.3-173.9 49.3z"/>
-      <path d="M766.1 28.9c-200-57.5-266 65.5-395.1 19.5C242 1.8 242 5.4 184.8 20.6 128 35.8 132.3 44.9 89.9 52.5 28.6 63.7 0 0 0 0h1000s-9.9 40.9-83.6 48.1-86.8-1.1-150.3-19.2z"/>
-    </svg>
-    <div class="container">
-      <h2>GIỚI THIỆU<br>VỀ CHƯƠNG TRÌNH HỌC</h2>
-      <p>Tại Học viện cờ vua Thông Thái, trẻ từ 4 đến 14 tuổi được học cờ vua theo phương pháp giảng dạy SIGP với những yếu tố tư duy qua tình huống, trực quan, tổ chức trò chơi và thực hành tập luyện giúp trẻ tiếp thu kiến thức một cách tự nhiên, hứng thú và hiệu quả.</p>
-      <p>Chương trình cờ vua phát triển tư duy tại Học viện cờ vua Thông Thái được thiết kế theo cấp độ từ cơ bản đến nâng cao, đặt tên theo các loài vật giúp trẻ dễ nhớ, dễ tiếp cận và phát triển tối đa trong môi trường học tập sáng tạo, vui vẻ.</p>
-    </div>
-  </section>
-
-  <section class="benefit">
-    <div class="container">
-      <h2>Con bạn sẽ nhận được gì khi</h2>
-      <p class="benefit__sub">HỌC CỜ VUA TẠI HỌC VIỆN CỜ VUA THÔNG THÁI?</p>
-      <p class="benefit__lead">Việc lựa chọn môi trường học cờ vua phù hợp đóng vai trò quan trọng trong sự phát triển của trẻ. Tại <strong>Trung tâm cờ vua Truyền Cảm Hứng</strong>, chúng tôi không chỉ giúp trẻ rèn luyện kỹ năng chơi cờ mà còn chú trọng đến sự phát triển toàn diện về tư duy, phẩm chất và niềm đam mê cờ. Dưới đây là <strong>4 giá trị</strong> mà phụ huynh có thể tin tưởng khi cho con theo học tại Học viện cờ vua Thông Thái:</p>
-    </div>
-  </section>
-
-  <section class="values">
-    <div class="container">
-      <div class="values__col"><div class="vbox"><h3>ĐỘI NGŨ GIÁO VIÊN TẬN TÂM</h3><p>Trẻ được hướng dẫn bởi các huấn luyện viên và giáo viên có trình độ và kinh nghiệm thi đấu giảng dạy. Phương pháp SIGP đặc biệt được sử dụng tại Học viện cờ vua Thông Thái giúp trẻ tiến bộ nhanh chóng và yêu thích cờ vua.</p></div><div class="vdiv"></div><div class="vbox"><h3>MÔI TRƯỜNG HỌC ĐẦY CẢM HỨNG</h3><p>Không gian học tập thoải mái, an toàn và thân thiện với trẻ. Trang thiết bị, dụng cụ giảng dạy được đầu tư theo tiêu chuẩn giúp trẻ hứng thú và phát triển đam mê với cờ vua, kích thích tư duy sáng tạo.</p></div><div class="vdiv"></div></div>
-      <div class="values__col"><div class="vbox"><h3>LỘ TRÌNH HỌC BÀI BẢN</h3><p>Chương trình được xây dựng theo lộ trình khoa học, từ cơ bản đến nâng cao, giúp trẻ phát triển toàn diện cả về trình độ chơi cờ, kỹ năng và thái độ.</p></div><div class="vdiv"></div><div class="vbox"><h3>CƠ HỘI THAM GIA CÁC GIẢI ĐẤU</h3><p>Trẻ có cơ hội cọ xát qua các giải đấu nội bộ, giải thuộc hệ thống trung tâm và các giải đấu chuyên nghiệp giúp rèn luyện tâm lý thi đấu và phát triển năng lực cờ vua vững chắc, mở ra nhiều cơ hội trong tương lai.</p></div><div class="vdiv"></div></div>
-    </div>
-  </section>
-
-  <div class="explore"><a class="btn" href="khoa-hoc.html">Khám phá thêm</a></div>
-
-  <section class="team">
-    <div class="container">
-      <h2>ĐỘI NGŨ GIÁO VIÊN CỦA CHÚNG TÔI</h2>
-      <p class="team__sub">Giáo viên huấn luyện giàu kinh nghiệm đào tạo cờ Vua</p>
-      <div class="carousel" data-autoplay="4000">
-        <div class="carousel__viewport"><div class="carousel__track">
-          <div class="member"><div class="member__thumb"><img src="images/GV_004.jpg" alt="Trần Thị Ngọc Bích" width="172" height="172" loading="lazy"></div><h3>Trần Thị Ngọc Bích</h3><p>Huấn luyện viên quốc gia, (IS) FIDE</p></div><div class="member"><div class="member__thumb"><img src="images/GV_002.jpg" alt="Trần Đức Long" width="172" height="172" loading="lazy"></div><h3>Trần Đức Long</h3><p>Huấn luyện viên quốc gia, (IS) FIDE</p></div><div class="member"><div class="member__thumb"><img src="images/GV_001.jpg" alt="Trần Đức Hải" width="172" height="172" loading="lazy"></div><h3>Trần Đức Hải</h3><p>Huấn luyện viên quốc tế (DI), (IS) FIDE</p></div><div class="member"><div class="member__thumb"><img src="images/GV_005.jpg" alt="Nguyễn Tiến Dũng" width="172" height="172" loading="lazy"></div><h3>Nguyễn Tiến Dũng</h3><p>Instructor School (IS) FIDE</p></div><div class="member"><div class="member__thumb"><img src="images/GV_006.jpg" alt="Nguyễn Lê Hoàng Châu" width="172" height="172" loading="lazy"></div><h3>Nguyễn Lê Hoàng Châu</h3><p>Huấn luyện viên quốc gia</p></div><div class="member"><div class="member__thumb"><img src="images/GV_007.jpg" alt="Đặng Ngọc Hương" width="172" height="172" loading="lazy"></div><h3>Đặng Ngọc Hương</h3><p>Giáo viên Truyền Cảm Hứng</p></div><div class="member"><div class="member__thumb"><img src="images/GV_001-1.jpg" alt="Nguyễn Trường Thịnh" width="172" height="172" loading="lazy"></div><h3>Nguyễn Trường Thịnh</h3><p>Huấn luyện viên quốc gia</p></div>
-        </div></div>
-      </div>
-    </div>
-  </section>
-
-  <div class="band band--lg gap-50"><h2>CỜ VUA TRONG GIÁO DỤC VÀ THỂ THAO</h2></div>
-  <section class="values edu">
-    <div class="container">
-      <div class="values__col"><div class="vbox vbox--center"><h3>CỜ VUA TRONG GIÁO DỤC</h3><p>Chìa khóa của trí tuệ</p></div><div class="vbox"><h3>PHÁT TRIỂN TƯ DUY</h3><p>Cờ vua giúp rèn luyện tư duy logic, trí tưởng tượng và sự sáng tạo, từ đó nâng cao khả năng suy nghĩ có hệ thống và giải quyết vấn đề một cách hiệu quả.</p></div><div class="vdiv"></div><div class="vbox"><h3>NÂNG CAO KỸ NĂNG</h3><p>Học cờ vua giúp trẻ phát triển nhiều kỹ năng quan trọng như sự tập trung, khả năng ghi nhớ, kỹ năng xử lý vấn đề, kỹ năng ra quyết định, ... giúp trẻ thích ứng linh hoạt trong mọi tình huống.</p></div><div class="vdiv"></div><div class="vbox"><h3>RÈN LUYỆN PHẨM CHẤT CÁ NHÂN</h3><p>Cờ vua giúp trẻ xây dựng tính kiên nhẫn, kỷ luật, bản lĩnh trước thử thách và khả năng kiểm soát cảm xúc, tạo nền tảng vững chắc cho sự phát triển cá nhân.</p></div><div class="vdiv"></div><div class="vbox"><h3>THÚC ĐẨY THÀNH CÔNG TRONG HỌC TẬP</h3><p>Những kỹ năng và phẩm chất rèn luyện từ cờ vua không chỉ giúp trẻ học tập tốt hơn mà còn giúp trẻ tạo được lợi thế, tự tin trong cuộc sống.</p></div><div class="vdiv"></div></div>
-      <div class="values__col"><div class="vbox vbox--center"><h3>CỜ VUA TRONG THỂ THAO</h3><p>Chìa khóa của bản lĩnh</p></div><div class="vbox"><h3>XÂY DỰNG Ý CHÍ THI ĐẤU</h3><p>Cờ vua giúp trẻ phát triển tinh thần thi đấu, khả năng chịu áp lực và tư duy chiến thuật. Qua các giải đấu, trẻ học cách tự tin, kiên trì và biết chấp nhận thất bại để tiến bộ.</p></div><div class="vdiv"></div><div class="vbox"><h3>NÂNG CAO KHẢ NĂNG CẠNH TRANH</h3><p>Người chơi cờ vua học cách phân tích đối thủ, xây dựng chiến lược và ra quyết định chính xác.</p></div><div class="vdiv"></div><div class="vbox"><h3>CƠ HỘI PHÁT TRIỂN CÁ NHÂN</h3><p>Cờ vua mở ra cơ hội tham gia các giải đấu, giúp trẻ học hỏi, nâng cao sự tự tin và phát triển kỹ năng giao tiếp, thậm chí có cơ hội nhận học bổng quốc tế.</p></div><div class="vdiv"></div><div class="vbox"><h3>PHÁT TRIỂN TƯ DUY ĐỘC LẬP</h3><p>Cờ vua khuyến khích trẻ suy nghĩ độc lập, tự nghiên cứu và rút kinh nghiệm sau mỗi ván cờ, giúp trẻ chủ động và cầu tiến hơn trong mọi lĩnh vực.</p></div><div class="vdiv"></div></div>
-    </div>
-  </section>
-
-  <div class="band gap-50 band--xs"><h2>NHỮNG KHOẢNH KHẮC TẠI LỚP HỌC</h2></div>
-  <section class="gallery">
-    <div class="carousel" data-autoplay="5000">
-      <div class="carousel__viewport"><div class="carousel__track">
-        <div><img src="assets/home-class-01.png" alt="Khoảnh khắc tại lớp học của Học viện cờ vua Thông Thái" width="1024" height="683" loading="lazy"></div><div><img src="assets/home-class-02.jpg" alt="Khoảnh khắc tại lớp học của Học viện cờ vua Thông Thái" width="1024" height="683" loading="lazy"></div><div><img src="assets/home-gallery-01.jpg" alt="Khoảnh khắc tại lớp học của Học viện cờ vua Thông Thái" width="1024" height="683" loading="lazy"></div><div><img src="assets/home-gallery-02.jpg" alt="Khoảnh khắc tại lớp học của Học viện cờ vua Thông Thái" width="1024" height="683" loading="lazy"></div><div><img src="assets/home-gallery-03.jpg" alt="Khoảnh khắc tại lớp học của Học viện cờ vua Thông Thái" width="1024" height="683" loading="lazy"></div><div><img src="assets/home-gallery-04.jpg" alt="Khoảnh khắc tại lớp học của Học viện cờ vua Thông Thái" width="1024" height="683" loading="lazy"></div><div><img src="assets/home-gallery-05.jpg" alt="Khoảnh khắc tại lớp học của Học viện cờ vua Thông Thái" width="1024" height="683" loading="lazy"></div><div><img src="assets/home-gallery-06.jpg" alt="Khoảnh khắc tại lớp học của Học viện cờ vua Thông Thái" width="1024" height="683" loading="lazy"></div><div><img src="assets/home-gallery-07.jpg" alt="Khoảnh khắc tại lớp học của Học viện cờ vua Thông Thái" width="1024" height="683" loading="lazy"></div>
-      </div></div>
-      <button class="carousel__btn carousel__btn--prev" type="button" aria-label="Trước"><svg viewBox="0 0 1000 1000" aria-hidden="true"><path d="M646 125c-17 0-33 8-42 17L308 442c-12 12-16 29-16 45 0 17 4 34 16 46l296 321c13 13 25 21 42 21s33-4 46-17c12-12 21-29 21-46 0-16-5-33-21-45L438 487l254-262c8-8 16-21 16-38 0-16-4-33-16-45-17-13-29-17-46-17z"/></svg></button><button class="carousel__btn carousel__btn--next" type="button" aria-label="Sau"><svg viewBox="0 0 1000 1000" aria-hidden="true"><path d="M354 875c17 0 33-8 42-17l296-300c12-12 16-29 16-45 0-17-4-34-16-46L396 146c-13-13-25-21-42-21s-33 4-46 17c-12 12-21 29-21 46 0 16 5 33 21 45l254 280-254 262c-8 8-16 21-16 38 0 16 4 33 16 45 17 13 29 17 46 17z"/></svg></button>
-      <div class="carousel__dots"></div>
-    </div>
-  </section>
-
-  <div class="band gap-50"><h2>PHỤ HUYNH NÓI VỀ CHÚNG TÔI</h2></div>
-  <section class="testi">
-    <div class="carousel" data-autoplay="6000" data-dots="pages">
-      <div class="carousel__viewport"><div class="carousel__track">
-        <article class="tcard"><div class="tcard__head"><img src="images/home-testimonial-parent-01.jpg" alt="Trang Đang - Phụ huynh bé Mika" width="67" height="67" loading="lazy"><div><span class="tcard__name">Trang Đang - Phụ huynh bé Mika</span><span class="stars" aria-label="5 sao">★★★★★</span><span class="tcard__title">@TrangDang</span></div></div><div class="tcard__text">Cảm ơn các thầy cô Học viện cờ vua Thông Thái thời gian qua luôn hướng dẫn Mika tận tình. Chị cảm thấy, tuy ban đầu Mika có sự rụt rè, nhưng các thầy cô đã giúp bé tự tin và vui vẻ hơn, đón nhận một môn thể thao tư duy mới. Môn cờ vua khá phức tạp, tuy nhiên cách dạy của các thầy dễ hiểu, lại vui vẻ, sinh động, nên Mika cũng tiếp thu tốt và quan trọng là đi học rất vui vẻ, chủ động.  Bé Mika có thể nhớ khá nhanh và tiếp thu tập trung ổn, tuy nhiên nếu không luyện tập và nhắc lại thường xuyên, bé có thể quên kiến thức. Vậy nên chị mong muốn bé được thực hành luyện tập để duy trì được kỹ năng thú vị này.</div></article><article class="tcard"><div class="tcard__head"><img src="images/home-testimonial-parent-02.jpg" alt="Anh Thanh - Phụ huynh bé Quốc Cơ" width="67" height="67" loading="lazy"><div><span class="tcard__name">Anh Thanh - Phụ huynh bé Quốc Cơ</span><span class="stars" aria-label="5 sao">★★★★★</span><span class="tcard__title">@AnhThanh</span></div></div><div class="tcard__text">Cảm nhận thấy con rất vui và hào hứng sau mỗi buổi học tại CLB. Con học được khả năng quan sát, rèn luyện tính kỷ luật trong từng ván đấu và còn được tham gia các giải thi đấu, giúp con tự tin và bản lĩnh hơn. Thầy luôn chăm sóc, hướng dẫn tận tình và chi tiết trong từng buổi học cũng như mỗi giải đấu. Ba mẹ rất vui khi thấy con học thêm được nhiều điều bổ ích và tiến bộ từng ngày.</div></article><article class="tcard"><div class="tcard__head"><img src="images/home-testimonial-parent-03.jpg" alt="Phu Huynh bé Anh Khôi" width="67" height="67" loading="lazy"><div><span class="tcard__name">Phu Huynh bé Anh Khôi</span><span class="stars" aria-label="5 sao">★★★★★</span><span class="tcard__title">@AnhKhoi</span></div></div><div class="tcard__text">Sau một thời gian học tại Học viện cờ vua Thông Thái, con đã có những bước tiến rõ rệt về khả năng tư duy và mức độ tập trung. Ba mẹ thật sự rất vui và hạnh phúc khi thấy con ngày càng tự tin, bản lĩnh hơn. Gia đình xin gửi lời cảm ơn chân thành đến Trung tâm và các thầy cô rất nhiều.</div></article><article class="tcard"><div class="tcard__head"><img src="images/home-testimonial-parent-04.jpg" alt="Chị Hoà - Phụ huynh bé Hà Phương" width="67" height="67" loading="lazy"><div><span class="tcard__name">Chị Hoà - Phụ huynh bé Hà Phương</span><span class="stars" aria-label="5 sao">★★★★★</span><span class="tcard__title">@XuanHoa</span></div></div><div class="tcard__text">Từ khi học ở Học viện cờ vua Thông Thái, con trưởng thành hơn và biết quan sát mọi việc xung quanh kỹ lưỡng hơn.<br>Con rất thích học cùng thầy Long. Các bạn, anh chị ở trung tâm đều hòa đồng, vui vẻ và luôn chăm chỉ học hỏi lẫn nhau.<br>Ba mẹ cảm thấy con biết lắng nghe, tự quan sát và chủ động hơn trong mọi việc.<br>Cảm ơn Học viện cờ vua Thông Thái đã luôn đồng hành cùng con!</div></article><article class="tcard"><div class="tcard__head"><img src="images/home-testimonial-parent-05.png" alt="Chị Hường" width="67" height="67" loading="lazy"><div><span class="tcard__name">Chị Hường</span><span class="stars" aria-label="5 sao">★★★★★</span><span class="tcard__title">@Huong</span></div></div><div class="tcard__text">Con mình trước đây đã biết tự chơi cờ. Sau đó có cơ duyên được gặp và học với thầy Hải cách đây khoảng 4 năm. Trong 3 năm gần đây, con theo học tại cơ sở Vinhomes Grand Park và vẫn luôn cảm thấy vui vẻ, hào hứng trong mỗi buổi học.  Việc học cờ giúp con rèn luyện khả năng quan sát và tính kiên nhẫn tốt hơn. Với mình, chỉ cần thấy con tiến bộ từng chút một như vậy là đã rất đáng quý. Cờ vua không chỉ là một trò giải trí mà còn giúp rèn luyện trí não và hình thành những phẩm chất tốt trong tính cách của con.  Cảm ơn thầy cô đã tạo ra một môi trường và sân chơi bổ ích cho các con.</div></article><article class="tcard"><div class="tcard__head"><img src="images/home-testimonial-parent-06.png" alt="Phụ huynh Bé Jerry" width="67" height="67" loading="lazy"><div><span class="tcard__name">Phụ huynh Bé Jerry</span><span class="stars" aria-label="5 sao">★★★★★</span><span class="tcard__title">@Jerry</span></div></div><div class="tcard__text">Bé Jerry rất thích học cờ vua tại trung tâm. Mỗi ngày đi học về bé đều rất vui vẻ và hào hứng kể lại những điều đã học. Gia đình rất yên tâm khi cho bé theo học ở đây vì thầy Thịnh và cô Bích luôn dạy dỗ tận tình, nhẹ nhàng và quan tâm đến bé.</div></article><article class="tcard"><div class="tcard__head"><img src="images/home-testimonial-parent-07.png" alt="Phụ huynh Bé Hải Phương" width="67" height="67" loading="lazy"><div><span class="tcard__name">Phụ huynh Bé Hải Phương</span><span class="stars" aria-label="5 sao">★★★★★</span><span class="tcard__title">@HaiPhuong</span></div></div><div class="tcard__text">Cảm ơn Trung tâm cờ vua Truyền cảm hứng đã tạo ra môi trường học tập thú vị cho các bé, giúp bé nhà mình học vui vẻ và yêu thích môn cờ vua hơn, giúp bé có động lực tập luyện và thi đấu đạt giải ở trường ạ.</div></article><article class="tcard"><div class="tcard__head"><img src="images/home-testimonial-parent-08.png" alt="Phụ huynh Bé Kiến Văn" width="67" height="67" loading="lazy"><div><span class="tcard__name">Phụ huynh Bé Kiến Văn</span><span class="stars" aria-label="5 sao">★★★★★</span><span class="tcard__title">@YenNgo</span></div></div><div class="tcard__text">Cảm nhận của ba/mẹ khi cho con tham gia học tại Học viện cờ vua Thông Thái?<br>Mong muốn ban đầu của mẹ là môn Kiến Vấn có thêm một hoạt động giúp rèn luyện tư duy và khả năng đưa ra quyết định, và cờ vua là lựa chọn phù hợp.  Sau quá trình học tại Học viện cờ vua Thông Thái, con có sự thay đổi như thế nào?<br>Kiến Vấn tập trung hơn, biết lắng nghe ba mẹ nhiều hơn. Đặc biệt, con biết quan sát mọi thứ xung quanh kỹ hơn và trở nên kiên nhẫn hơn.  Thầy cô, môi trường và bạn bè học tập tại trung tâm ra sao?<br>Thầy cô rất kiên nhẫn. Kiến Vấn là một học sinh có phần năng động, đôi lúc chưa kiểm soát tốt cảm xúc.  Điều gì khiến ba mẹ cảm thấy vui và hạnh phúc khi thấy con thay đổi?<br>Kiến Vấn rất thích môn cờ vua. Bằng chứng là con thường tự mở sách bài tập ra đọc và yêu cầu mẹ cùng chơi cờ để rèn luyện thêm.</div></article><article class="tcard"><div class="tcard__head"><img src="images/home-testimonial-parent-09.png" alt="Chị Hiền - Phụ huynh Tina" width="67" height="67" loading="lazy"><div><span class="tcard__name">Chị Hiền - Phụ huynh Tina</span><span class="stars" aria-label="5 sao">★★★★★</span><span class="tcard__title">@ThuHien</span></div></div><div class="tcard__text">Con mình bắt đầu học cờ tại Học viện cờ vua Thông Thái từ năm 4 tuổi. Trước khi cho con theo học, mình đã thử cho bé đến một vài trung tâm khác để kiểm tra xem con đã sẵn sàng chưa, nhưng lúc đó các thầy đều hẹn dịp khác vì bé chưa đủ khả năng tập trung.<br>Khoảng một tháng sau, mình đưa bé đến Trung tâm Cờ vua Truyền Cảm Hứng. Ngay buổi đầu gặp thầy Thịnh và cô Bích, con đã rất hào hứng và quyết định theo học luôn. Trong suốt quá trình học, các thầy cô luôn nhẹ nhàng, tận tâm và thường xuyên động viên con.<br>Dù con chưa bộc lộ năng khiếu nổi bật hay đạt thành tích gì trong cờ vua, nhưng việc con kiên trì theo học suốt 1,5 năm qua khiến mình rất tự hào. Cảm ơn thầy cô tại Trung tâm Cờ vua Truyền Cảm Hứng đã luôn đồng hành cùng Tina.</div></article>
-      </div></div>
-      <button class="carousel__btn carousel__btn--prev" type="button" aria-label="Trước"><svg viewBox="0 0 1000 1000" aria-hidden="true"><path d="M646 125c-17 0-33 8-42 17L308 442c-12 12-16 29-16 45 0 17 4 34 16 46l296 321c13 13 25 21 42 21s33-4 46-17c12-12 21-29 21-46 0-16-5-33-21-45L438 487l254-262c8-8 16-21 16-38 0-16-4-33-16-45-17-13-29-17-46-17z"/></svg></button><button class="carousel__btn carousel__btn--next" type="button" aria-label="Sau"><svg viewBox="0 0 1000 1000" aria-hidden="true"><path d="M354 875c17 0 33-8 42-17l296-300c12-12 16-29 16-45 0-17-4-34-16-46L396 146c-13-13-25-21-42-21s-33 4-46 17c-12 12-21 29-21 46 0 16 5 33 21 45l254 280-254 262c-8 8-16 21-16 38 0 16 4 33 16 45 17 13 29 17 46 17z"/></svg></button>
-      <div class="carousel__dots"></div>
-    </div>
-  </section>
-
-  <div class="band gap-50 band--xs"><h2>MỘT SỐ HÌNH ẢNH Ở CÁC GIẢI ĐẤU</h2></div>
-  <section class="gallery">
-    <div class="carousel" data-autoplay="5000">
-      <div class="carousel__viewport"><div class="carousel__track">
-        <div><img src="assets/home-gallery-08.jpg" alt="Hình ảnh giải đấu của Học viện cờ vua Thông Thái" width="1024" height="683" loading="lazy"></div><div><img src="assets/home-gallery-09.jpg" alt="Hình ảnh giải đấu của Học viện cờ vua Thông Thái" width="1024" height="683" loading="lazy"></div><div><img src="assets/home-class-01.png" alt="Hình ảnh giải đấu của Học viện cờ vua Thông Thái" width="1024" height="683" loading="lazy"></div>
-      </div></div>
-      <button class="carousel__btn carousel__btn--prev" type="button" aria-label="Trước"><svg viewBox="0 0 1000 1000" aria-hidden="true"><path d="M646 125c-17 0-33 8-42 17L308 442c-12 12-16 29-16 45 0 17 4 34 16 46l296 321c13 13 25 21 42 21s33-4 46-17c12-12 21-29 21-46 0-16-5-33-21-45L438 487l254-262c8-8 16-21 16-38 0-16-4-33-16-45-17-13-29-17-46-17z"/></svg></button><button class="carousel__btn carousel__btn--next" type="button" aria-label="Sau"><svg viewBox="0 0 1000 1000" aria-hidden="true"><path d="M354 875c17 0 33-8 42-17l296-300c12-12 16-29 16-45 0-17-4-34-16-46L396 146c-13-13-25-21-42-21s-33 4-46 17c-12 12-21 29-21 46 0 16 5 33 21 45l254 280-254 262c-8 8-16 21-16 38 0 16 4 33 16 45 17 13 29 17 46 17z"/></svg></button>
-      <div class="carousel__dots"></div>
-    </div>
-  </section>
-
-  <section class="quote-gray"><h2>“Mỗi nước đi trong cờ vua là một bài học về sự lựa chọn và trách nhiệm”</h2></section>
-
-  <div class="band gap-50 band--xl"><h2>TIN TỨC</h2></div>
-  <section class="news">
-    <div class="container">
-      <div class="news__grid">
-        <article class="post"><a class="post__thumb" href="bai-viet-tam-ly-thi-dau-co-vua.html"><img src="images/blog-thumbnail-02.jpg" alt="4 Nguyên Tắc Vàng Về Tâm Lý Thi Đấu Cờ Vua Mọi Kỳ Thủ Đều Nên Biết" width="768" height="461" loading="lazy"></a><h3><a href="bai-viet-tam-ly-thi-dau-co-vua.html">4 Nguyên Tắc Vàng Về Tâm Lý Thi Đấu Cờ Vua Mọi Kỳ Thủ Đều Nên Biết</a></h3><a class="post__more" href="bai-viet-tam-ly-thi-dau-co-vua.html">Xem thêm »</a></article><article class="post"><a class="post__thumb" href="bai-viet-khai-mac-giai-co-vua-2026.html"><img src="images/blog-thumbnail-03.jpg" alt="Khai Mạc Giải Cờ Vua Học viện cờ vua Thông Thái Hành Trình Truyền Cảm Hứng Lần II Năm 2026" width="768" height="461" loading="lazy"></a><h3><a href="bai-viet-khai-mac-giai-co-vua-2026.html">Khai Mạc Giải Cờ Vua Học viện cờ vua Thông Thái Hành Trình Truyền Cảm Hứng Lần II Năm 2026</a></h3><a class="post__more" href="bai-viet-khai-mac-giai-co-vua-2026.html">Xem thêm »</a></article><article class="post"><a class="post__thumb" href="#"><img src="images/blog-thumbnail-01.jpg" alt="Dạy Con Tư Duy Của Nhà Vô Địch Vì Sao Cờ Vua Là Món Quà Đầu Đời Tuyệt Vời Nhất?" width="768" height="461" loading="lazy"></a><h3><a href="#">Dạy Con Tư Duy Của Nhà Vô Địch Vì Sao Cờ Vua Là Món Quà Đầu Đời Tuyệt Vời Nhất?</a></h3><a class="post__more" href="#">Xem thêm »</a></article>
-      </div>
-      <div class="news__more"><a class="btn" href="tin-tuc.html"><svg viewBox="0 0 512 512" aria-hidden="true"><path d="M256 504c137 0 248-111 248-248S393 8 256 8 8 119 8 256s111 248 248 248zm0-448c110.5 0 200 89.5 200 200s-89.5 200-200 200S56 366.5 56 256 145.5 56 256 56zm20 328h-40c-6.6 0-12-5.4-12-12V256h-67c-10.7 0-16-12.9-8.5-20.5l99-99c4.7-4.7 12.3-4.7 17 0l99 99c7.6 7.6 2.2 20.5-8.5 20.5h-67v116c0 6.6-5.4 12-12 12z"/></svg>Tải xem thêm</a></div>
-    </div>
-  </section>
-
-  <div class="band gap-50"><h2>HỆ THỐNG CƠ SỞ HỌC VIỆN CỜ VUA THÔNG THÁI</h2></div>
-  <section class="map">
-    <div class="container">
-      <iframe src="https://www.google.com/maps/d/embed?mid=1xcK4DO0c7haK5jhK-O42gxa6uDFxHbE&amp;ehbc=2E312F&amp;noprof=1" title="Bản đồ hệ thống cơ sở Học viện cờ vua Thông Thái" loading="lazy"></iframe>
-    </div>
-  </section>
-
-  <section class="partners">
-    <h2>ĐỐI TÁC CỦA CHÚNG TÔI</h2>
-    <div class="carousel" data-autoplay="3000" data-dots="pages">
-      <div class="carousel__viewport"><div class="carousel__track">
-        <div><img src="images/Doi-Tac-iChess_01-12.jpg" alt="Đối tác Học viện cờ vua Thông Thái" width="768" height="768" loading="lazy"></div><div><img src="images/Doi-Tac-iChess_01-11.jpg" alt="Đối tác Học viện cờ vua Thông Thái" width="768" height="768" loading="lazy"></div><div><img src="images/Doi-Tac-iChess_01-10.jpg" alt="Đối tác Học viện cờ vua Thông Thái" width="768" height="768" loading="lazy"></div><div><img src="images/Doi-Tac-iChess_01-9.jpg" alt="Đối tác Học viện cờ vua Thông Thái" width="768" height="768" loading="lazy"></div><div><img src="images/Doi-Tac-iChess_01-8.jpg" alt="Đối tác Học viện cờ vua Thông Thái" width="768" height="768" loading="lazy"></div><div><img src="images/Doi-Tac-iChess_01-7.jpg" alt="Đối tác Học viện cờ vua Thông Thái" width="768" height="768" loading="lazy"></div><div><img src="images/Doi-Tac-iChess_01-6.jpg" alt="Đối tác Học viện cờ vua Thông Thái" width="768" height="768" loading="lazy"></div><div><img src="images/Doi-Tac-iChess_01-5.jpg" alt="Đối tác Học viện cờ vua Thông Thái" width="768" height="768" loading="lazy"></div><div><img src="images/Doi-Tac-iChess_01-4.jpg" alt="Đối tác Học viện cờ vua Thông Thái" width="768" height="768" loading="lazy"></div><div><img src="images/Doi-Tac-iChess_01-3.jpg" alt="Đối tác Học viện cờ vua Thông Thái" width="768" height="768" loading="lazy"></div><div><img src="images/Doi-Tac-iChess_01-2.jpg" alt="Đối tác Học viện cờ vua Thông Thái" width="768" height="768" loading="lazy"></div><div><img src="images/Doi-Tac-iChess_01-1.jpg" alt="Đối tác Học viện cờ vua Thông Thái" width="768" height="768" loading="lazy"></div><div><img src="images/Doi-Tac-iChess_01-1.jpeg" alt="Đối tác Học viện cờ vua Thông Thái" width="768" height="768" loading="lazy"></div><div><img src="images/Doi-Tac-iChess_01-13.jpg" alt="Đối tác Học viện cờ vua Thông Thái" width="768" height="768" loading="lazy"></div><div><img src="images/Doi-Tac-iChess_01-14.jpg" alt="Đối tác Học viện cờ vua Thông Thái" width="768" height="768" loading="lazy"></div>
-      </div></div>
-      <button class="carousel__btn carousel__btn--prev" type="button" aria-label="Trước"><svg viewBox="0 0 1000 1000" aria-hidden="true"><path d="M646 125c-17 0-33 8-42 17L308 442c-12 12-16 29-16 45 0 17 4 34 16 46l296 321c13 13 25 21 42 21s33-4 46-17c12-12 21-29 21-46 0-16-5-33-21-45L438 487l254-262c8-8 16-21 16-38 0-16-4-33-16-45-17-13-29-17-46-17z"/></svg></button><button class="carousel__btn carousel__btn--next" type="button" aria-label="Sau"><svg viewBox="0 0 1000 1000" aria-hidden="true"><path d="M354 875c17 0 33-8 42-17l296-300c12-12 16-29 16-45 0-17-4-34-16-46L396 146c-13-13-25-21-42-21s-33 4-46 17c-12 12-21 29-21 46 0 16 5 33 21 45l254 280-254 262c-8 8-16 21-16 38 0 16 4 33 16 45 17 13 29 17 46 17z"/></svg></button>
-      <div class="carousel__dots"></div>
-    </div>
-  </section>
-</main>
-
-<footer>
-  <div class="footer-main">
-    <div class="container">
-      <div class="fcol fcol--about">
-        <a class="flogo" href="index.html"><img src="images/logo.jpg" alt="Học viện cờ vua Thông Thái" width="120" height="120" loading="lazy"></a>
-        <p class="fabout"><strong>Học viện cờ vua Thông Thái</strong> là đơn vị dạy cờ vua cho trẻ em từ 4 đến 14 tuổi tại Hà Nội và Bắc Ninh. Với phương châm: <strong>“Vui chơi – Tự tin – Bản lĩnh”</strong> mà Học viện cờ vua Thông Thái theo đuổi để tạo nên môi trường học chất lượng và dịch vụ tốt nhất khi tìm đến với bộ môn cờ vua.</p>
-        <div class="fsocial">
-          <a class="fb" href="https://www.facebook.com/covuatruyencamhung" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.8 90.7 226.4 209.3 245V327.7h-63V256h63v-54.6c0-62.2 37-96.5 93.7-96.5 27.1 0 55.5 4.8 55.5 4.8v61h-31.3c-30.8 0-40.4 19.1-40.4 38.7V256h68.8l-11 71.7h-57.8V501C413.3 482.4 504 379.8 504 256z"/></svg></a>
-          <a class="yt" href="https://youtu.be/h-dsYDquWeo" target="_blank" rel="noopener" aria-label="Youtube"><svg viewBox="0 0 576 512"><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6C14.9 167 14.9 256.4 14.9 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2-142.7 81.2z"/></svg></a>
+      <div class="copyright">
+        <div class="wrap">
+          © Bản quyền thuộc về Học viện cờ vua Thông Thái 2020
         </div>
       </div>
-      <div class="fcol">
-        <h4 class="fhead">Trụ sở chính</h4>
-        <ul class="flist"><li><span class="t"><svg viewBox="0 0 384 512"><path d="M172 501C27 291 0 269 0 192 0 86 86 0 192 0s192 86 192 192c0 77-27 99-172 309-10 14-30 14-40 0zm20-229a80 80 0 100-160 80 80 0 000 160z"/></svg>Địa chỉ: 316 Lê Văn Sỹ, Phường Tân Sơn Hoà, TP.Hồ Chí Minh</span></li><li><span class="t"><svg viewBox="0 0 448 512"><path d="M400 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h352c27 0 48-21 48-48V80c0-27-21-48-48-48zM94 416c-6 0-12-5-12-12 0-176 142-318 318-318 6 0 11 4 12 9l15 64c1 6-2 12-7 14l-70 30c-5 2-11 1-14-4l-31-38c-49 23-88 62-111 111l38 31c4 3 6 9 4 14l-30 70c-2 5-8 8-14 7l-64-15c-5-1-9-6-9-12z"/></svg>Hotline: 0968 998 610</span></li><li><span class="t"><svg viewBox="0 0 576 512"><path d="M160 448c-26 0-48-19-64-32C22 363 0 344 0 336v104c0 13 11 24 24 24h272c13 0 24-11 24-24V336c0 8-22 27-96 80-16 13-38 32-64 32zm160-256H32c-18 0-32 14-32 32v16c26 20 23 20 116 87 10 7 29 25 44 25 15 0 34-18 44-25 93-67 90-67 116-87v-16c0-18-14-32-32-32zm224-96H224c-18 0-32 14-32 32v32h128c33 0 60 26 64 57v128h160c18 0 32-14 32-32V128c0-18-14-32-32-32z"/></svg>covuatruyencamhung@gmail.com</span></li></ul>
-        <h4 class="fhead fhead--next">Thông tin</h4>
-        <ul class="flist"><li><a href="gioi-thieu.html"><svg viewBox="0 0 576 512"><path d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"/></svg>Về chúng tôi</a></li><li><a href="khoa-hoc.html"><svg viewBox="0 0 576 512"><path d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"/></svg>Khóa học</a></li><li><a href="tuyen-dung.html"><svg viewBox="0 0 640 512"><path d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"/></svg>Tuyển dụng</a></li><li><a href="lien-he.html"><svg viewBox="0 0 640 512"><path d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"/></svg>Liên hệ</a></li></ul>
-      </div>
-      <div class="fcol">
-        <h4 class="fhead">Học viện cờ vua Thông Thái</h4>
-        <ul class="flist"><li><a href="khoa-hoc-online.html"><svg viewBox="0 0 576 512"><path d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"/></svg>Khóa học</a></li><li><a href="tin-tuc.html"><svg viewBox="0 0 576 512"><path d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"/></svg>Tin tức</a></li><li><a href="hinh-anh.html"><svg viewBox="0 0 512 512"><path d="M464 448H48c-27 0-48-21-48-48V112c0-27 21-48 48-48h416c27 0 48 21 48 48v288c0 27-21 48-48 48zM112 120a56 56 0 100 112 56 56 0 000-112zM64 384h384V272l-88-88c-5-5-12-5-17 0L208 320l-56-56c-5-5-12-5-17 0l-71 72v48z"/></svg>Hình ảnh</a></li><li><a href="#"><svg viewBox="0 0 640 512"><path d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"/></svg>Thông tin nội bộ</a></li><li><a href="#"><svg viewBox="0 0 448 512"><path d="M224 256a128 128 0 100-256 128 128 0 000 256zm90 32h-17a174 174 0 01-146 0h-17C60 288 0 348 0 422v42c0 27 21 48 48 48h352c27 0 48-21 48-48v-42c0-74-60-134-134-134z"/></svg>Tài khoản GV</a></li></ul>
-        <h4 class="fhead fhead--next">Hỗ trợ khách hàng</h4>
-        <ul class="flist"><li><a href="chinh-sach-khach-hang.html"><svg viewBox="0 0 576 512"><path d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"/></svg>Chính sách khách hàng</a></li><li><a href="faqs-phu-huynh.html"><svg viewBox="0 0 576 512"><path d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"/></svg>FAQs Phụ Huynh</a></li><li><a href="dieu-khoan.html"><svg viewBox="0 0 512 512"><path d="M464 448H48c-27 0-48-21-48-48V112c0-27 21-48 48-48h416c27 0 48 21 48 48v288c0 27-21 48-48 48zM112 120a56 56 0 100 112 56 56 0 000-112zM64 384h384V272l-88-88c-5-5-12-5-17 0L208 320l-56-56c-5-5-12-5-17 0l-71 72v48z"/></svg>Điều khoản</a></li></ul>
-      </div>
-      <div class="fcol"></div>
+    </footer>
+
+    <div class="contact-float">
+      <a
+        class="cf-btn cf-btn--call"
+        href="tel:0968998610"
+        aria-label="Gọi điện thoại 0968 998 610"
+        ><span class="circle"
+          ><svg viewBox="0 0 512 512" aria-hidden="true">
+            <path
+              d="M493.4 24.6l-104-24a24 24 0 00-27.5 13.9l-48 112a24 24 0 006.9 27.6l60.6 49.6a288 288 0 01-137 137l-49.6-60.6a24 24 0 00-27.6-6.9l-112 48A24 24 0 000 349.4l24 104A24 24 0 0048 472C303.2 472 472 302.1 472 48a24 24 0 00-24-23.4z"
+            /></svg></span
+      ></a>
+      <a
+        class="cf-btn"
+        href="https://www.facebook.com/covuatruyencamhung"
+        target="_blank"
+        rel="noopener"
+        aria-label="Fanpage Facebook"
+        ><span class="circle"
+          ><img src="images/Facebook.png" alt="" width="40" height="40" /></span
+      ></a>
+      <a
+        class="cf-btn cf-btn--zalo"
+        href="https://zalo.me/3519488029034299650"
+        target="_blank"
+        rel="noopener"
+        aria-label="Chat Zalo"
+        ><span class="circle"
+          ><img src="images/zalo.png" alt="" width="28" height="27" /></span
+      ></a>
     </div>
-  </div>
-  <div class="footer-strip"></div>
-  <div class="copyright"><div class="wrap">© Bản quyền thuộc về Học viện cờ vua Thông Thái 2020</div></div>
-</footer>
+    <button class="back-top" type="button" aria-label="Lên đầu trang">
+      <svg class="ring" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="48" />
+      </svg>
+      <svg class="arr" viewBox="0 0 448 512" aria-hidden="true">
+        <path
+          d="M241 130.5l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9l-22.7 22.7c-9.4 9.4-24.5 9.4-33.9 0L224 227.5 69.3 381.4c-9.4 9.3-24.5 9.3-33.9 0l-22.7-22.7c-9.4-9.4-9.4-24.6 0-33.9L207 130.5c9.4-9.4 24.6-9.4 34 0z"
+        />
+      </svg>
+    </button>
 
-<div class="contact-float">
-  <a class="cf-btn" href="https://www.facebook.com/covuatruyencamhung" target="_blank" rel="noopener" aria-label="Fanpage Facebook"><span class="circle"><img src="images/Facebook.png" alt="" width="40" height="40"></span></a>
-  <a class="cf-btn cf-btn--zalo" href="https://zalo.me/3519488029034299650" target="_blank" rel="noopener" aria-label="Chat Zalo"><span class="circle"><img src="images/zalo.png" alt="" width="28" height="27"></span></a>
-</div>
-<button class="back-top" type="button" aria-label="Lên đầu trang">
-  <svg class="ring" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="48"/></svg>
-  <svg class="arr" viewBox="0 0 448 512" aria-hidden="true"><path d="M241 130.5l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9l-22.7 22.7c-9.4 9.4-24.5 9.4-33.9 0L224 227.5 69.3 381.4c-9.4 9.3-24.5 9.3-33.9 0l-22.7-22.7c-9.4-9.4-9.4-24.6 0-33.9L207 130.5c9.4-9.4 24.6-9.4 34 0z"/></svg>
-</button>
-
-<script src="js/main.js" defer></script>
-<script src="js/cart.js" defer></script>
-<script src="js/slide.js" defer></script>
-</body>
+    <script src="js/main.js" defer></script>
+    <script src="js/cart.js" defer></script>
+    <script src="js/slide.js" defer></script>
+    <script src="js/form.js" defer></script>
+    <script src="js/gallery-modern.js" defer></script>
+  </body>
 </html>

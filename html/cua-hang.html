@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cửa hàng | Học viện cờ vua Thông Thái</title>
+<title>Cửa hàng giáo cụ &amp; Thiết bị cờ vua | Học viện cờ vua Thông Thái</title>
 <link rel="preload" href="fonts/montserrat-vietnamese.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/montserrat-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/main.css">
@@ -13,6 +13,7 @@
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="stylesheet" href="css/page.css">
 <link rel="stylesheet" href="css/shop.css">
+<link rel="stylesheet" href="css/cua-hang.css">
 </head>
 <body>
 
@@ -82,14 +83,32 @@
 
 <div class="header-spacer"></div>
 
-<nav class="crumbs" aria-label="Đường dẫn"><div class="wrap"><ul><li><a href="index.html">Trang chủ</a></li><li aria-current="page">Cửa hàng</li></ul></div></nav>
+<nav class="crumbs" aria-label="Đường dẫn">
+  <div class="wrap">
+    <ul>
+      <li><a href="index.html">Trang chủ</a></li>
+      <li aria-current="page">Cửa hàng giáo cụ</li>
+    </ul>
+  </div>
+</nav>
 
 <main>
-  <div class="page-head"><div class="wrap"><h1 class="page-title">Cửa hàng</h1></div></div>
+  <div class="wrap">
+
+    <!-- Hero Banner Cửa hàng -->
+    <div class="shop-hero-banner">
+      <span class="shop-hero-tag">Thiết Bị &amp; Giáo Cụ Chuẩn FIDE</span>
+      <h1>Cửa hàng Học viện Cờ vua Thông Thái</h1>
+      <p>Cung cấp bàn cờ, đồng hồ thi đấu, tài liệu giáo trình chuẩn mực phục vụ đào tạo học viên và hỗ trợ cơ sở vật chất cho các câu lạc bộ trường học liên kết.</p>
+    </div>
+
+  </div>
+
   <div class="wrap layout">
+    <!-- CỘT CHÍNH: DANH SÁCH SẢN PHẨM -->
     <div class="layout__main">
       <div class="shop-bar">
-        <p class="shop-count">Hiển thị tất cả 5 kết quả</p>
+        <p class="shop-count">Hiển thị tất cả 5 sản phẩm tiêu chuẩn</p>
         <label class="sr-only" for="sort">Sắp xếp</label>
         <select class="shop-sort" id="sort" data-shop-sort>
           <option value="default">Sắp xếp mặc định</option>
@@ -98,105 +117,171 @@
           <option value="price-desc">Sắp xếp theo giá: cao đến thấp</option>
         </select>
       </div>
+
       <ul class="product-grid" data-product-grid>
+
+        <!-- SẢN PHẨM 1 -->
         <li class="pcard">
           <div class="pcard__thumb">
-            <a href="ban-co-vua.html"><img src="images/ban-co-vua-300x300.jpg" alt="bàn cờ vua" width="300" height="300" loading="lazy"></a>
+            <a href="ban-co-vua.html"><img src="images/ban-co-vua-300x300.jpg" alt="Bàn cờ vua thi đấu tiêu chuẩn" width="300" height="300" loading="lazy"></a>
           </div>
           <div class="pcard__body">
-            <a class="pcard__title" href="ban-co-vua.html">bàn cờ vua</a>
-            <div class="pcard__price"><span class="price">500.000&nbsp;VNĐ</span></div>
-            <p class="pcard__desc">Bàn cờ vua là một sản phẩm cần thiết cho những người yêu thích và đam mê cờ vua. Bàn cờ được thiết kế với kích thước tiêu chuẩn…</p>
-            <button class="add-cart" type="button" data-add-to-cart data-id="138" data-name="bàn cờ vua" data-price="500000" data-img="images/ban-co-vua-300x300.jpg" data-url="ban-co-vua.html"><svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>Thêm vào giỏ hàng</button>
+            <a class="pcard__title" href="ban-co-vua.html">Bàn Cờ Vua Tiêu Chuẩn Thi Đấu</a>
+            <div class="pcard__price"><span class="price">500.000 VNĐ</span></div>
+            <p class="pcard__desc">Bàn cờ vua dẻo cuộn tiêu chuẩn thi đấu quốc tế, chống nhăn, chống nước, kích thước ô cờ chuẩn FIDE phù hợp cho học viên luyện tập hàng ngày.</p>
+            <button class="add-cart" type="button" data-add-to-cart data-id="138" data-name="Bàn cờ vua tiêu chuẩn" data-price="500000" data-img="images/ban-co-vua-300x300.jpg" data-url="ban-co-vua.html">
+              <svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>
+              Thêm vào giỏ hàng
+            </button>
           </div>
         </li>
+
+        <!-- SẢN PHẨM 2 -->
         <li class="pcard">
           <div class="pcard__thumb">
+            <span class="pcard__sale pcard__sale--premium">Cao Cấp</span>
             <a href="bo-co-vua-go-cao-cap.html"><img src="images/bo-co-vua-go-cao-cap-300x300.jpg" alt="Bộ cờ vua gỗ cao cấp" width="300" height="300" loading="lazy"></a>
           </div>
           <div class="pcard__body">
-            <a class="pcard__title" href="bo-co-vua-go-cao-cap.html">Bộ cờ vua gỗ cao cấp</a>
-            <div class="pcard__price"><span class="price">1.200.000&nbsp;VNĐ</span></div>
-            <p class="pcard__desc">Đồng hồ thi đấu cờ GY2019 là một sản phẩm chất lượng, đáp ứng được nhu cầu sử dụng của các kỳ thủ cờ vua chuyên nghiệp. Đồng hồ…</p>
-            <button class="add-cart" type="button" data-add-to-cart data-id="18757" data-name="Bộ cờ vua gỗ cao cấp" data-price="1200000" data-img="images/bo-co-vua-go-cao-cap-300x300.jpg" data-url="bo-co-vua-go-cao-cap.html"><svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>Thêm vào giỏ hàng</button>
+            <a class="pcard__title" href="bo-co-vua-go-cao-cap.html">Bộ Cờ Vua Gỗ Tự Nhiên Cao Cấp</a>
+            <div class="pcard__price"><span class="price">1.200.000 VNĐ</span></div>
+            <p class="pcard__desc">Quân cờ được tiện thủ công tinh xảo, đầm tay, lót nỉ nhung đáy, bàn cờ gỗ gập tiện lợi có khóa đồng sang trọng, thích hợp làm quà tặng ý nghĩa.</p>
+            <button class="add-cart" type="button" data-add-to-cart data-id="18757" data-name="Bộ cờ vua gỗ cao cấp" data-price="1200000" data-img="images/bo-co-vua-go-cao-cap-300x300.jpg" data-url="bo-co-vua-go-cao-cap.html">
+              <svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>
+              Thêm vào giỏ hàng
+            </button>
           </div>
         </li>
+
+        <!-- SẢN PHẨM 3 -->
         <li class="pcard">
           <div class="pcard__thumb">
             <a href="bo-co-vua-nam-cham.html"><img src="images/Bo-co-vua-nam-cham-vang-bac-300x300.jpeg" alt="Bộ cờ vua nam châm vàng bạc" width="300" height="300" loading="lazy"></a>
           </div>
           <div class="pcard__body">
-            <a class="pcard__title" href="bo-co-vua-nam-cham.html">Bộ cờ vua nam châm vàng bạc</a>
-            <div class="pcard__price"><span class="price">500.000&nbsp;VNĐ</span></div>
-            <p class="pcard__desc">Thiết kế sang trọng, tinh tế Chất liệu cao cấp, bền đẹp Quân cờ được gắn nam châm, không bị đổ Thích hợp cho mọi đối tượng</p>
-            <button class="add-cart" type="button" data-add-to-cart data-id="145" data-name="Bộ cờ vua nam châm vàng bạc" data-price="500000" data-img="images/Bo-co-vua-nam-cham-vang-bac-300x300.jpeg" data-url="bo-co-vua-nam-cham.html"><svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>Thêm vào giỏ hàng</button>
+            <a class="pcard__title" href="bo-co-vua-nam-cham.html">Bộ Cờ Vua Nam Châm Vàng Bạc</a>
+            <div class="pcard__price"><span class="price">500.000 VNĐ</span></div>
+            <p class="pcard__desc">Thiết kế mạ vàng bạc sang trọng, quân cờ gắn đế hút từ tính nam châm vững vàng, chống đổ lật khi di chuyển, lý tưởng cho học sinh mang theo đến trường.</p>
+            <button class="add-cart" type="button" data-add-to-cart data-id="145" data-name="Bộ cờ vua nam châm vàng bạc" data-price="500000" data-img="images/Bo-co-vua-nam-cham-vang-bac-300x300.jpeg" data-url="bo-co-vua-nam-cham.html">
+              <svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>
+              Thêm vào giỏ hàng
+            </button>
           </div>
         </li>
-        <li class="pcard">
-          <div class="pcard__thumb"><span class="pcard__sale">Giảm giá!</span>
-            <a href="dong-ho-thi-dau-co.html"><img src="images/a7b8af7f90819d7d6e50f8c5e65efc89.jpg_525x525q80-300x300.jpg" alt="Đồng hồ thi đấu cờ" width="300" height="300" loading="lazy"></a>
-          </div>
-          <div class="pcard__body">
-            <a class="pcard__title" href="dong-ho-thi-dau-co.html">Đồng hồ thi đấu cờ</a>
-            <div class="pcard__price"><span class="price"><del>650.000&nbsp;VNĐ</del> <ins>550.000&nbsp;VNĐ</ins></span></div>
-            <p class="pcard__desc">Đồng hồ thi đấu cờ GY2019 là một sản phẩm chất lượng, đáp ứng được nhu cầu sử dụng của các kỳ thủ cờ vua chuyên nghiệp. Đồng hồ…</p>
-            <button class="add-cart" type="button" data-add-to-cart data-id="139" data-name="Đồng hồ thi đấu cờ" data-price="550000" data-img="images/a7b8af7f90819d7d6e50f8c5e65efc89.jpg_525x525q80-300x300.jpg" data-url="dong-ho-thi-dau-co.html"><svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>Thêm vào giỏ hàng</button>
-          </div>
-        </li>
+
+        <!-- SẢN PHẨM 4 -->
         <li class="pcard">
           <div class="pcard__thumb">
-            <a href="dong-ho-thi-dau-co-leap.html"><img src="images/dong-ho-leap-300x300.jpg" alt="Đồng hồ thi đấu cờ Leap" width="300" height="300" loading="lazy"></a>
+            <span class="pcard__sale">Ưu đãi -15%</span>
+            <a href="dong-ho-thi-dau-co.html"><img src="images/a7b8af7f90819d7d6e50f8c5e65efc89.jpg_525x525q80-300x300.jpg" alt="Đồng hồ thi đấu cờ điện tử GY2019" width="300" height="300" loading="lazy"></a>
           </div>
           <div class="pcard__body">
-            <a class="pcard__title" href="dong-ho-thi-dau-co-leap.html">Đồng hồ thi đấu cờ Leap</a>
-            <div class="pcard__price"><span class="price">750.000&nbsp;VNĐ</span></div>
-            <p class="pcard__desc">Đồng hồ thi đấu cờ GY2019 là một sản phẩm chất lượng, đáp ứng được nhu cầu sử dụng của các kỳ thủ cờ vua chuyên nghiệp. Đồng hồ…</p>
-            <button class="add-cart" type="button" data-add-to-cart data-id="18751" data-name="Đồng hồ thi đấu cờ Leap" data-price="750000" data-img="images/dong-ho-leap-300x300.jpg" data-url="dong-ho-thi-dau-co-leap.html"><svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>Thêm vào giỏ hàng</button>
+            <a class="pcard__title" href="dong-ho-thi-dau-co.html">Đồng Hồ Thi Đấu Điện Tử GY2019</a>
+            <div class="pcard__price">
+              <span class="price"><del>650.000 VNĐ</del> <ins>550.000 VNĐ</ins></span>
+            </div>
+            <p class="pcard__desc">Đồng hồ bấm giờ thi đấu chuyên nghiệp tích hợp chế độ cộng giây (Fisher/Bonus delay), màn hình LCD rõ nét, phím bấm nảy êm chuẩn giải đấu.</p>
+            <button class="add-cart" type="button" data-add-to-cart data-id="139" data-name="Đồng hồ thi đấu cờ GY2019" data-price="550000" data-img="images/a7b8af7f90819d7d6e50f8c5e65efc89.jpg_525x525q80-300x300.jpg" data-url="dong-ho-thi-dau-co.html">
+              <svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>
+              Thêm vào giỏ hàng
+            </button>
           </div>
         </li>
+
+        <!-- SẢN PHẨM 5 -->
+        <li class="pcard">
+          <div class="pcard__thumb">
+            <span class="pcard__sale pcard__sale--fide">FIDE Approved</span>
+            <a href="dong-ho-thi-dau-co-leap.html"><img src="images/dong-ho-leap-300x300.jpg" alt="Đồng hồ thi đấu cờ Leap PQ9907S" width="300" height="300" loading="lazy"></a>
+          </div>
+          <div class="pcard__body">
+            <a class="pcard__title" href="dong-ho-thi-dau-co-leap.html">Đồng Hồ Thi Đấu Cờ Leap Chính Hãng</a>
+            <div class="pcard__price"><span class="price">750.000 VNĐ</span></div>
+            <p class="pcard__desc">Thương hiệu đồng hồ thi đấu được Liên đoàn Cờ vua Thế giới (FIDE) tin dùng trong các giải vô địch quốc gia và quốc tế, độ bền cao, cài đặt nhanh.</p>
+            <button class="add-cart" type="button" data-add-to-cart data-id="18751" data-name="Đồng hồ thi đấu cờ Leap" data-price="750000" data-img="images/dong-ho-leap-300x300.jpg" data-url="dong-ho-thi-dau-co-leap.html">
+              <svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>
+              Thêm vào giỏ hàng
+            </button>
+          </div>
+        </li>
+
       </ul>
     </div>
+
+    <!-- CỘT BÊN (SIDEBAR WIDGETS) -->
     <div class="layout__side">
-      <aside class="widget widget--filter">
-        <h4 class="widget-title">Lọc theo giá</h4>
-        <div class="price-slider"><span class="price-slider__bar"></span><span class="price-slider__knob"></span><span class="price-slider__knob price-slider__knob--to"></span></div>
-        <div class="price-filter__row">
-          <button class="btn-filter" type="button">Lọc</button>
-          <span class="price-filter__label">Giá: <span>500.000&nbsp;VNĐ</span> — <span>1.200.000&nbsp;VNĐ</span></span>
-        </div>
-      </aside>
+
+      <!-- Widget Tìm kiếm -->
       <aside class="widget">
+        <h4 class="widget-title">Tìm kiếm giáo cụ</h4>
         <form class="product-search" role="search" onsubmit="return false">
           <label class="sr-only" for="ps">Tìm kiếm sản phẩm</label>
-          <input id="ps" type="search" placeholder="Tìm sản phẩm..." autocomplete="off">
-          <button type="submit" aria-label="Tìm kiếm"><svg viewBox="0 0 512 512" aria-hidden="true"><path d="M505 442L405 342a24 24 0 00-17-7h-16a208 208 0 10-36 36v16c0 6 2 12 7 17l100 100c9 9 24 9 33 0l29-29c9-9 9-24 0-33zM208 336a128 128 0 110-256 128 128 0 010 256z"/></svg></button>
+          <input id="ps" type="search" placeholder="Nhập tên bàn cờ, đồng hồ..." autocomplete="off">
+          <button type="submit" aria-label="Tìm kiếm">
+            <svg viewBox="0 0 512 512" aria-hidden="true"><path d="M505 442L405 342a24 24 0 00-17-7h-16a208 208 0 10-36 36v16c0 6 2 12 7 17l100 100c9 9 24 9 33 0l29-29c9-9 9-24 0-33zM208 336a128 128 0 110-256 128 128 0 010 256z"/></svg>
+          </button>
         </form>
       </aside>
+
+      <!-- Widget Lọc theo giá -->
+      <aside class="widget widget--filter">
+        <h4 class="widget-title">Lọc theo mức giá</h4>
+        <div class="price-slider">
+          <span class="price-slider__bar"></span>
+          <span class="price-slider__knob"></span>
+          <span class="price-slider__knob price-slider__knob--to"></span>
+        </div>
+        <div class="price-filter__row">
+          <button class="btn-filter" type="button">Lọc giá</button>
+          <span class="price-filter__label">500.000 VNĐ — 1.200.000 VNĐ</span>
+        </div>
+      </aside>
+
+      <!-- Widget Danh mục -->
       <aside class="widget">
-        <h4 class="widget-title">Danh mục sản phẩm</h4>
+        <h4 class="widget-title">Danh mục thiết bị</h4>
         <ul class="cat-list">
-          <li><a href="cua-hang.html">All</a><span class="count">(5)</span></li>
-          <li><a href="cua-hang.html">Cờ vua</a><span class="count">(2)</span></li>
-          <li><a href="cua-hang.html">Thiết bị</a><span class="count">(3)</span></li>
+          <li><a href="cua-hang.html">Tất cả sản phẩm</a><span class="count">(5)</span></li>
+          <li><a href="cua-hang.html">Bàn &amp; Bộ cờ vua</a><span class="count">(3)</span></li>
+          <li><a href="cua-hang.html">Đồng hồ thi đấu điện tử</a><span class="count">(2)</span></li>
         </ul>
       </aside>
+
+      <!-- Widget Sản phẩm nổi bật -->
       <aside class="widget">
-        <h4 class="widget-title">Sản phẩm</h4>
+        <h4 class="widget-title">Sản phẩm khuyên dùng</h4>
         <ul class="pmini-list">
           <li>
-            <a class="pmini__thumb" href="ban-co-vua.html"><img src="images/ban-co-vua-300x300.jpg" alt="bàn cờ vua" width="80" height="80" loading="lazy"></a>
-            <div class="pmini__body"><a class="pmini__title" href="ban-co-vua.html">bàn cờ vua</a><span class="price">500.000&nbsp;VNĐ</span></div>
+            <a class="pmini__thumb" href="dong-ho-thi-dau-co-leap.html"><img src="images/dong-ho-leap-300x300.jpg" alt="Đồng hồ thi đấu cờ Leap" width="80" height="80" loading="lazy"></a>
+            <div class="pmini__body">
+              <a class="pmini__title" href="dong-ho-thi-dau-co-leap.html">Đồng hồ Leap PQ9907S</a>
+              <span class="price">750.000 VNĐ</span>
+            </div>
           </li>
           <li>
             <a class="pmini__thumb" href="bo-co-vua-go-cao-cap.html"><img src="images/bo-co-vua-go-cao-cap-300x300.jpg" alt="Bộ cờ vua gỗ cao cấp" width="80" height="80" loading="lazy"></a>
-            <div class="pmini__body"><a class="pmini__title" href="bo-co-vua-go-cao-cap.html">Bộ cờ vua gỗ cao cấp</a><span class="price">1.200.000&nbsp;VNĐ</span></div>
+            <div class="pmini__body">
+              <a class="pmini__title" href="bo-co-vua-go-cao-cap.html">Bộ cờ vua gỗ cao cấp</a>
+              <span class="price">1.200.000 VNĐ</span>
+            </div>
           </li>
           <li>
-            <a class="pmini__thumb" href="bo-co-vua-nam-cham.html"><img src="images/Bo-co-vua-nam-cham-vang-bac-300x300.jpeg" alt="Bộ cờ vua nam châm vàng bạc" width="80" height="80" loading="lazy"></a>
-            <div class="pmini__body"><a class="pmini__title" href="bo-co-vua-nam-cham.html">Bộ cờ vua nam châm vàng bạc</a><span class="price">500.000&nbsp;VNĐ</span></div>
+            <a class="pmini__thumb" href="ban-co-vua.html"><img src="images/ban-co-vua-300x300.jpg" alt="Bàn cờ vua" width="80" height="80" loading="lazy"></a>
+            <div class="pmini__body">
+              <a class="pmini__title" href="ban-co-vua.html">Bàn cờ cuộn thi đấu</a>
+              <span class="price">500.000 VNĐ</span>
+            </div>
           </li>
         </ul>
       </aside>
+
+      <!-- Widget Hỗ trợ cơ sở vật chất -->
+      <div class="school-support-card">
+        <h5>Hỗ Trợ Cơ Sở Vật Chất Trường Học</h5>
+        <p>Cung cấp bàn cờ, đồng hồ, tài liệu giáo trình chuẩn mực theo nhu cầu cho các trường mở CLB ngoại khóa.</p>
+        <a href="tel:0968998610">Liên Hệ: 0968 998 610</a>
+      </div>
+
     </div>
   </div>
 </main>

@@ -1,0 +1,375 @@
+/* CÁC STYLE TÙY BIẾN CHO GIAO DIỆN GIỚI THIỆU THEO PROFILE THƯƠNG HIỆU */
+:root {
+  --brand-red: #8B181B;
+  --brand-deep-red: #660C0E;
+  --brand-gold: #D4AF37;
+  --brand-light-gold: #FFF9ED;
+  --brand-cream: #FAF6F0;
+  --brand-dark: #222222;
+  --brand-muted: #555555;
+  --brand-border: #E8DCCF;
+}
+
+/* Typography & Titles */
+.tt-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+.tt-heading .tt-sub {
+  color: var(--brand-gold);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  display: block;
+  margin-bottom: 6px;
+}
+.tt-heading h2 {
+  color: var(--brand-red) !important;
+  font-size: 32px !important;
+  font-weight: 800;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 12px;
+}
+.tt-heading h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: var(--brand-gold);
+  border-radius: 2px;
+}
+
+/* Hero & Thư ngỏ */
+.hero-intro-banner {
+  background: linear-gradient(135deg, var(--brand-deep-red) 0%, var(--brand-red) 100%);
+  color: #fff;
+  border-radius: 16px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(139, 24, 27, 0.15);
+  margin-bottom: 35px;
+}
+.hero-intro-banner h1 {
+  color: var(--brand-gold);
+  font-size: 28px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.hero-intro-banner p.slogan {
+  font-size: 18px;
+  font-style: italic;
+  color: #FFF2D1;
+}
+
+.letter-box {
+  background: #fff;
+  border-left: 6px solid var(--brand-red);
+  border-radius: 12px;
+  padding: 35px 40px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  border-top: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 30px;
+}
+.letter-box h3 {
+  color: var(--brand-red);
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.letter-box p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--brand-muted);
+  margin-bottom: 14px;
+  text-align: justify;
+}
+
+/* Sứ mệnh & Tầm nhìn Cards */
+.vision-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+.v-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 25px;
+  border: 1px solid var(--brand-border);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+  text-align: center;
+}
+.v-card .v-icon {
+  font-size: 32px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.v-card h3 {
+  color: var(--brand-red);
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.v-card p {
+  color: var(--brand-muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* 4 Giá trị cốt lõi */
+.core-value-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+.core-pill {
+  background: var(--brand-light-gold);
+  border: 1px dashed var(--brand-gold);
+  border-radius: 10px;
+  padding: 20px 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.core-pill:hover {
+  background: var(--brand-red);
+  border-color: var(--brand-red);
+  transform: translateY(-4px);
+}
+.core-pill:hover h4,
+.core-pill:hover p {
+  color: #ffffff !important;
+}
+.core-pill h4 {
+  color: var(--brand-red);
+  font-size: 17px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.core-pill p {
+  color: var(--brand-muted);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+/* Thông tin học viện (Trụ sở) */
+.info-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  background: #fff;
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  border: 1px solid var(--brand-border);
+  margin-top: 25px;
+  text-align: center;
+}
+.info-strip-item strong {
+  color: var(--brand-red);
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.info-strip-item span {
+  font-size: 13.5px;
+  color: var(--brand-muted);
+}
+
+/* 5 Phương pháp giảng dạy hiện đại */
+.method-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.method-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px 15px;
+  border-top: 4px solid var(--brand-red);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: center;
+}
+.method-card h4 {
+  font-size: 14px;
+  color: var(--brand-red);
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.method-card p {
+  font-size: 12.5px;
+  color: var(--brand-muted);
+  line-height: 1.4;
+}
+
+/* Bảng vàng thành tích */
+.achievement-banner {
+  background: linear-gradient(135deg, var(--brand-deep-red) 0%, var(--brand-red) 100%);
+  border-radius: 14px;
+  padding: 35px 25px;
+  color: #fff;
+  margin-top: 30px;
+}
+.achieve-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+.achieve-grid .num {
+  font-size: 38px;
+  font-weight: 800;
+  color: var(--brand-gold);
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.achieve-grid .label {
+  font-size: 13.5px;
+  font-weight: 600;
+}
+
+/* Con người Học viện (Sứ mệnh/Tầm nhìn ↔ Giá trị cốt lõi) */
+.culture-split {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+.culture-split__text p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--brand-muted);
+  text-align: justify;
+  margin-bottom: 16px;
+}
+.culture-split__text p:last-child {
+  margin-bottom: 0;
+}
+.culture-split__media {
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 1px solid var(--brand-border);
+}
+.culture-split__media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 900px) {
+  .culture-split {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .culture-split__media {
+    order: -1;
+  }
+}
+
+/* Carousel HLV mới */
+.tmember-card {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid var(--brand-border);
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+  margin: 10px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.tmember-card .t-head {
+  background: linear-gradient(135deg, var(--brand-deep-red), var(--brand-red));
+  padding: 20px 10px;
+  color: #fff;
+}
+.tmember-card .avatar-box {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  background: #fff;
+  border: 3px solid var(--brand-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: var(--brand-red);
+  overflow: hidden;
+}
+.tmember-card .avatar-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.tmember-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--brand-gold);
+  margin-bottom: 4px;
+}
+.tmember-card .t-badge {
+  font-size: 12px;
+  background: rgba(255,255,255,0.2);
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+.tmember-card ul {
+  padding: 15px;
+  text-align: left;
+  font-size: 13px;
+  color: var(--brand-muted);
+}
+.tmember-card ul li {
+  margin-bottom: 6px;
+  position: relative;
+  padding-left: 15px;
+}
+.tmember-card ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--brand-red);
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .vision-cards,
+  .core-value-grid,
+  .method-grid,
+  .achieve-grid,
+  .info-strip {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .core-value-grid,
+  .method-grid,
+  .achieve-grid,
+  .info-strip {
+    grid-template-columns: 1fr;
+  }
+  .letter-box {
+    padding: 25px 20px;
+  }
+  .tt-heading h2 {
+    font-size: 24px !important;
+  }
+}

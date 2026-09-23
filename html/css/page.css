@@ -179,7 +179,7 @@
 
 .carousel--gal{--pv:3;--gap:20px;padding-bottom:6px}
 .carousel--gal img{width:100%;height:auto;object-fit:cover}
-.carousel--team{--pv:5;--gap:15px}
+.carousel--team{--pv:4;--gap:15px}
 @media (max-width:1024px){.carousel--gal{--pv:2}.carousel--team{--pv:3}}
 @media (max-width:767px){.carousel--gal{--pv:1}.carousel--team{--pv:2}}
 
