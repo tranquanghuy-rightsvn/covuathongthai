@@ -11,7 +11,6 @@
 }
 
 body {
-  font-family: inherit;
   background-color: var(--brand-bg);
 }
 
@@ -207,6 +206,11 @@ body {
   align-items: center;
   gap: 4px;
 }
+.course-meta svg {
+  width: 14px;
+  height: 14px;
+  flex: none;
+}
 
 .course-features {
   margin-bottom: 20px;
@@ -298,9 +302,17 @@ body {
 .feature-box:hover p {
   color: #ffffff;
 }
+.feature-box:hover .f-icon {
+  color: #ffffff;
+}
 .feature-box .f-icon {
-  font-size: 28px;
   margin-bottom: 8px;
+  color: var(--brand-red);
+  transition: color 0.3s ease;
+}
+.feature-box .f-icon svg {
+  width: 28px;
+  height: 28px;
 }
 .feature-box h4 {
   color: var(--brand-red);

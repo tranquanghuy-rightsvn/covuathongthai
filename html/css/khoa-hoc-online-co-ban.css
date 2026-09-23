@@ -1,0 +1,550 @@
+/* BẢNG MÀU HOÀNG GIA & GIAO DIỆN KHÓA HỌC CHI TIẾT MỚI */
+:root {
+  --brand-red: #8B181B;
+  --brand-deep: #660C0E;
+  --brand-gold: #D4AF37;
+  --brand-light-gold: #FFF9ED;
+  --brand-bg: #FAF7F2;
+  --brand-dark: #222222;
+  --brand-muted: #555555;
+  --brand-border: #E8DCCF;
+}
+
+body {
+  background-color: var(--brand-bg);
+}
+
+/* Breadcrumbs */
+.crumbs {
+  background: #ffffff;
+  border-bottom: 1px solid var(--brand-border);
+  padding: 12px 0;
+}
+.crumbs ul {
+  display: flex;
+  gap: 8px;
+  font-size: 13.5px;
+  flex-wrap: wrap;
+}
+.crumbs li a {
+  color: var(--brand-muted);
+}
+.crumbs li a:hover {
+  color: var(--brand-red);
+}
+.crumbs li[aria-current="page"] {
+  color: var(--brand-red);
+  font-weight: 700;
+}
+.crumbs li:not(:last-child)::after {
+  content: "/";
+  margin-left: 8px;
+  color: #ccc;
+}
+
+/* Hero Head của Khóa học */
+.lp-head {
+  background: linear-gradient(135deg, var(--brand-deep) 0%, var(--brand-red) 100%);
+  color: #ffffff;
+  padding: 45px 0 40px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(139, 24, 27, 0.14);
+}
+.lp-head::after {
+  content: "♞";
+  position: absolute;
+  right: 30px;
+  bottom: -35px;
+  font-size: 160px;
+  color: rgba(212, 175, 55, 0.08);
+  pointer-events: none;
+}
+.lp-head-tag {
+  display: inline-block;
+  background: rgba(212, 175, 55, 0.2);
+  border: 1px solid var(--brand-gold);
+  color: var(--brand-gold);
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 10px;
+}
+.lp-head h1 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.3;
+  margin-bottom: 12px;
+}
+.lp-head__excerpt {
+  font-size: 15.5px;
+  color: #FFF0CF;
+  max-width: 820px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.lp-head__meta {
+  display: flex;
+  gap: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 16px;
+  font-size: 13.5px;
+}
+.lp-head__label {
+  display: block;
+  color: var(--brand-gold);
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
+}
+.lp-head__meta strong {
+  color: #ffffff;
+  font-size: 14.5px;
+}
+
+/* Body 2 Cột */
+.lp-body {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 35px;
+  padding: 40px 0 60px;
+}
+
+/* Các Panel nội dung */
+.lp-panel {
+  background: #ffffff;
+  border: 1px solid var(--brand-border);
+  border-radius: 16px;
+  padding: 32px 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+}
+.lp-panel__title {
+  color: var(--brand-red);
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.lp-panel__title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 45px;
+  height: 3px;
+  background: var(--brand-gold);
+  border-radius: 2px;
+}
+
+/* Rich Content Style */
+.rich h4 {
+  color: var(--brand-red);
+  font-size: 16px;
+  font-weight: 800;
+  margin: 20px 0 10px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.rich p {
+  font-size: 14.5px;
+  color: var(--brand-muted);
+  line-height: 1.7;
+  margin-bottom: 12px;
+  text-align: justify;
+}
+.rich img {
+  border-radius: 12px;
+  border: 1px solid var(--brand-border);
+  margin: 10px 0 15px;
+  width: 100%;
+  height: auto;
+}
+
+/* Thẻ Highlights trong Tổng quan */
+.method-badge-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin: 18px 0 22px;
+}
+.mbadge-item {
+  background: var(--brand-light-gold);
+  border: 1px dashed var(--brand-gold);
+  border-radius: 10px;
+  padding: 12px 15px;
+  font-size: 13px;
+  color: var(--brand-dark);
+}
+.mbadge-item strong {
+  color: var(--brand-red);
+  display: block;
+  font-size: 13.5px;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+}
+
+/* Chương trình học (Curriculum) */
+.lp-curri__info {
+  font-size: 13.5px;
+  color: var(--brand-gold);
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+.lp-section {
+  border: 1px solid var(--brand-border);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  background: #ffffff;
+}
+.lp-section summary {
+  background: #FDFBF7;
+  padding: 15px 20px;
+  font-weight: 800;
+  color: var(--brand-red);
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid transparent;
+  transition: background 0.2s;
+}
+.lp-section[open] summary {
+  border-bottom-color: var(--brand-border);
+  background: var(--brand-light-gold);
+}
+.lp-section summary em {
+  font-style: normal;
+  background: var(--brand-red);
+  color: #fff;
+  font-size: 11px;
+  padding: 3px 9px;
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+.lp-lessons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.lp-lessons li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 20px;
+  border-bottom: 1px solid #f6ede3;
+  font-size: 14px;
+  color: var(--brand-dark);
+  transition: background 0.2s;
+}
+.lp-lessons li:last-child {
+  border-bottom: none;
+}
+.lp-lessons li:hover {
+  background: #FFFBF4;
+}
+.lp-lessons li svg {
+  width: 15px;
+  height: 15px;
+  fill: var(--brand-gold);
+  flex-shrink: 0;
+}
+.lp-lessons li svg:last-child {
+  fill: #bbb;
+}
+.lp-lessons li span {
+  flex-grow: 1;
+  margin: 0 14px;
+  font-weight: 500;
+}
+
+/* Giảng viên Panel */
+.coach-intro-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: var(--brand-light-gold);
+  border: 1px solid var(--brand-gold);
+  border-radius: 12px;
+  padding: 20px;
+}
+.coach-intro-avatar {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--brand-red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: var(--brand-red);
+  flex-shrink: 0;
+}
+.coach-intro-info h3 {
+  color: var(--brand-red);
+  font-size: 17px;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+.coach-intro-info p.role {
+  color: var(--brand-gold);
+  font-weight: 700;
+  font-size: 12.5px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.coach-intro-info p.desc {
+  font-size: 13px;
+  color: var(--brand-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Sidebar Khóa Học */
+.lp-buy {
+  background: #ffffff;
+  border: 1px solid var(--brand-border);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 28px;
+}
+.lp-buy__thumb {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid var(--brand-border);
+}
+.lp-buy__inner {
+  padding: 24px 22px;
+}
+.lp-buy__price {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+.lp-buy__price del {
+  color: #999;
+  font-size: 14px;
+}
+.lp-buy__price ins {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--brand-red);
+}
+
+.lp-buy__btn {
+  display: block;
+  text-align: center;
+  background: var(--brand-red);
+  color: #ffffff !important;
+  padding: 13px 20px;
+  border-radius: 30px;
+  font-size: 14.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px rgba(139, 24, 27, 0.2);
+  margin-bottom: 22px;
+}
+.lp-buy__btn:hover {
+  background: var(--brand-deep);
+  transform: translateY(-2px);
+}
+
+.lp-buy__head {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--brand-red);
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  border-bottom: 1px dashed var(--brand-border);
+  margin-bottom: 14px;
+}
+.lp-feats {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.lp-feats li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 13.5px;
+  border-bottom: 1px dashed #f6ede3;
+  color: var(--brand-dark);
+}
+.lp-feats li:last-child {
+  border-bottom: none;
+}
+.lp-feats li svg {
+  width: 14px;
+  height: 14px;
+  fill: var(--brand-gold);
+  margin-right: 8px;
+}
+.lp-feats li span {
+  flex-grow: 1;
+  color: var(--brand-muted);
+}
+.lp-feats li em {
+  font-style: normal;
+  font-weight: 700;
+  color: var(--brand-red);
+}
+
+/* Widget Khóa học khác */
+.widget--box {
+  background: #ffffff;
+  border: 1px solid var(--brand-border);
+  border-radius: 14px;
+  padding: 22px 20px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.03);
+}
+.widget--box .widget__body {
+  background: none;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+.widget--box .widget-title {
+  background: none;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: normal;
+  color: var(--brand-red);
+  text-transform: uppercase;
+  position: relative;
+  padding: 0 0 8px;
+  margin: 0 0 18px;
+  border-radius: 0;
+}
+.widget-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background: var(--brand-gold);
+}
+.cwidget {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.cwidget li {
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed var(--brand-border);
+}
+.cwidget li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.cwidget__thumb {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 10px;
+  border: 1px solid var(--brand-border);
+}
+.cwidget__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cwidget__title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 6px;
+}
+.cwidget__title a {
+  color: var(--brand-red);
+  text-decoration: none;
+}
+.cwidget__title a:hover {
+  color: var(--brand-deep);
+}
+.cwidget__price {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--brand-red);
+  margin-bottom: 4px;
+}
+.cwidget__price del {
+  color: #999;
+  font-size: 12px;
+  margin-right: 4px;
+}
+.cwidget__meta {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 6px;
+}
+.cwidget__excerpt {
+  font-size: 12.5px;
+  color: var(--brand-muted);
+  line-height: 1.45;
+  margin-bottom: 8px;
+}
+.cwidget__more {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--brand-gold);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.cwidget__more:hover {
+  color: var(--brand-red);
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .lp-body {
+    grid-template-columns: 1fr;
+  }
+  .method-badge-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .lp-head h1 {
+    font-size: 22px;
+  }
+  .lp-head__meta {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .lp-panel {
+    padding: 22px 18px;
+  }
+  .coach-intro-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}

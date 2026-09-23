@@ -110,9 +110,13 @@
   text-align: center;
 }
 .v-card .v-icon {
-  font-size: 32px;
   display: inline-block;
   margin-bottom: 12px;
+  color: var(--brand-red);
+}
+.v-card .v-icon svg {
+  width: 32px;
+  height: 32px;
 }
 .v-card h3 {
   color: var(--brand-red);
@@ -150,6 +154,19 @@
 .core-pill:hover h4,
 .core-pill:hover p {
   color: #ffffff !important;
+}
+.core-pill:hover .core-pill__icon {
+  color: #ffffff;
+}
+.core-pill__icon {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: var(--brand-red);
+  transition: color 0.3s ease;
+}
+.core-pill__icon svg {
+  width: 26px;
+  height: 26px;
 }
 .core-pill h4 {
   color: var(--brand-red);

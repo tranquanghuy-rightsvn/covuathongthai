@@ -225,11 +225,11 @@
 
       <section class="letter-intro">
         <div class="container">
-          <h2 class="letter-intro__title">
+          <h2 class="letter-intro__title" data-reveal="up">
             Thư ngỏ &amp; Giới thiệu tổng quan
           </h2>
           <div class="letter-intro__grid">
-            <div class="letter-card">
+            <div class="letter-card" data-reveal="left">
               <p class="letter-card__badge">
                 <span>01</span> Thư ngỏ tâm huyết
               </p>
@@ -261,7 +261,7 @@
                 <span class="letter-card__brand">Thông Thái Chess</span>
               </div>
             </div>
-            <div class="intro-col">
+            <div class="intro-col" data-reveal="right">
               <div class="intro-card">
                 <p class="intro-card__badge">
                   <span>02</span> Giới thiệu tổng quan
@@ -327,10 +327,10 @@
 
       <section class="pillars">
         <div class="container">
-          <div class="pillars__card">
+          <div class="pillars__card" data-reveal="up">
             <p class="pillars__eyebrow">Định hướng hoạt động</p>
             <h2 class="pillars__title">5 Mũi nhọn cốt lõi</h2>
-            <div class="pillars__grid">
+            <div class="pillars__grid" data-reveal-group>
               <div class="pillar">
                 <span class="pillar__icon"
                   ><svg viewBox="0 0 448 512" aria-hidden="true">
@@ -400,7 +400,7 @@
 
       <section class="training">
         <div class="container">
-          <div class="training__head">
+          <div class="training__head" data-reveal="up">
             <h2 class="training__title">Giới thiệu về chương trình học</h2>
             <p class="training__subtitle">
               Học theo phương pháp giảng dạy SIGP, chương trình được thiết kế
@@ -410,10 +410,17 @@
             </p>
           </div>
           <div class="training__grid">
-            <div class="training__programs">
+            <div class="training__programs" data-reveal="left">
               <div class="program-card program-card--pink">
                 <div class="program-card__head">
-                  <span class="program-card__icon" aria-hidden="true">♟</span>
+                  <span class="program-card__icon" aria-hidden="true"
+                    ><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <circle cx="12" cy="6.5" r="3" />
+                      <path
+                        d="M9 17c.3-3 1.1-5.3 2-6.8.3.1.7.1 1 .1s.7 0 1-.1c.9 1.5 1.7 3.8 2 6.8H9z"
+                      />
+                      <rect x="6" y="17" width="12" height="3" rx="1.5" /></svg
+                  ></span>
                   <h3>Chương trình Mầm non</h3>
                   <span class="program-card__age">Độ tuổi: 4 – 6 tuổi</span>
                 </div>
@@ -428,7 +435,14 @@
               </div>
               <div class="program-card program-card--orange">
                 <div class="program-card__head">
-                  <span class="program-card__icon" aria-hidden="true">♞</span>
+                  <span class="program-card__icon" aria-hidden="true"
+                    ><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path
+                        d="M14.5 3c-2.8 0-5.2 1.7-6.3 4.1-.3.7-1 1.1-1.8 1.3-1.1.3-2 1.1-2.2 2.2-.1.6.4 1.1 1 1.1h1.3l-.8 2.3c-.2.5.2 1 .7 1h1.4l.6-1.7c.6.3 1.3.4 2 .4.6 0 1.2-.1 1.7-.3.2.6.6 1.1 1.1 1.5.3.2.5.5.5.9v1.2h2v-1.6c1.2-.6 2-1.8 2-3.2V8c0-.6.2-1.1.6-1.5.4-.4.6-1 .5-1.6C18.8 3.7 16.8 3 14.5 3z"
+                      />
+                      <circle cx="15.3" cy="6.8" r="0.8" />
+                      <rect x="6" y="17" width="12" height="3" rx="1.5" /></svg
+                  ></span>
                   <h3>Chương trình Tiểu học</h3>
                   <span class="program-card__age">Độ tuổi: 6 – 10 tuổi</span>
                 </div>
@@ -440,7 +454,15 @@
               </div>
               <div class="program-card program-card--blue">
                 <div class="program-card__head">
-                  <span class="program-card__icon" aria-hidden="true">♜</span>
+                  <span class="program-card__icon" aria-hidden="true"
+                    ><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <rect x="6" y="4" width="3" height="4" />
+                      <rect x="10.5" y="4" width="3" height="4" />
+                      <rect x="15" y="4" width="3" height="4" />
+                      <rect x="6" y="7" width="12" height="2" />
+                      <path d="M7 9h10l1 8H6z" />
+                      <rect x="5" y="17" width="14" height="3" rx="1.5" /></svg
+                  ></span>
                   <h3>Chương trình Thiếu niên</h3>
                   <span class="program-card__age">Độ tuổi: 11 – 15 tuổi</span>
                 </div>
@@ -457,7 +479,16 @@
               </div>
               <div class="program-card program-card--green">
                 <div class="program-card__head">
-                  <span class="program-card__icon" aria-hidden="true">♛</span>
+                  <span class="program-card__icon" aria-hidden="true"
+                    ><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path
+                        d="M5 9.5l2.2 6.5h9.6l2.2-6.5-4 2.3L12 6.5l-3.2 5.3z"
+                      />
+                      <circle cx="5" cy="8.2" r="1.4" />
+                      <circle cx="12" cy="5.2" r="1.4" />
+                      <circle cx="19" cy="8.2" r="1.4" />
+                      <rect x="6" y="17" width="12" height="3" rx="1.5" /></svg
+                  ></span>
                   <h3>Chương trình Nâng cao</h3>
                   <span class="program-card__age"
                     >Từ 16 tuổi trở lên &amp; Kỳ thủ tiềm năng</span
@@ -475,7 +506,7 @@
                 </ul>
               </div>
             </div>
-            <div class="training__highlight">
+            <div class="training__highlight" data-reveal="right">
               <div class="feature-card">
                 <div class="feature-card__media">
                   <img
@@ -538,14 +569,14 @@
 
       <section class="team">
         <div class="container">
-          <div class="team__head">
+          <div class="team__head" data-reveal="up">
             <h2>Đội ngũ huấn luyện viên &amp; giáo viên</h2>
             <p class="team__sub">
               Đội ngũ giàu kinh nghiệm, tâm huyết, được đào tạo bài bản và có
               chứng chỉ chuyên môn cao
             </p>
           </div>
-          <div class="team__grid">
+          <div class="team__grid" data-reveal-group>
             <div class="tmember">
               <div class="tmember__photo">
                 <img
@@ -553,7 +584,13 @@
                   alt="ThS. Nguyễn Văn Hùng"
                   loading="lazy"
                 />
-                <span class="tmember__badge" aria-hidden="true">♚</span>
+                <span class="tmember__badge" aria-hidden="true"
+                  ><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <rect x="11.2" y="2" width="1.6" height="4" />
+                    <rect x="9.8" y="3.2" width="4.4" height="1.6" />
+                    <path d="M5 9.5l2.2 6.5h9.6l2.2-6.5-4 2.3L12 8l-3.2 3.8z" />
+                    <rect x="6" y="17" width="12" height="3" rx="1.5" /></svg
+                ></span>
                 <div class="tmember__overlay">
                   <span class="tmember__role">Giám đốc chuyên môn</span>
                   <h3>ThS. Nguyễn Văn Hùng</h3>
@@ -583,7 +620,16 @@
                   alt="HLV Lê Minh Tuấn"
                   loading="lazy"
                 />
-                <span class="tmember__badge" aria-hidden="true">♛</span>
+                <span class="tmember__badge" aria-hidden="true"
+                  ><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path
+                      d="M5 9.5l2.2 6.5h9.6l2.2-6.5-4 2.3L12 6.5l-3.2 5.3z"
+                    />
+                    <circle cx="5" cy="8.2" r="1.4" />
+                    <circle cx="12" cy="5.2" r="1.4" />
+                    <circle cx="19" cy="8.2" r="1.4" />
+                    <rect x="6" y="17" width="12" height="3" rx="1.5" /></svg
+                ></span>
                 <div class="tmember__overlay">
                   <span class="tmember__role">Huấn luyện viên cao cấp</span>
                   <h3>HLV. Lê Minh Tuấn</h3>
@@ -613,7 +659,16 @@
                   alt="HLV Phạm Thị Hà"
                   loading="lazy"
                 />
-                <span class="tmember__badge" aria-hidden="true">♛</span>
+                <span class="tmember__badge" aria-hidden="true"
+                  ><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path
+                      d="M5 9.5l2.2 6.5h9.6l2.2-6.5-4 2.3L12 6.5l-3.2 5.3z"
+                    />
+                    <circle cx="5" cy="8.2" r="1.4" />
+                    <circle cx="12" cy="5.2" r="1.4" />
+                    <circle cx="19" cy="8.2" r="1.4" />
+                    <rect x="6" y="17" width="12" height="3" rx="1.5" /></svg
+                ></span>
                 <div class="tmember__overlay">
                   <span class="tmember__role">Huấn luyện viên cao cấp</span>
                   <h3>HLV. Phạm Thị Hà</h3>
@@ -643,7 +698,14 @@
                   alt="HLV Trần Đức Anh"
                   loading="lazy"
                 />
-                <span class="tmember__badge" aria-hidden="true">♞</span>
+                <span class="tmember__badge" aria-hidden="true"
+                  ><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path
+                      d="M14.5 3c-2.8 0-5.2 1.7-6.3 4.1-.3.7-1 1.1-1.8 1.3-1.1.3-2 1.1-2.2 2.2-.1.6.4 1.1 1 1.1h1.3l-.8 2.3c-.2.5.2 1 .7 1h1.4l.6-1.7c.6.3 1.3.4 2 .4.6 0 1.2-.1 1.7-.3.2.6.6 1.1 1.1 1.5.3.2.5.5.5.9v1.2h2v-1.6c1.2-.6 2-1.8 2-3.2V8c0-.6.2-1.1.6-1.5.4-.4.6-1 .5-1.6C18.8 3.7 16.8 3 14.5 3z"
+                    />
+                    <circle cx="15.3" cy="6.8" r="0.8" />
+                    <rect x="6" y="17" width="12" height="3" rx="1.5" /></svg
+                ></span>
                 <div class="tmember__overlay">
                   <span class="tmember__role">Huấn luyện viên</span>
                   <h3>HLV. Trần Đức Anh</h3>
@@ -674,7 +736,7 @@
         <div class="container">
           <div class="standards__panel">
             <div class="standards__grid">
-              <div class="standards__col">
+              <div class="standards__col" data-reveal="left">
                 <h3 class="standards__title">Tiêu chuẩn đội ngũ giảng dạy</h3>
                 <div class="standards__criteria">
                   <div class="standards__item">
@@ -711,7 +773,11 @@
                     <span
                       class="standards__icon standards__icon--heart"
                       aria-hidden="true"
-                      >♥</span
+                      ><svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                          d="M12 21C12 21 4 14.7 4 9.3 4 6.4 6.4 4 9.3 4 10.9 4 12 5 12 7 12 5 13.1 4 14.7 4 17.6 4 20 6.4 20 9.3 20 14.7 12 21 12 21Z"
+                        /></svg
+                    ></span
                     >
                     <div>
                       <h4>Tận tâm &amp; kiên nhẫn</h4>
@@ -742,7 +808,7 @@
                   bản tốt nhất của chính mình qua cờ vua!”
                 </p>
               </div>
-              <div class="org-card">
+              <div class="org-card" data-reveal="right">
                 <p class="org-card__head">
                   <svg viewBox="0 0 640 512" aria-hidden="true">
                     <path
@@ -794,7 +860,7 @@
 
       <section class="method">
         <div class="container">
-          <div class="method__head">
+          <div class="method__head" data-reveal="up">
             <h2 class="method__title">
               Phương pháp giảng dạy &amp; lộ trình học tập
             </h2>
@@ -807,7 +873,7 @@
             <p class="method__subhead">
               Phương pháp giảng dạy hiện đại tại Thông Thái
             </p>
-            <div class="method__grid">
+            <div class="method__grid" data-reveal-group>
               <div class="mcard">
                 <span class="mcard__icon"
                   ><svg viewBox="0 0 448 512" aria-hidden="true">
@@ -885,7 +951,7 @@
 
       <section class="achieve">
         <div class="container">
-          <div class="achieve__head">
+          <div class="achieve__head" data-reveal="up">
             <h2 class="achieve__title">
               Thành tích, giải thưởng &amp; hoạt động
             </h2>
@@ -895,7 +961,7 @@
             <span class="achieve__divider" aria-hidden="true"></span>
           </div>
 
-          <div class="achieve__stats">
+          <div class="achieve__stats" data-reveal-group>
             <div class="stat-card">
               <h3>+50</h3>
               <p>Huy chương các cấp</p>
@@ -932,7 +998,7 @@
 
           <div class="achieve__block">
             <p class="achieve__subhead">Giải thưởng và chứng nhận tiêu biểu</p>
-            <div class="achieve__grid">
+            <div class="achieve__grid" data-reveal-group>
               <div class="achieve-card">
                 <span class="achieve-card__icon"
                   ><svg viewBox="0 0 576 512" aria-hidden="true">
@@ -989,7 +1055,7 @@
 
           <div class="achieve__block">
             <p class="achieve__subhead">Hoạt động nổi bật</p>
-            <div class="achieve__grid">
+            <div class="achieve__grid" data-reveal-group>
               <div class="achieve-card achieve-card--photo">
                 <span class="achieve-card__photo"
                   ><img
@@ -1033,7 +1099,7 @@
 
       <section class="gm">
         <div class="container">
-          <div class="gm__head">
+          <div class="gm__head" data-reveal="up">
             <span class="gm__eyebrow">Kho tư liệu hình ảnh</span>
             <h2 class="gm__title">Hình ảnh hoạt động thực tế</h2>
           </div>
@@ -1042,7 +1108,7 @@
             <button class="gm__tab" type="button" data-filter="lop-hoc">Lớp học</button>
             <button class="gm__tab" type="button" data-filter="giai-dau">Giải đấu</button>
           </div>
-          <div class="gm__grid">
+          <div class="gm__grid" data-reveal-group>
             <figure class="gm__card gm__card--large" data-category="lop-hoc">
               <img src="assets/home-class-01.jpg" alt="Vinh danh tại Giải vô địch cờ vua trẻ Quốc gia" loading="lazy">
               <span class="gm__tag">Lớp Học</span>
@@ -1111,7 +1177,7 @@
         <div class="container">
           <div class="contact-cta__panel">
             <div class="contact-cta__grid">
-              <div class="contact-cta__info">
+              <div class="contact-cta__info" data-reveal="left">
                 <span class="contact-cta__eyebrow">Hồ sơ năng lực</span>
                 <h2 class="contact-cta__title">
                   Thông tin liên hệ &amp; đăng ký
@@ -1203,7 +1269,7 @@
                 </div>
               </div>
 
-              <div class="contact-cta__form-wrap">
+              <div class="contact-cta__form-wrap" data-reveal="right">
                 <h3>Phiếu đăng ký tư vấn &amp; hợp tác</h3>
                 <p>
                   Vui lòng điền thông tin bên dưới, Học viện sẽ liên hệ lại
@@ -1296,7 +1362,7 @@
               </div>
             </div>
 
-            <div class="contact-cta__footer">
+            <div class="contact-cta__footer" data-reveal="up">
               <h3>Kiến tạo tương lai bằng những nước cờ đúng!</h3>
               <p>
                 “Cảm ơn Quý đối tác, nhà trường và phụ huynh đã tin tưởng và
@@ -1589,5 +1655,7 @@
     <script src="js/slide.js" defer></script>
     <script src="js/form.js" defer></script>
     <script src="js/gallery-modern.js" defer></script>
+    <script src="js/count-up.js" defer></script>
+    <script src="js/reveal.js" defer></script>
   </body>
 </html>
