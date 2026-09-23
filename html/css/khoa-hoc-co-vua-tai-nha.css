@@ -1,0 +1,248 @@
+/* BẢNG MÀU HOÀNG GIA & GIAO DIỆN KHÓA HỌC KÈM TẠI NHÀ */
+:root {
+  --brand-red: #8b181b;
+  --brand-deep: #660c0e;
+  --brand-gold: #d4af37;
+  --brand-light-gold: #fff9ed;
+  --brand-bg: #faf7f2;
+  --brand-dark: #222222;
+  --brand-muted: #555555;
+  --brand-border: #e8dccf;
+}
+
+body {
+  background-color: var(--brand-bg);
+}
+
+/* Page Hero */
+.page-hero {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 25px auto 35px;
+  max-width: 1200px;
+  padding: 15px;
+}
+.page-hero img {
+  width: 100%;
+  height: 450px;
+  display: block;
+  border-radius: 16px;
+  box-shadow: 0 10px 28px rgba(139, 24, 27, 0.15);
+  border: 1px solid var(--brand-border);
+  object-fit: cover;
+}
+
+/* Khung nội dung trung tâm (Narrow Container) */
+.section-narrow {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px 60px;
+}
+
+/* Article Card chính */
+article.rich {
+  background: #ffffff;
+  border: 1px solid var(--brand-border);
+  border-radius: 16px;
+  padding: 45px 40px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.04);
+}
+
+/* Tag & Tiêu đề */
+.taina-badge {
+  display: inline-block;
+  background: var(--brand-light-gold);
+  color: var(--brand-red);
+  border: 1px solid var(--brand-gold);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 5px 16px;
+  border-radius: 20px;
+  letter-spacing: 0.8px;
+  margin-bottom: 12px;
+}
+
+article.rich h2 {
+  color: var(--brand-red) !important;
+  font-size: 26px !important;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.35;
+  margin-bottom: 8px;
+  position: relative;
+}
+article.rich h2.sub-title {
+  font-size: 18px !important;
+  color: var(--brand-gold) !important;
+  font-weight: 700;
+  margin-bottom: 22px;
+  text-transform: none;
+  letter-spacing: 0.5px;
+}
+
+article.rich h3 {
+  color: var(--brand-red);
+  font-size: 19px;
+  font-weight: 800;
+  margin: 30px 0 14px;
+  position: relative;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--brand-light-gold);
+}
+article.rich h3::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 45px;
+  height: 2px;
+  background: var(--brand-gold);
+}
+
+article.rich h4 {
+  color: var(--brand-dark);
+  font-size: 16px;
+  font-weight: 800;
+  margin: 25px 0 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+article.rich p {
+  font-size: 15px;
+  color: var(--brand-muted);
+  line-height: 1.75;
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+/* Khối trích dẫn triết lý thương hiệu */
+.quote-highlight {
+  background: linear-gradient(
+    135deg,
+    var(--brand-deep) 0%,
+    var(--brand-red) 100%
+  );
+  color: #ffffff !important;
+  border-radius: 12px;
+  padding: 22px 25px;
+  margin: 25px 0;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(139, 24, 27, 0.15);
+}
+.quote-highlight p {
+  color: #fff2d1 !important;
+  font-size: 17px !important;
+  font-weight: 700;
+  font-style: italic;
+  margin: 0 !important;
+  text-align: center !important;
+}
+
+/* Danh sách lợi ích có icon (mỗi item có tiêu đề đậm + mô tả) */
+article.rich ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+article.rich ul li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 14px;
+  font-size: 14.5px;
+  color: var(--brand-dark);
+  line-height: 1.6;
+}
+article.rich ul li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background: var(--brand-light-gold);
+  color: var(--brand-red);
+  border: 1px solid var(--brand-gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 800;
+}
+article.rich ul li strong {
+  color: var(--brand-red);
+  display: block;
+  margin-bottom: 2px;
+}
+
+/* Bảng thông số khóa học gọn gàng */
+.course-specs-table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  background: var(--brand-light-gold);
+  border: 1px solid var(--brand-gold);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0 25px;
+  text-align: center;
+}
+.spec-item span {
+  display: block;
+  font-size: 11.5px;
+  color: var(--brand-muted);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+.spec-item strong {
+  color: var(--brand-red);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/* CTA Button Đăng Ký Học Thử */
+.cta-wrap {
+  text-align: center;
+  margin-top: 35px;
+}
+.cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: var(--brand-red);
+  color: #ffffff !important;
+  padding: 14px 36px;
+  border-radius: 35px;
+  font-size: 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  box-shadow: 0 6px 20px rgba(139, 24, 27, 0.25);
+  transition: all 0.3s ease;
+}
+.cta svg {
+  width: 18px;
+  height: 18px;
+  fill: #ffffff;
+}
+.cta:hover {
+  background: var(--brand-deep);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(139, 24, 27, 0.35);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  article.rich {
+    padding: 30px 20px;
+  }
+  .course-specs-table {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}

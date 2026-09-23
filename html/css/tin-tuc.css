@@ -1,0 +1,369 @@
+/* BẢNG MÀU HOÀNG GIA & GIAO DIỆN BẢN TIN */
+:root {
+  --brand-red: #8B181B;
+  --brand-deep: #660C0E;
+  --brand-gold: #D4AF37;
+  --brand-light-gold: #FFF9ED;
+  --brand-bg: #FAF7F2;
+  --brand-dark: #222222;
+  --brand-muted: #555555;
+  --brand-border: #E8DCCF;
+}
+
+body {
+  background-color: var(--brand-bg);
+}
+
+/* Hero Banner Trang Tin tức */
+.news-hero-banner {
+  background: linear-gradient(135deg, var(--brand-deep) 0%, var(--brand-red) 100%);
+  border-radius: 16px;
+  padding: 38px 30px;
+  color: #ffffff;
+  margin-bottom: 35px;
+  box-shadow: 0 8px 24px rgba(139, 24, 27, 0.14);
+  position: relative;
+  overflow: hidden;
+}
+.news-hero-banner::after {
+  content: "🏆";
+  position: absolute;
+  right: 20px;
+  bottom: -20px;
+  font-size: 130px;
+  opacity: 0.1;
+  pointer-events: none;
+}
+.news-hero-tag {
+  display: inline-block;
+  background: rgba(212, 175, 55, 0.2);
+  border: 1px solid var(--brand-gold);
+  color: var(--brand-gold);
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 10px;
+}
+.news-hero-banner h1 {
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.news-hero-banner p {
+  font-size: 15px;
+  color: #FFF0CF;
+  max-width: 680px;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+/* Post List & Post Card */
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.post-card {
+  background: #ffffff;
+  border: 1px solid var(--brand-border);
+  border-radius: 14px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.post-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--brand-gold);
+  box-shadow: 0 12px 26px rgba(139, 24, 27, 0.12);
+}
+.post-card__thumb {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  overflow: hidden;
+  background: #fdfbf7;
+  display: block;
+}
+.post-card__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  display: block;
+}
+.post-card:hover .post-card__thumb img {
+  transform: scale(1.06);
+}
+.post-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(104, 12, 14, 0.88);
+  color: #FFE6A8;
+  border: 1px solid var(--brand-gold);
+  padding: 3px 10px;
+  border-radius: 15px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  backdrop-filter: blur(4px);
+}
+
+.post-card__body {
+  padding: 24px 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.post-meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+.post-meta span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.post-card__title {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+.post-card__title a {
+  color: var(--brand-red);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.post-card__title a:hover {
+  color: var(--brand-deep);
+}
+.post-card__excerpt {
+  font-size: 13.5px;
+  color: var(--brand-muted);
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+.post-card__more {
+  align-self: flex-start;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--brand-red);
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: color 0.2s, transform 0.2s;
+}
+.post-card__more:hover {
+  color: var(--brand-deep);
+  transform: translateX(3px);
+}
+
+/* Widgets Sidebar */
+.layout__side .widget {
+  background: #ffffff;
+  border: 1px solid var(--brand-border);
+  border-radius: 12px;
+  padding: 22px 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+}
+.widget--box .widget-title {
+  background: none;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 800;
+  color: var(--brand-red);
+  text-transform: uppercase;
+  position: relative;
+  padding: 0 0 8px;
+  margin: 0 0 16px;
+  border-radius: 0;
+}
+.widget--box .widget__body {
+  background: none;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+.widget-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 35px;
+  height: 2px;
+  background: var(--brand-gold);
+}
+
+.cat-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.cat-menu li {
+  padding: 8px 0;
+  border-bottom: 1px dashed #f0e6d8;
+  font-size: 13.5px;
+}
+.cat-menu li:last-child {
+  border-bottom: none;
+}
+.cat-menu a {
+  color: var(--brand-muted);
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  transition: color 0.2s;
+}
+.cat-menu a:hover,
+.cat-menu li.is-active a {
+  color: var(--brand-red);
+  font-weight: 700;
+}
+
+/* Widget Khóa học Online */
+.cwidget {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.cwidget li {
+  margin-bottom: 18px;
+  padding-bottom: 14px;
+  border-bottom: 1px dashed var(--brand-border);
+}
+.cwidget li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.cwidget__thumb {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 8px;
+  border: 1px solid var(--brand-border);
+}
+.cwidget__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cwidget__title {
+  font-size: 13.5px;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 4px;
+}
+.cwidget__title a {
+  color: var(--brand-red);
+  text-decoration: none;
+}
+.cwidget__price {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--brand-red);
+  margin-bottom: 4px;
+}
+.cwidget__price del {
+  color: #999;
+  font-size: 12px;
+  margin-right: 4px;
+}
+.cwidget__meta {
+  font-size: 11.5px;
+  color: #888;
+  margin-bottom: 6px;
+}
+.cwidget__excerpt {
+  font-size: 12px;
+  color: var(--brand-muted);
+  line-height: 1.45;
+  margin-bottom: 6px;
+}
+.cwidget__more {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--brand-gold);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.cwidget__more:hover {
+  color: var(--brand-red);
+}
+
+/* Widget Hợp tác trường học */
+.school-box-side {
+  background: var(--brand-light-gold);
+  border: 1px dashed var(--brand-gold);
+  border-radius: 12px;
+  padding: 18px;
+  text-align: center;
+  margin-top: 15px;
+}
+.school-box-side h5 {
+  color: var(--brand-red);
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+.school-box-side p {
+  font-size: 12px;
+  color: var(--brand-muted);
+  line-height: 1.45;
+  margin-bottom: 12px;
+}
+.school-box-side a {
+  display: inline-block;
+  background: var(--brand-red);
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .post-card {
+    grid-template-columns: 1fr;
+  }
+  .post-card__thumb {
+    height: 200px;
+    min-height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .news-hero-banner {
+    padding: 28px 18px;
+  }
+  .news-hero-banner h1 {
+    font-size: 22px;
+  }
+  .post-card__body {
+    padding: 18px 16px;
+  }
+  .post-card__title {
+    font-size: 16px;
+  }
+}

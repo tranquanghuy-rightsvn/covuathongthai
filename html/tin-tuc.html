@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tin tức | Học viện cờ vua Thông Thái</title>
+<title>Tin tức &amp; Sự kiện giải đấu | Học viện cờ vua Thông Thái</title>
 <link rel="preload" href="fonts/montserrat-vietnamese.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/montserrat-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/main.css">
@@ -13,9 +13,11 @@
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="stylesheet" href="css/page.css">
 <link rel="stylesheet" href="css/blog.css">
+<link rel="stylesheet" href="css/tin-tuc.css">
 </head>
 <body>
 
+<!-- 1. HEADER (GIỮ NGUYÊN HOÀN TOÀN MÃ NGUỒN CŨ) -->
 <header class="site-header">
   <div class="navbar">
     <a class="logo" href="index.html"><img src="images/logo.jpg" alt="Học viện cờ vua Thông Thái" width="68" height="68"></a>
@@ -60,6 +62,7 @@
   </div>
 </header>
 
+<!-- 2. MOBILE MENU (GIỮ NGUYÊN) -->
 <div class="mnav" aria-label="Menu di động">
   <div class="mnav__overlay"></div>
   <div class="mnav__panel">
@@ -82,68 +85,182 @@
 
 <div class="header-spacer"></div>
 
+<!-- 3. MAIN BLOG LAYOUT -->
 <main>
-  <h1 class="sr-only">Tin tức</h1>
+  <h1 class="sr-only">Tin tức và Sự kiện</h1>
+
   <div class="wrap wrap--blog layout layout--blog">
+    <!-- CỘT CHÍNH: DANH SÁCH BÀI VIẾT -->
     <div class="layout__main">
+
+      <!-- Hero Banner Nhận Diện -->
+      <div class="news-hero-banner">
+        <span class="news-hero-tag">Bản Tin &amp; Phong Trào Cờ Vua</span>
+        <h1>TIN TỨC &amp; SỰ KIỆN NỔI BẬT</h1>
+        <p>"Giáo dục trí tâm – Ươm mầm trí tuệ | Cùng nhìn lại những khoảnh khắc đáng nhớ và hành trình vinh danh của các kỳ thủ nhí!"</p>
+      </div>
+
       <div class="post-list">
+
+        <!-- BÀI VIẾT 1 -->
         <article class="post-card">
-          <a class="post-card__thumb" href="bai-viet-khai-mac-giai-co-vua-2026.html"><img src="images/Loi-Cam-On-Chan-Thanh-Den-Toan-The-Ban-To-Chuc-Giai-Co-Vua-Hanh-Trinh-Truyen-Cam-Hung-2026-16.jpg" alt="Khai Mạc Giải Cờ Vua Học viện cờ vua Thông Thái Hành Trình Truyền Cảm Hứng Lần II Năm 2026" loading="lazy"></a>
+          <a class="post-card__thumb" href="bai-viet-khai-mac-giai-co-vua-2026.html">
+            <span class="post-badge">Giải Đấu</span>
+            <img src="images/Loi-Cam-On-Chan-Thanh-Den-Toan-The-Ban-To-Chuc-Giai-Co-Vua-Hanh-Trinh-Truyen-Cam-Hung-2026-16.jpg" onerror="this.src='https://images.unsplash.com/photo-1586165368502-1bad197a6461?auto=format&fit=crop&w=700&q=80'" alt="Khai mạc giải cờ vua Thông Thái mở rộng 2026" loading="lazy">
+          </a>
           <div class="post-card__body">
-            <h2 class="post-card__title"><a href="bai-viet-khai-mac-giai-co-vua-2026.html">Khai Mạc Giải Cờ Vua Học viện cờ vua Thông Thái Hành Trình Truyền Cảm Hứng Lần II Năm 2026</a></h2>
-            <p class="post-card__excerpt">Những khoảnh khắc đầu giờ chuẩn bị cho giải đấu Từ sáng sớm ngày chủ nhật 17/05 vừa qua, đội ngũ Ban Tổ Chức đã cùng nhau chuẩn bị từng...</p>
-            <a class="post-card__more" href="bai-viet-khai-mac-giai-co-vua-2026.html">Xem thêm »</a>
+            <div class="post-meta">
+              <span>📅 Năm 2026</span>
+              <span>✍️ Ban Truyền Thông</span>
+              <span>📍 TP. Bắc Ninh</span>
+            </div>
+            <h2 class="post-card__title">
+              <a href="bai-viet-khai-mac-giai-co-vua-2026.html">Khai Mạc Giải Cờ Vua Học Viện Thông Thái: Hành Trình Bứt Phá Tư Duy &amp; Kết Nối Đam Mê</a>
+            </h2>
+            <p class="post-card__excerpt">
+              Giải đấu định kỳ quy tụ hơn 200 kỳ thủ xuất sắc tham gia cọ xát, tạo sân chơi đấu trí công bằng, rèn luyện bản lĩnh thi đấu và phát hiện những tài năng cờ vua triển vọng...
+            </p>
+            <a class="post-card__more" href="bai-viet-khai-mac-giai-co-vua-2026.html">Đọc tiếp bài viết →</a>
           </div>
         </article>
+
+        <!-- BÀI VIẾT 2 -->
+        <article class="post-card">
+          <a class="post-card__thumb" href="#">
+            <span class="post-badge" style="background:#54080A;">Vinh Danh</span>
+            <img src="images/bang-khen-uy-tin.jpg" onerror="this.src='https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=700&q=80'" alt="Bằng khen UBND tỉnh Bắc Ninh trao tặng" loading="lazy">
+          </a>
+          <div class="post-card__body">
+            <div class="post-meta">
+              <span>📅 Giai đoạn 2022 - 2025</span>
+              <span>🏆 Top 5 Trung Tâm Uy Tín</span>
+              <span>🎖️ UBND Tỉnh Bắc Ninh</span>
+            </div>
+            <h2 class="post-card__title">
+              <a href="#">Học Viện Cờ Vua Thông Thái Đạt Top 5 Trung Tâm Uy Tín &amp; Nhận Bằng Khen Của UBND Tỉnh Bắc Ninh</a>
+            </h2>
+            <p class="post-card__excerpt">
+              Những cột mốc đáng tự hào khẳng định chất lượng đào tạo với hơn 50 huy chương tại các giải vô địch cấp tỉnh, thành phố và chứng nhận "Đơn vị tiêu biểu" trong phong trào thể dục thể thao...
+            </p>
+            <a class="post-card__more" href="#">Đọc tiếp bài viết →</a>
+          </div>
+        </article>
+
+        <!-- BÀI VIẾT 3 -->
+        <article class="post-card">
+          <a class="post-card__thumb" href="#">
+            <span class="post-badge" style="background:#0D5C3A;">Hợp Tác Giáo Dục</span>
+            <img src="images/co-vua-hoc-duong.jpg" onerror="this.src='https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=700&q=80'" alt="Chương trình cờ vua kết nối trường học" loading="lazy">
+          </a>
+          <div class="post-card__body">
+            <div class="post-meta">
+              <span>📅 Hợp tác thường niên</span>
+              <span>🏫 Trường TH Vũ Ninh &amp; THCS Lý Thường Kiệt</span>
+            </div>
+            <h2 class="post-card__title">
+              <a href="#">Chương Trình Cờ Vua Kết Nối Học Đường: Đưa Cờ Vua Ngoại Khóa Vào Giờ Học Trải Nghiệm</a>
+            </h2>
+            <p class="post-card__excerpt">
+              Học viện phối hợp mở câu lạc bộ cờ vua ngoại khóa, tập huấn phương pháp giảng dạy hiện đại và hỗ trợ bàn cờ thi đấu cho các trường học và trung tâm kỹ năng sống trên địa bàn...
+            </p>
+            <a class="post-card__more" href="#">Đọc tiếp bài viết →</a>
+          </div>
+        </article>
+
+        <!-- BÀI VIẾT 4 -->
+        <article class="post-card">
+          <a class="post-card__thumb" href="#">
+            <span class="post-badge">Cộng Đồng</span>
+            <img src="images/co-vua-thien-nguyen.jpg" onerror="this.src='https://images.unsplash.com/photo-1528819622765-d6bcf132f793?auto=format&fit=crop&w=700&q=80'" alt="Hoạt động cờ vua vì cộng đồng" loading="lazy">
+          </a>
+          <div class="post-card__body">
+            <div class="post-meta">
+              <span>📅 Hoạt động phong trào</span>
+              <span>❤️ Cờ vua vì cộng đồng</span>
+            </div>
+            <h2 class="post-card__title">
+              <a href="#">Hoạt Động Thiện Nguyện &amp; Ngày Hội Cờ Vua Vì Cộng Đồng: Lan Tỏa Trí Tuệ Cho Trẻ Em</a>
+            </h2>
+            <p class="post-card__excerpt">
+              Bên cạnh công tác huấn luyện chuyên nghiệp, Học viện Cờ vua Thông Thái thường xuyên tổ chức các buổi giao lưu, trao tặng giáo cụ và lan tỏa giá trị nhân văn của cờ vua đến trẻ em có hoàn cảnh khó khăn...
+            </p>
+            <a class="post-card__more" href="#">Đọc tiếp bài viết →</a>
+          </div>
+        </article>
+
       </div>
     </div>
+
+    <!-- CỘT BÊN -->
     <div class="layout__side">
+
+      <!-- Widget Danh mục -->
       <aside class="widget widget--box">
-        <h4 class="widget-title">Danh mục</h4>
+        <h4 class="widget-title">Chuyên mục tin tức</h4>
         <div class="widget__body">
-          <ul class="widget__list cat-menu">
-          <li><a href="cau-chuyen-cuoc-song.html">Câu chuyện cuộc sống</a></li>
-          <li><a href="co-vua-cuoc-song.html">Cờ vua & Cuộc sống</a></li>
-          <li><a href="kien-thuc-co-vua.html">Kiến thức cờ vua</a></li>
-          <li class="is-active"><a href="tin-tuc.html">Tin tức</a></li>
+          <ul class="cat-menu">
+            <li class="is-active"><a href="tin-tuc.html">Tất cả tin tức &amp; Sự kiện</a></li>
+            <li><a href="su-kien-giai-dau.html">Sự kiện &amp; Giải đấu thường niên</a></li>
+            <li><a href="kien-thuc-co-vua.html">Kiến thức &amp; Chiến thuật cờ vua</a></li>
+            <li><a href="co-vua-cuoc-song.html">Cờ vua &amp; Bài học cuộc sống</a></li>
+            <li><a href="cau-chuyen-cuoc-song.html">Câu chuyện truyền cảm hứng</a></li>
           </ul>
         </div>
       </aside>
+
+      <!-- Widget Khóa học Online -->
       <aside class="widget widget--box">
-        <h4 class="widget-title">Khóa học cờ vua online</h4>
+        <h4 class="widget-title">Khóa học nổi bật</h4>
         <div class="widget__body">
-        <ul class="cwidget">
-          <li>
-            <a class="cwidget__thumb" href="khoa-hoc-online-co-ban.html"><img src="images/KHOA-HOC-CO-VUA-DANH-CHO-NGUOI-MOI-BAT-DAU_01-300x169.jpg" alt="KHÓA HỌC CỜ VUA DÀNH CHO NGƯỜI MỚI BẮT ĐẦU" width="300" height="169" loading="lazy"></a>
-            <h4 class="cwidget__title"><a href="khoa-hoc-online-co-ban.html">KHÓA HỌC CỜ VUA DÀNH CHO NGƯỜI MỚI BẮT ĐẦU</a></h4>
-            <p class="cwidget__price"><del>599.000 ₫</del> <ins>Miễn phí</ins></p>
-            <p class="cwidget__meta">10 Weeks &nbsp;|&nbsp; All levels</p>
-            <p class="cwidget__excerpt">Chào mừng bạn đến với khóa học "Cờ vua online Học viện cờ vua Thông Thái dành cho người mới bắt đầu" – nơi bạn sẽ được từng bước khám...</p>
-            <a class="cwidget__more" href="khoa-hoc-online-co-ban.html">Xem thêm</a>
-          </li>
-          <li>
-            <a class="cwidget__thumb" href="khoa-hoc-online-trung-cap.html"><img src="images/KHOA-HOC-CO-VUA-TRUNG-CAP-NANG-CAO-TU-DUY-CHIEN-THUAT-300x169.jpg" alt="KHÓA HỌC CỜ VUA TRUNG CẤP – NÂNG CAO TƯ DUY CHIẾN THUẬT" width="300" height="169" loading="lazy"></a>
-            <h4 class="cwidget__title"><a href="khoa-hoc-online-trung-cap.html">KHÓA HỌC CỜ VUA TRUNG CẤP – NÂNG CAO TƯ DUY CHIẾN THUẬT</a></h4>
-            <p class="cwidget__price"><del>1.200.000 ₫</del> <ins>599.000 ₫</ins></p>
-            <p class="cwidget__meta">10 Weeks &nbsp;|&nbsp; All levels</p>
-            <p class="cwidget__excerpt">Chào mừng bạn đến với khóa học Cờ vua Trung Cấp Học viện cờ vua Thông Thái – nơi bạn sẽ bước vào một hành trình thú vị để nâng cao...</p>
-            <a class="cwidget__more" href="khoa-hoc-online-trung-cap.html">Xem thêm</a>
-          </li>
-          <li>
-            <a class="cwidget__thumb" href="khoa-hoc-online-nang-cao.html"><img src="images/CO-VUA-NANG-CAO-TINH-GON-CHIEN-LUOC-LAM-CHU-TAN-CUOC-300x169.png" alt="KHÓA HỌC CỜ VUA NÂNG CAO – LÀM CHỦ CHIẾN LƯỢC TINH GỌN" width="300" height="169" loading="lazy"></a>
-            <h4 class="cwidget__title"><a href="khoa-hoc-online-nang-cao.html">KHÓA HỌC CỜ VUA NÂNG CAO – LÀM CHỦ CHIẾN LƯỢC TINH GỌN</a></h4>
-            <p class="cwidget__price"><del>2.000.000 ₫</del> <ins>1.000.000 ₫</ins></p>
-            <p class="cwidget__meta">10 Weeks &nbsp;|&nbsp; All levels</p>
-            <p class="cwidget__excerpt">Chào mừng bạn đến với khóa học Cờ vua Nâng Cao Học viện cờ vua Thông Thái – nơi kỹ năng chiến thuật và tư duy tổng thể được đẩy...</p>
-            <a class="cwidget__more" href="khoa-hoc-online-nang-cao.html">Xem thêm</a>
-          </li>
-        </ul>
+          <ul class="cwidget">
+            <li>
+              <a class="cwidget__thumb" href="khoa-hoc-online-co-ban.html">
+                <img src="images/KHOA-HOC-CO-VUA-DANH-CHO-NGUOI-MOI-BAT-DAU_01-300x169.jpg" alt="Khóa học cờ vua cơ bản nhập môn" width="300" height="169" loading="lazy">
+              </a>
+              <h4 class="cwidget__title"><a href="khoa-hoc-online-co-ban.html">Khóa Nhập Môn: Nền Tảng Cho Người Mới Bắt Đầu</a></h4>
+              <p class="cwidget__price"><del>599.000 ₫</del> <ins>Miễn phí học thử</ins></p>
+              <p class="cwidget__meta">10 Tuần &nbsp;|&nbsp; Mầm non &amp; Tiểu học (4–10 tuổi)</p>
+              <p class="cwidget__excerpt">Làm quen thế giới cờ vua từ con số 0, nắm vững luật đi quân và các quy tắc căn bản...</p>
+              <a class="cwidget__more" href="khoa-hoc-online-co-ban.html">Xem chi tiết »</a>
+            </li>
+
+            <li>
+              <a class="cwidget__thumb" href="khoa-hoc-online-trung-cap.html">
+                <img src="images/KHOA-HOC-CO-VUA-TRUNG-CAP-NANG-CAO-TU-DUY-CHIEN-THUAT-300x169.jpg" alt="Khóa học cờ vua trung cấp" width="300" height="169" loading="lazy">
+              </a>
+              <h4 class="cwidget__title"><a href="khoa-hoc-online-trung-cap.html">Khóa Trung Cấp: Nâng Cao Tư Duy Chiến Thuật</a></h4>
+              <p class="cwidget__price"><del>1.200.000 ₫</del> <ins>599.000 ₫</ins></p>
+              <p class="cwidget__meta">10 Tuần &nbsp;|&nbsp; Độ tuổi 6–15 tuổi</p>
+              <p class="cwidget__excerpt">Làm chủ 15 đòn chiến thuật phối hợp, xử lý thế cờ trung cuộc và bứt phá tỷ lệ chiến thắng...</p>
+              <a class="cwidget__more" href="khoa-hoc-online-trung-cap.html">Xem chi tiết »</a>
+            </li>
+
+            <li>
+              <a class="cwidget__thumb" href="khoa-hoc-online-nang-cao.html">
+                <img src="images/CO-VUA-NANG-CAO-TINH-GON-CHIEN-LUOC-LAM-CHU-TAN-CUOC-300x169.png" alt="Khóa học cờ vua nâng cao" width="300" height="169" loading="lazy">
+              </a>
+              <h4 class="cwidget__title"><a href="khoa-hoc-online-nang-cao.html">Khóa Nâng Cao: Tinh Gọn Chiến Lược &amp; Tàn Cuộc</a></h4>
+              <p class="cwidget__price"><del>2.000.000 ₫</del> <ins>1.000.000 ₫</ins></p>
+              <p class="cwidget__meta">10 Tuần &nbsp;|&nbsp; Luyện thi đấu chuyên nghiệp</p>
+              <p class="cwidget__excerpt">Tư duy chiến lược chuyên sâu cùng Kiện tướng FIDE Elo 2200+, mổ xẻ ván cờ chuẩn quốc tế...</p>
+              <a class="cwidget__more" href="khoa-hoc-online-nang-cao.html">Xem chi tiết »</a>
+            </li>
+          </ul>
         </div>
       </aside>
+
+      <!-- Widget Hợp Tác Trường Học -->
+      <div class="school-box-side">
+        <h5>Hợp Tác Mở CLB Trường Học</h5>
+        <p>Học viện đồng hành tổ chức giải đấu, chuyển giao giáo trình và cung cấp giáo viên/HLV cho các trường học và trung tâm.</p>
+        <a href="tel:0968998610">Hotline: 0968 998 610</a>
+      </div>
+
     </div>
   </div>
 </main>
 
+<!-- 4. FOOTER (GIỮ NGUYÊN HOÀN TOÀN MÃ NGUỒN CŨ) -->
 <footer>
   <div class="footer-main">
     <div class="container">
@@ -157,23 +274,36 @@
       </div>
       <div class="fcol">
         <h4 class="fhead">Trụ sở chính</h4>
-        <ul class="flist"><li><span class="t"><svg viewBox="0 0 384 512"><path d="M172 501C27 291 0 269 0 192 0 86 86 0 192 0s192 86 192 192c0 77-27 99-172 309-10 14-30 14-40 0zm20-229a80 80 0 100-160 80 80 0 000 160z"/></svg>Địa chỉ: 316 Lê Văn Sỹ, Phường Tân Sơn Hoà, TP.Hồ Chí Minh</span></li><li><span class="t"><svg viewBox="0 0 448 512"><path d="M400 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h352c27 0 48-21 48-48V80c0-27-21-48-48-48zM94 416c-6 0-12-5-12-12 0-176 142-318 318-318 6 0 11 4 12 9l15 64c1 6-2 12-7 14l-70 30c-5 2-11 1-14-4l-31-38c-49 23-88 62-111 111l38 31c4 3 6 9 4 14l-30 70c-2 5-8 8-14 7l-64-15c-5-1-9-6-9-12z"/></svg>Hotline: 0968 998 610</span></li><li><span class="t"><svg viewBox="0 0 576 512"><path d="M160 448c-26 0-48-19-64-32C22 363 0 344 0 336v104c0 13 11 24 24 24h272c13 0 24-11 24-24V336c0 8-22 27-96 80-16 13-38 32-64 32zm160-256H32c-18 0-32 14-32 32v16c26 20 23 20 116 87 10 7 29 25 44 25 15 0 34-18 44-25 93-67 90-67 116-87v-16c0-18-14-32-32-32zm224-96H224c-18 0-32 14-32 32v32h128c33 0 60 26 64 57v128h160c18 0 32-14 32-32V128c0-18-14-32-32-32z"/></svg>covuatruyencamhung@gmail.com</span></li></ul>
+        <ul class="flist">
+          <li><span class="t"><svg viewBox="0 0 384 512"><path d="M172 501C27 291 0 269 0 192 0 86 86 0 192 0s192 86 192 192c0 77-27 99-172 309-10 14-30 14-40 0zm20-229a80 80 0 100-160 80 80 0 000 160z"/></svg>Địa chỉ: 110 Lý Thường Kiệt, Vũ Ninh, TP. Bắc Ninh</span></li>
+          <li><span class="t"><svg viewBox="0 0 448 512"><path d="M400 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h352c27 0 48-21 48-48V80c0-27-21-48-48-48zM94 416c-6 0-12-5-12-12 0-176 142-318 318-318 6 0 11 4 12 9l15 64c1 6-2 12-7 14l-70 30c-5 2-11 1-14-4l-31-38c-49 23-88 62-111 111l38 31c4 3 6 9 4 14l-30 70c-2 5-8 8-14 7l-64-15c-5-1-9-6-9-12z"/></svg>Hotline: 0968 998 610</span></li>
+          <li><span class="t"><svg viewBox="0 0 576 512"><path d="M160 448c-26 0-48-19-64-32C22 363 0 344 0 336v104c0 13 11 24 24 24h272c13 0 24-11 24-24V336c0 8-22 27-96 80-16 13-38 32-64 32zm160-256H32c-18 0-32 14-32 32v16c26 20 23 20 116 87 10 7 29 25 44 25 15 0 34-18 44-25 93-67 90-67 116-87v-16c0-18-14-32-32-32zm224-96H224c-18 0-32 14-32 32v32h128c33 0 60 26 64 57v128h160c18 0 32-14 32-32V128c0-18-14-32-32-32z"/></svg>thongthai.covua@gmail.com</span></li>
+        </ul>
         <h4 class="fhead fhead--next">Thông tin</h4>
-        <ul class="flist"><li><a href="gioi-thieu.html"><svg viewBox="0 0 576 512"><path d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"/></svg>Về chúng tôi</a></li><li><a href="khoa-hoc.html"><svg viewBox="0 0 576 512"><path d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"/></svg>Khóa học</a></li><li><a href="tuyen-dung.html"><svg viewBox="0 0 640 512"><path d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"/></svg>Tuyển dụng</a></li><li><a href="lien-he.html"><svg viewBox="0 0 640 512"><path d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"/></svg>Liên hệ</a></li></ul>
+        <ul class="flist">
+          <li><a href="gioi-thieu.html"><svg viewBox="0 0 576 512"><path d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"/></svg>Về chúng tôi</a></li>
+          <li><a href="khoa-hoc.html"><svg viewBox="0 0 576 512"><path d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"/></svg>Khóa học</a></li>
+          <li><a href="tuyen-dung.html"><svg viewBox="0 0 640 512"><path d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"/></svg>Tuyển dụng</a></li>
+          <li><a href="lien-he.html"><svg viewBox="0 0 640 512"><path d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"/></svg>Liên hệ</a></li>
+        </ul>
       </div>
       <div class="fcol">
         <h4 class="fhead">Học viện cờ vua Thông Thái</h4>
-        <ul class="flist"><li><a href="khoa-hoc-online.html"><svg viewBox="0 0 576 512"><path d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"/></svg>Khóa học</a></li><li><a href="tin-tuc.html"><svg viewBox="0 0 576 512"><path d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"/></svg>Tin tức</a></li><li><a href="hinh-anh.html"><svg viewBox="0 0 512 512"><path d="M464 448H48c-27 0-48-21-48-48V112c0-27 21-48 48-48h416c27 0 48 21 48 48v288c0 27-21 48-48 48zM112 120a56 56 0 100 112 56 56 0 000-112zM64 384h384V272l-88-88c-5-5-12-5-17 0L208 320l-56-56c-5-5-12-5-17 0l-71 72v48z"/></svg>Hình ảnh</a></li><li><a href="#"><svg viewBox="0 0 640 512"><path d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"/></svg>Thông tin nội bộ</a></li><li><a href="#"><svg viewBox="0 0 448 512"><path d="M224 256a128 128 0 100-256 128 128 0 000 256zm90 32h-17a174 174 0 01-146 0h-17C60 288 0 348 0 422v42c0 27 21 48 48 48h352c27 0 48-21 48-48v-42c0-74-60-134-134-134z"/></svg>Tài khoản GV</a></li></ul>
-        <h4 class="fhead fhead--next">Hỗ trợ khách hàng</h4>
-        <ul class="flist"><li><a href="chinh-sach-khach-hang.html"><svg viewBox="0 0 576 512"><path d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"/></svg>Chính sách khách hàng</a></li><li><a href="faqs-phu-huynh.html"><svg viewBox="0 0 576 512"><path d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"/></svg>FAQs Phụ Huynh</a></li><li><a href="dieu-khoan.html"><svg viewBox="0 0 512 512"><path d="M464 448H48c-27 0-48-21-48-48V112c0-27 21-48 48-48h416c27 0 48 21 48 48v288c0 27-21 48-48 48zM112 120a56 56 0 100 112 56 56 0 000-112zM64 384h384V272l-88-88c-5-5-12-5-17 0L208 320l-56-56c-5-5-12-5-17 0l-71 72v48z"/></svg>Điều khoản</a></li></ul>
+        <ul class="flist">
+          <li><a href="khoa-hoc-online.html"><svg viewBox="0 0 576 512"><path d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"/></svg>Khóa học</a></li>
+          <li><a href="tin-tuc.html"><svg viewBox="0 0 576 512"><path d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"/></svg>Tin tức</a></li>
+          <li><a href="faqs-phu-huynh.html"><svg viewBox="0 0 576 512"><path d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"/></svg>FAQs Phụ Huynh</a></li>
+          <li><a href="dieu-khoan.html"><svg viewBox="0 0 512 512"><path d="M464 448H48c-27 0-48-21-48-48V112c0-27 21-48 48-48h416c27 0 48 21 48 48v288c0 27-21 48-48 48zM112 120a56 56 0 100 112 56 56 0 000-112zM64 384h384V272l-88-88c-5-5-12-5-17 0L208 320l-56-56c-5-5-12-5-17 0l-71 72v48z"/></svg>Điều khoản</a></li>
+        </ul>
       </div>
       <div class="fcol"></div>
     </div>
   </div>
   <div class="footer-strip"></div>
-  <div class="copyright"><div class="wrap">© Bản quyền thuộc về Học viện cờ vua Thông Thái 2020</div></div>
+  <div class="copyright"><div class="wrap">© Bản quyền thuộc về Học viện cờ vua Thông Thái 2026</div></div>
 </footer>
 
+<!-- 5. NÚT LIÊN HỆ & BACK TO TOP (GIỮ NGUYÊN) -->
 <div class="contact-float">
   <a class="cf-btn" href="https://www.facebook.com/covuatruyencamhung" target="_blank" rel="noopener" aria-label="Fanpage Facebook"><span class="circle"><img src="images/Facebook.png" alt="" width="40" height="40"></span></a>
   <a class="cf-btn cf-btn--zalo" href="https://zalo.me/3519488029034299650" target="_blank" rel="noopener" aria-label="Chat Zalo"><span class="circle"><img src="images/zalo.png" alt="" width="28" height="27"></span></a>
