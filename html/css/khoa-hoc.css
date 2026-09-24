@@ -1,0 +1,347 @@
+/* KHÓA HỌC - Hệ thống chương trình đào tạo: bảng màu hoàng gia & layout */
+:root {
+    --brand-red: #8B181B;
+    --brand-deep: #660C0E;
+    --brand-gold: #D4AF37;
+    --brand-light-gold: #FFF9ED;
+    --brand-bg: #FAF7F2;
+    --brand-dark: #222222;
+    --brand-muted: #555555;
+    --brand-border: #E8DCCF;
+  }
+
+  body {
+    font-family: var(--f-mont);
+    background-color: var(--brand-bg);
+  }
+
+  /* Section 1: Hero Banner gốc làm mới */
+  .es--bg.hero-courses-bg {
+    background: linear-gradient(135deg, rgba(84, 8, 10, 0.94) 0%, rgba(139, 24, 27, 0.9) 100%),
+                url('images/Nen-do-1920-x-880-scaled-1-1-1.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 20px;
+    box-shadow: 0 8px 24px rgba(139, 24, 27, 0.18);
+    position: relative;
+  }
+  .hero-course-tag {
+    display: inline-block;
+    background: rgba(212, 175, 55, 0.2);
+    border: 1px solid var(--brand-gold);
+    color: var(--brand-gold);
+    padding: 5px 18px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+  }
+  .hero-courses-bg h2.es-heading {
+    color: #ffffff !important;
+    font-size: 32px !important;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .hero-courses-bg p.sub {
+    color: #FFF0CF;
+    font-size: 16px;
+    font-style: italic;
+    max-width: 780px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  /* Section Title */
+  .course-sec-title {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .course-sec-title span.badge {
+    color: var(--brand-gold);
+    font-size: 12.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 6px;
+  }
+  .course-sec-title h2.es-heading {
+    color: var(--brand-red) !important;
+    font-size: 26px !important;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  .course-sec-title h2.es-heading::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: var(--brand-gold);
+    border-radius: 2px;
+  }
+
+  /* Grid Khóa học Trung tâm (Thay thế list cũ) */
+  .course-center-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 15px;
+  }
+  .ccard {
+    background: #ffffff;
+    border: 1px solid var(--brand-border);
+    border-radius: 14px;
+    padding: 24px 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  .ccard:hover {
+    transform: translateY(-5px);
+    border-color: var(--brand-gold);
+    box-shadow: 0 12px 26px rgba(139, 24, 27, 0.12);
+  }
+  .ccard-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  .ccard-icon {
+    width: 44px;
+    height: 44px;
+    background: var(--brand-light-gold);
+    border: 1px solid var(--brand-gold);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: var(--brand-red);
+  }
+  .ccard-age {
+    background: var(--brand-light-gold);
+    color: var(--brand-red);
+    border: 1px solid var(--brand-gold);
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 12px;
+    text-transform: uppercase;
+  }
+  .ccard h3 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+  .ccard h3 a {
+    color: var(--brand-red);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .ccard h3 a:hover {
+    color: var(--brand-deep);
+  }
+  .ccard p.desc {
+    font-size: 13.5px;
+    color: var(--brand-muted);
+    line-height: 1.55;
+    margin-bottom: 18px;
+    flex-grow: 1;
+  }
+  .ccard-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px dashed var(--brand-border);
+    padding-top: 14px;
+    font-size: 12.5px;
+    color: #888;
+  }
+  .ccard-btn {
+    color: var(--brand-red);
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    text-transform: uppercase;
+    font-size: 12.5px;
+    transition: transform 0.2s;
+  }
+  .ccard-btn:hover {
+    transform: translateX(3px);
+    color: var(--brand-deep);
+  }
+
+  /* Grid Khóa học Online & Kèm tại nhà */
+  .course-online-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+  }
+  .oncard {
+    background: #ffffff;
+    border: 1px solid var(--brand-border);
+    border-radius: 14px;
+    padding: 24px 20px;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+  }
+  .oncard:hover {
+    transform: translateY(-4px);
+    border-color: var(--brand-red);
+    box-shadow: 0 10px 24px rgba(139, 24, 27, 0.12);
+  }
+  .oncard-icon {
+    font-size: 32px;
+    margin-bottom: 12px;
+    display: inline-block;
+  }
+  .oncard h3 {
+    font-size: 17px;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+  .oncard h3 a {
+    color: var(--brand-red);
+    text-decoration: none;
+  }
+  .oncard p {
+    font-size: 13px;
+    color: var(--brand-muted);
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  .oncard a.btn-on {
+    display: inline-block;
+    background: var(--brand-red);
+    color: #fff !important;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 12.5px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.2s;
+  }
+  .oncard a.btn-on:hover {
+    background: var(--brand-deep);
+  }
+
+  /* Khối Học Kèm Tại Nhà Cao Cấp */
+  .home-coach-banner {
+    background: linear-gradient(135deg, var(--brand-deep) 0%, var(--brand-red) 100%);
+    border-radius: 16px;
+    padding: 35px 30px;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 30px;
+    align-items: center;
+    box-shadow: 0 8px 24px rgba(139, 24, 27, 0.15);
+  }
+  .home-coach-info h3 {
+    font-size: 24px;
+    color: var(--brand-gold);
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .home-coach-info p {
+    font-size: 14.5px;
+    color: #FFF0CF;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+  .home-coach-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  .home-coach-features li {
+    font-size: 13.5px;
+    color: #ffffff;
+    margin-bottom: 6px;
+    position: relative;
+    padding-left: 20px;
+  }
+  .home-coach-features li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--brand-gold);
+    font-weight: 800;
+  }
+  .home-coach-card-btn {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 24px 20px;
+    text-align: center;
+    color: var(--brand-dark);
+  }
+  .home-coach-card-btn h4 {
+    color: var(--brand-red);
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+  }
+  .home-coach-card-btn p {
+    font-size: 12.5px;
+    color: var(--brand-muted);
+    margin-bottom: 14px;
+  }
+  .btn-home-cta {
+    display: block;
+    background: var(--brand-gold);
+    color: var(--brand-deep) !important;
+    padding: 11px 20px;
+    border-radius: 25px;
+    font-size: 13.5px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: transform 0.2s, background 0.2s;
+  }
+  .btn-home-cta:hover {
+    background: #e6be3e;
+    transform: translateY(-2px);
+  }
+
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .course-center-grid,
+    .course-online-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .home-coach-banner {
+      grid-template-columns: 1fr;
+      padding: 28px 20px;
+    }
+  }
+  @media (max-width: 600px) {
+    .course-center-grid,
+    .course-online-grid {
+      grid-template-columns: 1fr;
+    }
+    .hero-courses-bg h2.es-heading {
+      font-size: 24px !important;
+    }
+  }

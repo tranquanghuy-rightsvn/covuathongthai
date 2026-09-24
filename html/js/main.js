@@ -44,4 +44,17 @@
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape") setMenu(false);
   });
+
+  document.querySelectorAll("[data-video-toggle]").forEach(function (wrap) {
+    var video = wrap.querySelector("video");
+    var btn = wrap.querySelector(".feature-card__play");
+    if (!video || !btn) return;
+    function toggle() {
+      if (video.paused) video.play(); else video.pause();
+    }
+    btn.addEventListener("click", function (e) { e.stopPropagation(); toggle(); });
+    video.addEventListener("click", toggle);
+    video.addEventListener("play", function () { wrap.classList.add("is-playing"); });
+    video.addEventListener("pause", function () { wrap.classList.remove("is-playing"); });
+  });
 })();

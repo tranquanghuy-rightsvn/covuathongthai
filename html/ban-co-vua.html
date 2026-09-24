@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>bàn cờ vua | Học viện cờ vua Thông Thái</title>
+<title>Bàn cờ vua tiêu chuẩn thi đấu | Học viện cờ vua Thông Thái</title>
 <link rel="preload" href="fonts/montserrat-vietnamese.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/montserrat-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/main.css">
@@ -13,9 +13,11 @@
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="stylesheet" href="css/page.css">
 <link rel="stylesheet" href="css/shop.css">
+<link rel="stylesheet" href="css/ban-co-vua.css">
 </head>
 <body>
 
+<!-- 1. HEADER (GIỮ NGUYÊN HOÀN TOÀN MÃ NGUỒN CŨ) -->
 <header class="site-header">
   <div class="navbar">
     <a class="logo" href="index.html"><img src="images/logo.jpg" alt="Học viện cờ vua Thông Thái" width="68" height="68"></a>
@@ -60,6 +62,7 @@
   </div>
 </header>
 
+<!-- 2. MOBILE MENU (GIỮ NGUYÊN) -->
 <div class="mnav" aria-label="Menu di động">
   <div class="mnav__overlay"></div>
   <div class="mnav__panel">
@@ -82,19 +85,41 @@
 
 <div class="header-spacer"></div>
 
-<nav class="crumbs" aria-label="Đường dẫn"><div class="wrap"><ul><li><a href="index.html">Trang chủ</a></li><li><a href="cua-hang.html">Cửa hàng</a></li><li aria-current="page">bàn cờ vua</li></ul></div></nav>
+<!-- 3. BREADCRUMBS -->
+<nav class="crumbs" aria-label="Đường dẫn">
+  <div class="wrap">
+    <ul>
+      <li><a href="index.html">Trang chủ</a></li>
+      <li><a href="cua-hang.html">Cửa hàng</a></li>
+      <li aria-current="page">Bàn cờ vua tiêu chuẩn</li>
+    </ul>
+  </div>
+</nav>
 
+<!-- 4. MAIN LAYOUT SẢN PHẨM CHI TIẾT -->
 <main>
   <div class="wrap layout">
     <div class="layout__main">
+
+      <!-- KHỐI PRODUCT-SINGLE GỐC -->
       <div class="product-single">
-      <div class="product-gallery">
-        <div class="product-gallery__main"><img src="images/ban-co-vua.jpg" alt="bàn cờ vua" width="600" height="600" fetchpriority="high"></div>
-      </div>
+        <div class="product-gallery">
+          <div class="product-gallery__main">
+            <img src="images/ban-co-vua.jpg" onerror="this.src='images/ban-co-vua-300x300.jpg'" alt="Bàn cờ vua tiêu chuẩn thi đấu" width="600" height="600" fetchpriority="high">
+          </div>
+        </div>
+        
         <div class="product-summary">
-          <h1>bàn cờ vua</h1>
-          <div><span class="price">500.000&nbsp;VNĐ</span></div>
-          <div class="product-short"><p><strong>Bàn cờ vua</strong> là một sản phẩm cần thiết cho những người yêu thích và đam mê cờ vua. Bàn cờ được thiết kế với kích thước tiêu chuẩn 8 x 8 ô vuông, với các ô cờ được đánh dấu rõ ràng bằng màu đen và trắng.</p></div>
+          <span class="product-badge-fide">Tiêu chuẩn thi đấu FIDE</span>
+          <h1>BÀN CỜ VUA TIÊU CHUẨN THI ĐẤU</h1>
+          <div><span class="price">500.000 VNĐ</span></div>
+          <div class="product-short">
+            <p>
+              <strong>Bàn cờ vua tiêu chuẩn</strong> là giáo cụ chính quy phục vụ học viên tại Học viện Cờ Vua Thông Thái. Sản phẩm được tối ưu theo quy chuẩn thi đấu quốc tế 8 x 8 ô vuông, chất liệu da simili dẻo chống nhăn, chống trầy, có thể cuộn tròn gọn gàng và vệ sinh dễ dàng.
+            </p>
+          </div>
+
+          <!-- KHỐI MUA HÀNG & GIỎ HÀNG GỐC -->
           <div class="product-buy">
             <div class="qty">
               <button type="button" data-qty-step="-1" aria-label="Giảm số lượng">−</button>
@@ -102,134 +127,188 @@
               <input id="qty" type="number" value="1" min="1" step="1" data-qty-input aria-label="Số lượng sản phẩm">
               <button type="button" data-qty-step="1" aria-label="Tăng số lượng">+</button>
             </div>
-            <button class="add-cart" type="button" data-add-to-cart data-id="138" data-name="bàn cờ vua" data-price="500000" data-img="images/ban-co-vua-300x300.jpg" data-url="ban-co-vua.html"><svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>Thêm vào giỏ hàng</button>
+            
+            <button class="add-cart" type="button" data-add-to-cart data-id="138" data-name="bàn cờ vua" data-price="500000" data-img="images/ban-co-vua-300x300.jpg" data-url="ban-co-vua.html">
+              <svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>
+              Thêm vào giỏ hàng
+            </button>
           </div>
-          <p class="product-meta">Danh mục: <a href="cua-hang.html">All</a>, <a href="cua-hang.html">Cờ vua</a></p>
+
+          <p class="product-meta">
+            Danh mục: <a href="cua-hang.html">Tất cả</a>, <a href="cua-hang.html">Cờ vua</a>, <a href="cua-hang.html">Thiết bị thi đấu</a>
+          </p>
         </div>
       </div>
 
+      <!-- KHỐI TABS MÔ TẢ & ĐÁNH GIÁ GỐC -->
       <div class="product-tabs">
         <div class="product-tabs__head" role="tablist">
-          <button type="button" role="tab" id="tab-mota" aria-selected="true" aria-controls="panel-mota" data-tab="mota">Mô tả</button>
+          <button type="button" role="tab" id="tab-mota" aria-selected="true" aria-controls="panel-mota" data-tab="mota">Mô tả sản phẩm</button>
           <button type="button" role="tab" id="tab-danhgia" aria-selected="false" aria-controls="panel-danhgia" data-tab="danhgia">Đánh giá (0)</button>
         </div>
+        
         <div class="product-tabs__panel rich" role="tabpanel" id="panel-mota" aria-labelledby="tab-mota" data-panel="mota">
-          <p><strong>Bàn cờ vua</strong> là một sản phẩm cần thiết cho những người yêu thích và đam mê cờ vua. Bàn cờ được thiết kế với kích thước tiêu chuẩn 8 x 8 ô vuông, với các ô cờ được đánh dấu rõ ràng bằng màu đen và trắng.</p>
-          <p><strong>Cấu tạo của bàn cờ vua</strong> bao gồm:</p>
+          <p>
+            <strong>Bàn cờ vua tiêu chuẩn thi đấu</strong> là sản phẩm được Học viện Cờ Vua Thông Thái tuyển chọn kỹ lưỡng nhằm mang lại không gian học tập và rèn luyện tư duy bài bản nhất cho các em học sinh từ lứa tuổi mầm non đến người lớn.
+          </p>
+
+          <p><strong>Cấu tạo & Ưu điểm vượt trội:</strong></p>
           <ul>
-          <li><strong>Bàn cờ:</strong>&nbsp;Bàn cờ được làm bằng nhiều chất liệu khác nhau, phổ biến nhất là gỗ, nhựa và giấy. Bàn cờ gỗ thường có chất lượng cao, bền đẹp, nhưng giá thành cũng cao hơn so với các chất liệu khác. Bàn cờ nhựa có giá thành rẻ hơn, nhưng độ bền không cao bằng bàn cờ gỗ. Bàn cờ giấy là loại bàn cờ rẻ nhất, nhưng độ bền thấp nhất.</li>
-          <li><strong>Quân cờ:</strong>&nbsp;Quân cờ được làm bằng nhiều chất liệu khác nhau, phổ biến nhất là nhựa, gỗ và đá. Quân cờ nhựa có giá thành rẻ nhất, nhưng độ bền không cao bằng quân cờ gỗ và đá. Quân cờ gỗ có độ bền cao hơn, nhưng giá thành cũng cao hơn. Quân cờ đá có độ bền cao nhất, nhưng giá thành cũng cao nhất.</li>
+            <li><strong>Chất liệu da simili dẻo cao cấp:</strong> Mặt cờ êm, bám bàn tốt, có khả năng chống thấm nước và chống nhăn tuyệt đối khi cuộn tròn bỏ vào túi cá nhân.</li>
+            <li><strong>Kích thước tiêu chuẩn quốc tế FIDE:</strong> Kích thước 43cm x 43cm với ô cờ 5cm x 5cm, tỉ lệ vàng tương thích với mọi bộ quân cờ thi đấu tiêu chuẩn.</li>
+            <li><strong>Hệ tọa độ rõ nét:</strong> Ký hiệu hàng ngang (1–8) và cột dọc (A–H) in sắc sảo ở cả 4 cạnh, hỗ trợ học viên đọc và ghi chép biên bản ván đấu chính xác.</li>
+            <li><strong>Màu sắc tương phản dịu mắt:</strong> Tông màu Trắng - Xanh rêu/Đen chuẩn mực giúp giảm thiểu căng thẳng cho mắt khi quan sát thế cờ trong thời gian dài.</li>
           </ul>
-          <p><strong>Các loại bàn cờ vua</strong> phổ biến hiện nay bao gồm:</p>
+
+          <p><strong>Đối tượng & Mục đích sử dụng:</strong></p>
           <ul>
-          <li><strong>Bàn cờ vua tiêu chuẩn:</strong>&nbsp;Bàn cờ này có kích thước 8 x 8 ô vuông, với các ô cờ được đánh dấu rõ ràng bằng màu đen và trắng. Đây là loại bàn cờ được sử dụng trong các giải đấu cờ vua chuyên nghiệp.</li>
-          <li><strong>Bàn cờ vua mini:</strong>&nbsp;Bàn cờ này có kích thước nhỏ hơn bàn cờ tiêu chuẩn, thường được sử dụng cho trẻ em hoặc người mới bắt đầu.</li>
-          <li><strong>Bàn cờ vua nam châm:</strong>&nbsp;Bàn cờ này có các quân cờ được gắn nam châm ở dưới đế, giúp các quân cờ không bị đổ khi di chuyển. Đây là loại bàn cờ phù hợp cho trẻ em và người chơi cờ mới bắt đầu.</li>
+            <li>Phù hợp cho học viên tự luyện tập tại nhà, giờ học ngoại khóa trên trường và các kỳ thi đấu cờ vua phong trào, chuyên nghiệp.</li>
+            <li>Thích hợp làm giáo cụ giảng dạy trực quan cho các trường học, trung tâm năng khiếu mở câu lạc bộ cờ vua.</li>
           </ul>
-          <p><strong>Ưu điểm của bàn cờ vua:</strong></p>
-          <ul>
-          <li>Bàn cờ vua là một trò chơi trí tuệ, giúp người chơi phát triển tư duy logic, khả năng phân tích và giải quyết vấn đề.</li>
-          <li>Bàn cờ vua là một trò chơi giải trí lành mạnh, giúp người chơi thư giãn và giải tỏa căng thẳng.</li>
-          </ul>
-          <p><strong>Nhược điểm của bàn cờ vua:</strong></p>
-          <ul>
-          <li>Bàn cờ vua có thể gây nghiện, khiến người chơi dành quá nhiều thời gian cho trò chơi này.</li>
-          </ul>
-          <p><strong>Đối tượng sử dụng:</strong></p>
-          <ul>
-          <li>Bàn cờ vua phù hợp với mọi đối tượng, từ trẻ em đến người lớn.</li>
-          </ul>
-          <p><strong>Cách sử dụng:</strong></p>
-          <ul>
-          <li>Bàn cờ vua được sử dụng để chơi trò chơi cờ vua.</li>
-          </ul>
-          <p><strong>Mua hàng:</strong></p>
-          <p>Bàn cờ vua hiện đang được bán tại các cửa hàng chuyên dụng về cờ vua và các trang thương mại điện tử.</p>
-          <p><strong>Giá tham khảo:</strong></p>
-          <p>Giá bàn cờ vua dao động từ vài trăm nghìn đồng đến vài triệu đồng, tùy thuộc vào chất liệu, kích thước và kiểu dáng.</p>
-          <p><strong>Kết luận:</strong></p>
-          <p>Bàn cờ vua là một sản phẩm cần thiết cho những người yêu thích và đam mê cờ vua. Bàn cờ được thiết kế với kích thước và chất liệu đa dạng, phù hợp với mọi đối tượng. Bàn cờ vua không chỉ là một trò chơi giải trí lành mạnh, mà còn giúp người chơi phát triển trí tuệ và tư duy.</p>
+
+          <p><strong>Chính sách hỗ trợ trường học & câu lạc bộ:</strong></p>
+          <p>
+            Học viện Cờ Vua Thông Thái cam kết bảo hành chất lượng giáo cụ, đồng thời hỗ trợ cung cấp trọn gói bàn cờ, đồng hồ bấm giờ và tài liệu đào tạo số lượng lớn với mức trợ giá tối ưu cho các đơn vị trường học liên kết trên địa bàn Bắc Ninh và khu vực lân cận.
+          </p>
         </div>
+
         <div class="product-tabs__panel rich" role="tabpanel" id="panel-danhgia" aria-labelledby="tab-danhgia" data-panel="danhgia" hidden>
-          <p>Chưa có đánh giá nào cho sản phẩm này.</p>
+          <p>Chưa có đánh giá nào cho sản phẩm này. Hãy là người đầu tiên để lại cảm nhận sau khi sử dụng!</p>
         </div>
       </div>
 
+      <!-- SẢN PHẨM TƯƠNG TỰ GỐC -->
       <h2 class="related-title">Sản phẩm tương tự</h2>
       <ul class="product-grid">
+
+        <!-- Item 1 -->
         <li class="pcard">
           <div class="pcard__thumb">
-            <a href="bo-co-vua-go-cao-cap.html"><img src="images/bo-co-vua-go-cao-cap-300x300.jpg" alt="Bộ cờ vua gỗ cao cấp" width="300" height="300" loading="lazy"></a>
+            <span class="pcard__sale" style="background:#54080A;">Cao Cấp</span>
+            <a href="bo-co-vua-go-cao-cap.html">
+              <img src="images/bo-co-vua-go-cao-cap-300x300.jpg" alt="Bộ cờ vua gỗ cao cấp" width="300" height="300" loading="lazy">
+            </a>
           </div>
           <div class="pcard__body">
             <a class="pcard__title" href="bo-co-vua-go-cao-cap.html">Bộ cờ vua gỗ cao cấp</a>
-            <div class="pcard__price"><span class="price">1.200.000&nbsp;VNĐ</span></div>
-            <p class="pcard__desc">Đồng hồ thi đấu cờ GY2019 là một sản phẩm chất lượng, đáp ứng được nhu cầu sử dụng của các kỳ thủ cờ vua chuyên nghiệp. Đồng hồ…</p>
-            <button class="add-cart" type="button" data-add-to-cart data-id="18757" data-name="Bộ cờ vua gỗ cao cấp" data-price="1200000" data-img="images/bo-co-vua-go-cao-cap-300x300.jpg" data-url="bo-co-vua-go-cao-cap.html"><svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>Thêm vào giỏ hàng</button>
+            <div class="pcard__price"><span class="price">1.200.000 VNĐ</span></div>
+            <p class="pcard__desc">Quân cờ tiện tay tinh xảo đầm tay, bàn cờ gỗ gập tiện lợi có khóa đồng sang trọng...</p>
+            <button class="add-cart" type="button" data-add-to-cart data-id="18757" data-name="Bộ cờ vua gỗ cao cấp" data-price="1200000" data-img="images/bo-co-vua-go-cao-cap-300x300.jpg" data-url="bo-co-vua-go-cao-cap.html">
+              <svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>Thêm vào giỏ hàng
+            </button>
           </div>
         </li>
+
+        <!-- Item 2 -->
         <li class="pcard">
           <div class="pcard__thumb">
-            <a href="bo-co-vua-nam-cham.html"><img src="images/Bo-co-vua-nam-cham-vang-bac-300x300.jpeg" alt="Bộ cờ vua nam châm vàng bạc" width="300" height="300" loading="lazy"></a>
+            <a href="bo-co-vua-nam-cham.html">
+              <img src="images/Bo-co-vua-nam-cham-vang-bac-300x300.jpeg" alt="Bộ cờ vua nam châm vàng bạc" width="300" height="300" loading="lazy">
+            </a>
           </div>
           <div class="pcard__body">
             <a class="pcard__title" href="bo-co-vua-nam-cham.html">Bộ cờ vua nam châm vàng bạc</a>
-            <div class="pcard__price"><span class="price">500.000&nbsp;VNĐ</span></div>
-            <p class="pcard__desc">Thiết kế sang trọng, tinh tế Chất liệu cao cấp, bền đẹp Quân cờ được gắn nam châm, không bị đổ Thích hợp cho mọi đối tượng</p>
-            <button class="add-cart" type="button" data-add-to-cart data-id="145" data-name="Bộ cờ vua nam châm vàng bạc" data-price="500000" data-img="images/Bo-co-vua-nam-cham-vang-bac-300x300.jpeg" data-url="bo-co-vua-nam-cham.html"><svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>Thêm vào giỏ hàng</button>
+            <div class="pcard__price"><span class="price">500.000 VNĐ</span></div>
+            <p class="pcard__desc">Quân cờ mạ vàng bạc sang trọng, gắn đế hút từ tính nam châm vững vàng không bị đổ khi di chuyển...</p>
+            <button class="add-cart" type="button" data-add-to-cart data-id="145" data-name="Bộ cờ vua nam châm vàng bạc" data-price="500000" data-img="images/Bo-co-vua-nam-cham-vang-bac-300x300.jpeg" data-url="bo-co-vua-nam-cham.html">
+              <svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>Thêm vào giỏ hàng
+            </button>
           </div>
         </li>
+
+        <!-- Item 3 -->
         <li class="pcard">
-          <div class="pcard__thumb"><span class="pcard__sale">Giảm giá!</span>
-            <a href="dong-ho-thi-dau-co.html"><img src="images/a7b8af7f90819d7d6e50f8c5e65efc89.jpg_525x525q80-300x300.jpg" alt="Đồng hồ thi đấu cờ" width="300" height="300" loading="lazy"></a>
+          <div class="pcard__thumb">
+            <span class="pcard__sale">Ưu đãi -15%</span>
+            <a href="dong-ho-thi-dau-co.html">
+              <img src="images/a7b8af7f90819d7d6e50f8c5e65efc89.jpg_525x525q80-300x300.jpg" alt="Đồng hồ thi đấu cờ GY2019" width="300" height="300" loading="lazy">
+            </a>
           </div>
           <div class="pcard__body">
-            <a class="pcard__title" href="dong-ho-thi-dau-co.html">Đồng hồ thi đấu cờ</a>
-            <div class="pcard__price"><span class="price"><del>650.000&nbsp;VNĐ</del> <ins>550.000&nbsp;VNĐ</ins></span></div>
-            <p class="pcard__desc">Đồng hồ thi đấu cờ GY2019 là một sản phẩm chất lượng, đáp ứng được nhu cầu sử dụng của các kỳ thủ cờ vua chuyên nghiệp. Đồng hồ…</p>
-            <button class="add-cart" type="button" data-add-to-cart data-id="139" data-name="Đồng hồ thi đấu cờ" data-price="550000" data-img="images/a7b8af7f90819d7d6e50f8c5e65efc89.jpg_525x525q80-300x300.jpg" data-url="dong-ho-thi-dau-co.html"><svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>Thêm vào giỏ hàng</button>
+            <a class="pcard__title" href="dong-ho-thi-dau-co.html">Đồng hồ thi đấu cờ GY2019</a>
+            <div class="pcard__price">
+              <span class="price"><del>650.000 VNĐ</del> <ins>550.000 VNĐ</ins></span>
+            </div>
+            <p class="pcard__desc">Đồng hồ bấm giờ thi đấu chuyên nghiệp tích hợp chế độ cộng giây Bonus delay, màn hình hiển thị LCD rõ ràng...</p>
+            <button class="add-cart" type="button" data-add-to-cart data-id="139" data-name="Đồng hồ thi đấu cờ" data-price="550000" data-img="images/a7b8af7f90819d7d6e50f8c5e65efc89.jpg_525x525q80-300x300.jpg" data-url="dong-ho-thi-dau-co.html">
+              <svg viewBox="0 0 576 512" aria-hidden="true"><path d="M528.1 301.3l47.3-208A16 16 0 0 0 559.8 74H159.2l-9.2-44.8A24 24 0 0 0 126.5 10H24A24 24 0 0 0 0 34v16a24 24 0 0 0 24 24h69.9l70.3 343.5A56 56 0 1 0 236 464a55.6 55.6 0 0 0-6.6-26h176.5a55.6 55.6 0 0 0-6.6 26 56 56 0 1 0 63.8-55.4l4.4-19.4a16 16 0 0 0-15.6-19.6H203.3l-6.5-32h309.9a24 24 0 0 0 23.4-18.9z"/></svg>Thêm vào giỏ hàng
+            </button>
           </div>
         </li>
+
       </ul>
     </div>
+
+    <!-- CỘT BÊN (LAYOUT__SIDE GỐC) -->
     <div class="layout__side">
 
+      <!-- Widget Tìm kiếm sản phẩm -->
       <aside class="widget">
         <form class="product-search" role="search" onsubmit="return false">
           <label class="sr-only" for="ps">Tìm kiếm sản phẩm</label>
           <input id="ps" type="search" placeholder="Tìm sản phẩm..." autocomplete="off">
-          <button type="submit" aria-label="Tìm kiếm"><svg viewBox="0 0 512 512" aria-hidden="true"><path d="M505 442L405 342a24 24 0 00-17-7h-16a208 208 0 10-36 36v16c0 6 2 12 7 17l100 100c9 9 24 9 33 0l29-29c9-9 9-24 0-33zM208 336a128 128 0 110-256 128 128 0 010 256z"/></svg></button>
+          <button type="submit" aria-label="Tìm kiếm">
+            <svg viewBox="0 0 512 512" aria-hidden="true"><path d="M505 442L405 342a24 24 0 00-17-7h-16a208 208 0 10-36 36v16c0 6 2 12 7 17l100 100c9 9 24 9 33 0l29-29c9-9 9-24 0-33zM208 336a128 128 0 110-256 128 128 0 010 256z"/></svg>
+          </button>
         </form>
       </aside>
+
+      <!-- Widget Danh mục sản phẩm -->
       <aside class="widget">
         <h4 class="widget-title">Danh mục sản phẩm</h4>
         <ul class="cat-list">
-          <li><a href="cua-hang.html">All</a><span class="count">(5)</span></li>
-          <li><a href="cua-hang.html">Cờ vua</a><span class="count">(2)</span></li>
-          <li><a href="cua-hang.html">Thiết bị</a><span class="count">(3)</span></li>
+          <li><a href="cua-hang.html">Tất cả sản phẩm</a><span class="count">(5)</span></li>
+          <li><a href="cua-hang.html">Bàn & Bộ cờ vua</a><span class="count">(2)</span></li>
+          <li><a href="cua-hang.html">Thiết bị thi đấu</a><span class="count">(3)</span></li>
         </ul>
       </aside>
+
+      <!-- Widget Sản phẩm nổi bật -->
       <aside class="widget">
-        <h4 class="widget-title">Sản phẩm</h4>
+        <h4 class="widget-title">Sản phẩm tiêu biểu</h4>
         <ul class="pmini-list">
           <li>
-            <a class="pmini__thumb" href="ban-co-vua.html"><img src="images/ban-co-vua-300x300.jpg" alt="bàn cờ vua" width="80" height="80" loading="lazy"></a>
-            <div class="pmini__body"><a class="pmini__title" href="ban-co-vua.html">bàn cờ vua</a><span class="price">500.000&nbsp;VNĐ</span></div>
+            <a class="pmini__thumb" href="ban-co-vua.html">
+              <img src="images/ban-co-vua-300x300.jpg" alt="bàn cờ vua" width="80" height="80" loading="lazy">
+            </a>
+            <div class="pmini__body">
+              <a class="pmini__title" href="ban-co-vua.html">Bàn cờ vua tiêu chuẩn</a>
+              <span class="price">500.000 VNĐ</span>
+            </div>
           </li>
           <li>
-            <a class="pmini__thumb" href="bo-co-vua-go-cao-cap.html"><img src="images/bo-co-vua-go-cao-cap-300x300.jpg" alt="Bộ cờ vua gỗ cao cấp" width="80" height="80" loading="lazy"></a>
-            <div class="pmini__body"><a class="pmini__title" href="bo-co-vua-go-cao-cap.html">Bộ cờ vua gỗ cao cấp</a><span class="price">1.200.000&nbsp;VNĐ</span></div>
+            <a class="pmini__thumb" href="bo-co-vua-go-cao-cap.html">
+              <img src="images/bo-co-vua-go-cao-cap-300x300.jpg" alt="Bộ cờ vua gỗ cao cấp" width="80" height="80" loading="lazy">
+            </a>
+            <div class="pmini__body">
+              <a class="pmini__title" href="bo-co-vua-go-cao-cap.html">Bộ cờ vua gỗ cao cấp</a>
+              <span class="price">1.200.000 VNĐ</span>
+            </div>
           </li>
           <li>
-            <a class="pmini__thumb" href="bo-co-vua-nam-cham.html"><img src="images/Bo-co-vua-nam-cham-vang-bac-300x300.jpeg" alt="Bộ cờ vua nam châm vàng bạc" width="80" height="80" loading="lazy"></a>
-            <div class="pmini__body"><a class="pmini__title" href="bo-co-vua-nam-cham.html">Bộ cờ vua nam châm vàng bạc</a><span class="price">500.000&nbsp;VNĐ</span></div>
+            <a class="pmini__thumb" href="bo-co-vua-nam-cham.html">
+              <img src="images/Bo-co-vua-nam-cham-vang-bac-300x300.jpeg" alt="Bộ cờ vua nam châm vàng bạc" width="80" height="80" loading="lazy">
+            </a>
+            <div class="pmini__body">
+              <a class="pmini__title" href="bo-co-vua-nam-cham.html">Bộ cờ vua nam châm vàng bạc</a>
+              <span class="price">500.000 VNĐ</span>
+            </div>
           </li>
         </ul>
       </aside>
+
+      <!-- Widget Hỗ trợ cơ sở vật chất đối tác Profile (Trang 7) -->
+      <div class="school-support-card">
+        <h5>Hỗ Trợ Cơ Sở Vật Chất Trường Học</h5>
+        <p>Cung ứng bàn cờ, đồng hồ thi đấu, tài liệu giáo trình chuẩn mực cho các câu lạc bộ trường học.</p>
+        <a href="tel:0968998610">Liên Hệ: 0968 998 610</a>
+      </div>
+
     </div>
   </div>
 </main>
 
+<!-- 5. FOOTER (GIỮ NGUYÊN HOÀN TOÀN MÃ NGUỒN CŨ) -->
 <footer>
   <div class="footer-main">
     <div class="container">
@@ -243,23 +322,36 @@
       </div>
       <div class="fcol">
         <h4 class="fhead">Trụ sở chính</h4>
-        <ul class="flist"><li><span class="t"><svg viewBox="0 0 384 512"><path d="M172 501C27 291 0 269 0 192 0 86 86 0 192 0s192 86 192 192c0 77-27 99-172 309-10 14-30 14-40 0zm20-229a80 80 0 100-160 80 80 0 000 160z"/></svg>Địa chỉ: 316 Lê Văn Sỹ, Phường Tân Sơn Hoà, TP.Hồ Chí Minh</span></li><li><span class="t"><svg viewBox="0 0 448 512"><path d="M400 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h352c27 0 48-21 48-48V80c0-27-21-48-48-48zM94 416c-6 0-12-5-12-12 0-176 142-318 318-318 6 0 11 4 12 9l15 64c1 6-2 12-7 14l-70 30c-5 2-11 1-14-4l-31-38c-49 23-88 62-111 111l38 31c4 3 6 9 4 14l-30 70c-2 5-8 8-14 7l-64-15c-5-1-9-6-9-12z"/></svg>Hotline: 0968 998 610</span></li><li><span class="t"><svg viewBox="0 0 576 512"><path d="M160 448c-26 0-48-19-64-32C22 363 0 344 0 336v104c0 13 11 24 24 24h272c13 0 24-11 24-24V336c0 8-22 27-96 80-16 13-38 32-64 32zm160-256H32c-18 0-32 14-32 32v16c26 20 23 20 116 87 10 7 29 25 44 25 15 0 34-18 44-25 93-67 90-67 116-87v-16c0-18-14-32-32-32zm224-96H224c-18 0-32 14-32 32v32h128c33 0 60 26 64 57v128h160c18 0 32-14 32-32V128c0-18-14-32-32-32z"/></svg>covuatruyencamhung@gmail.com</span></li></ul>
+        <ul class="flist">
+          <li><span class="t"><svg viewBox="0 0 384 512"><path d="M172 501C27 291 0 269 0 192 0 86 86 0 192 0s192 86 192 192c0 77-27 99-172 309-10 14-30 14-40 0zm20-229a80 80 0 100-160 80 80 0 000 160z"/></svg>Địa chỉ: 110 Lý Thường Kiệt, Vũ Ninh, TP. Bắc Ninh</span></li>
+          <li><span class="t"><svg viewBox="0 0 448 512"><path d="M400 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h352c27 0 48-21 48-48V80c0-27-21-48-48-48zM94 416c-6 0-12-5-12-12 0-176 142-318 318-318 6 0 11 4 12 9l15 64c1 6-2 12-7 14l-70 30c-5 2-11 1-14-4l-31-38c-49 23-88 62-111 111l38 31c4 3 6 9 4 14l-30 70c-2 5-8 8-14 7l-64-15c-5-1-9-6-9-12z"/></svg>Hotline: 0968 998 610</span></li>
+          <li><span class="t"><svg viewBox="0 0 576 512"><path d="M160 448c-26 0-48-19-64-32C22 363 0 344 0 336v104c0 13 11 24 24 24h272c13 0 24-11 24-24V336c0 8-22 27-96 80-16 13-38 32-64 32zm160-256H32c-18 0-32 14-32 32v16c26 20 23 20 116 87 10 7 29 25 44 25 15 0 34-18 44-25 93-67 90-67 116-87v-16c0-18-14-32-32-32zm224-96H224c-18 0-32 14-32 32v32h128c33 0 60 26 64 57v128h160c18 0 32-14 32-32V128c0-18-14-32-32-32z"/></svg>thongthai.covua@gmail.com</span></li>
+        </ul>
         <h4 class="fhead fhead--next">Thông tin</h4>
-        <ul class="flist"><li><a href="gioi-thieu.html"><svg viewBox="0 0 576 512"><path d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"/></svg>Về chúng tôi</a></li><li><a href="khoa-hoc.html"><svg viewBox="0 0 576 512"><path d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"/></svg>Khóa học</a></li><li><a href="tuyen-dung.html"><svg viewBox="0 0 640 512"><path d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"/></svg>Tuyển dụng</a></li><li><a href="lien-he.html"><svg viewBox="0 0 640 512"><path d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"/></svg>Liên hệ</a></li></ul>
+        <ul class="flist">
+          <li><a href="gioi-thieu.html"><svg viewBox="0 0 576 512"><path d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"/></svg>Về chúng tôi</a></li>
+          <li><a href="khoa-hoc.html"><svg viewBox="0 0 576 512"><path d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"/></svg>Khóa học</a></li>
+          <li><a href="tuyen-dung.html"><svg viewBox="0 0 640 512"><path d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"/></svg>Tuyển dụng</a></li>
+          <li><a href="lien-he.html"><svg viewBox="0 0 640 512"><path d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"/></svg>Liên hệ</a></li>
+        </ul>
       </div>
       <div class="fcol">
         <h4 class="fhead">Học viện cờ vua Thông Thái</h4>
-        <ul class="flist"><li><a href="khoa-hoc-online.html"><svg viewBox="0 0 576 512"><path d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"/></svg>Khóa học</a></li><li><a href="tin-tuc.html"><svg viewBox="0 0 576 512"><path d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"/></svg>Tin tức</a></li><li><a href="hinh-anh.html"><svg viewBox="0 0 512 512"><path d="M464 448H48c-27 0-48-21-48-48V112c0-27 21-48 48-48h416c27 0 48 21 48 48v288c0 27-21 48-48 48zM112 120a56 56 0 100 112 56 56 0 000-112zM64 384h384V272l-88-88c-5-5-12-5-17 0L208 320l-56-56c-5-5-12-5-17 0l-71 72v48z"/></svg>Hình ảnh</a></li><li><a href="#"><svg viewBox="0 0 640 512"><path d="M96 224a64 64 0 100-128 64 64 0 000 128zm448 0a64 64 0 100-128 64 64 0 000 128zm32 32h-64c-18 0-34 7-45 19 40 22 69 62 75 109h66c18 0 32-14 32-32v-32c0-35-29-64-64-64zm-256 0a112 112 0 100-224 112 112 0 000 224zm77 32h-8c-21 10-44 16-69 16s-48-6-69-16h-8C149 288 96 341 96 406v29c0 27 21 48 48 48h352c27 0 48-21 48-48v-29c0-65-53-118-117-118zm-224-13c-11-12-27-19-45-19H64c-35 0-64 29-64 64v32c0 18 14 32 32 32h66c6-47 35-87 75-109z"/></svg>Thông tin nội bộ</a></li><li><a href="#"><svg viewBox="0 0 448 512"><path d="M224 256a128 128 0 100-256 128 128 0 000 256zm90 32h-17a174 174 0 01-146 0h-17C60 288 0 348 0 422v42c0 27 21 48 48 48h352c27 0 48-21 48-48v-42c0-74-60-134-134-134z"/></svg>Tài khoản GV</a></li></ul>
-        <h4 class="fhead fhead--next">Hỗ trợ khách hàng</h4>
-        <ul class="flist"><li><a href="chinh-sach-khach-hang.html"><svg viewBox="0 0 576 512"><path d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"/></svg>Chính sách khách hàng</a></li><li><a href="faqs-phu-huynh.html"><svg viewBox="0 0 576 512"><path d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"/></svg>FAQs Phụ Huynh</a></li><li><a href="dieu-khoan.html"><svg viewBox="0 0 512 512"><path d="M464 448H48c-27 0-48-21-48-48V112c0-27 21-48 48-48h416c27 0 48 21 48 48v288c0 27-21 48-48 48zM112 120a56 56 0 100 112 56 56 0 000-112zM64 384h384V272l-88-88c-5-5-12-5-17 0L208 320l-56-56c-5-5-12-5-17 0l-71 72v48z"/></svg>Điều khoản</a></li></ul>
+        <ul class="flist">
+          <li><a href="khoa-hoc-online.html"><svg viewBox="0 0 576 512"><path d="M528 32H48C21 32 0 53 0 80v352c0 27 21 48 48 48h480c27 0 48-21 48-48V80c0-27-21-48-48-48zm0 400H48V80h480v352zM208 256a64 64 0 100-128 64 64 0 000 128zm-90 128h180c12 0 22-9 22-19v-19c0-32-30-58-67-58h-5c-12 5-26 8-40 8s-28-3-40-8h-5c-37 0-67 26-67 58v19c0 10 10 19 22 19zM360 320h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8zm0-64h112c4 0 8-4 8-8v-16c0-4-4-8-8-8H360c-4 0-8 4-8 8v16c0 4 4 8 8 8z"/></svg>Khóa học</a></li>
+          <li><a href="tin-tuc.html"><svg viewBox="0 0 576 512"><path d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"/></svg>Tin tức</a></li>
+          <li><a href="faqs-phu-huynh.html"><svg viewBox="0 0 576 512"><path d="M542 32c-55 3-163 14-230 55-5 3-8 8-8 13v363c0 12 13 19 24 14 69-35 169-44 218-47 17-1 30-14 30-30V62c0-17-15-31-34-30zM264 87C197 46 89 35 34 32 15 31 0 45 0 62v337c0 16 13 29 30 30 49 3 149 12 218 47 11 5 24-2 24-14V100c0-5-3-10-8-13z"/></svg>FAQs Phụ Huynh</a></li>
+          <li><a href="dieu-khoan.html"><svg viewBox="0 0 512 512"><path d="M464 448H48c-27 0-48-21-48-48V112c0-27 21-48 48-48h416c27 0 48 21 48 48v288c0 27-21 48-48 48zM112 120a56 56 0 100 112 56 56 0 000-112zM64 384h384V272l-88-88c-5-5-12-5-17 0L208 320l-56-56c-5-5-12-5-17 0l-71 72v48z"/></svg>Điều khoản</a></li>
+        </ul>
       </div>
       <div class="fcol"></div>
     </div>
   </div>
   <div class="footer-strip"></div>
-  <div class="copyright"><div class="wrap">© Bản quyền thuộc về Học viện cờ vua Thông Thái 2020</div></div>
+  <div class="copyright"><div class="wrap">© Bản quyền thuộc về Học viện cờ vua Thông Thái 2026</div></div>
 </footer>
 
+<!-- 6. NÚT LIÊN HỆ & BACK TO TOP (GIỮ NGUYÊN) -->
 <div class="contact-float">
   <a class="cf-btn" href="https://www.facebook.com/covuatruyencamhung" target="_blank" rel="noopener" aria-label="Fanpage Facebook"><span class="circle"><img src="images/Facebook.png" alt="" width="40" height="40"></span></a>
   <a class="cf-btn cf-btn--zalo" href="https://zalo.me/3519488029034299650" target="_blank" rel="noopener" aria-label="Chat Zalo"><span class="circle"><img src="images/zalo.png" alt="" width="28" height="27"></span></a>

@@ -508,16 +508,24 @@
             </div>
             <div class="training__highlight" data-reveal="right">
               <div class="feature-card">
-                <div class="feature-card__media">
+                <div class="feature-card__media" data-video-toggle>
                   <video
                     src="images/video-thi-dau.mp4"
-                    autoplay
-                    muted
+                    poster="images/video-thi-dau-poster.jpg"
+                    preload="metadata"
                     loop
                     playsinline
                     disablepictureinpicture
                     aria-label="Học viên thi đấu cờ vua tại Học viện cờ vua Thông Thái"
                   ></video>
+                  <button
+                    type="button"
+                    class="feature-card__play"
+                    aria-label="Phát/Dừng video"
+                  >
+                    <svg class="ico-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                    <svg class="ico-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+                  </button>
                   <div class="feature-card__overlay">
                     <span class="feature-card__tag">Môi trường thân thiện</span>
                     <h3>Cờ vua – Kiến tạo những công dân toàn cầu!</h3>
