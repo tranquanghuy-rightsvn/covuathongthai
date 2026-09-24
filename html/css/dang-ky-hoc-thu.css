@@ -1,0 +1,324 @@
+/* BẢNG MÀU HOÀNG GIA & GIAO DIỆN ĐĂNG KÝ HỌC THỬ */
+:root {
+  --brand-red: #8B181B;
+  --brand-deep: #660C0E;
+  --brand-gold: #D4AF37;
+  --brand-light-gold: #FFF9ED;
+  --brand-bg: #FAF7F2;
+  --brand-dark: #222222;
+  --brand-muted: #555555;
+  --brand-border: #E8DCCF;
+}
+
+body {
+  background-color: var(--brand-bg);
+}
+
+/* Section 1: Hero Banner */
+.es--bg.hero-trial-banner {
+  background: linear-gradient(135deg, rgba(84, 8, 10, 0.88) 0%, rgba(139, 24, 27, 0.82) 100%),
+              url('../images/tuyen-sinh-co-vua-ichess.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 70px 20px;
+  box-shadow: 0 8px 24px rgba(139, 24, 27, 0.18);
+  position: relative;
+  border-radius: 0 0 20px 20px;
+}
+.hero-trial-tag {
+  display: inline-block;
+  background: rgba(212, 175, 55, 0.2);
+  border: 1px solid var(--brand-gold);
+  color: var(--brand-gold);
+  padding: 5px 18px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+}
+.hero-trial-banner h2 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  line-height: 1.35;
+}
+.hero-trial-banner p.sub {
+  color: #FFF0CF;
+  font-size: 16px;
+  font-style: italic;
+  max-width: 760px;
+  margin: 0 auto 25px;
+  line-height: 1.6;
+}
+
+/* Nút CTA Hotline Hero */
+.hero-trial-banner .cta-wrap {
+  text-align: center;
+}
+.hero-trial-banner .cta-wrap a.cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--brand-gold);
+  color: var(--brand-deep);
+  padding: 13px 32px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+.hero-trial-banner .cta-wrap a.cta:hover {
+  background: #e6be3e;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* Section 2: Khung giới thiệu quyền lợi */
+.trial-intro-panel {
+  background: #ffffff;
+  border: 1px solid var(--brand-border);
+  border-radius: 16px;
+  padding: 40px 35px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  margin: 35px auto 25px;
+  max-width: 960px;
+}
+.trial-intro-panel h3 {
+  color: var(--brand-red);
+  font-size: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  position: relative;
+  padding-bottom: 10px;
+}
+.trial-intro-panel h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 45px;
+  height: 3px;
+  background: var(--brand-gold);
+  border-radius: 2px;
+}
+.trial-intro-panel p {
+  font-size: 15px;
+  color: var(--brand-muted);
+  line-height: 1.75;
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+/* Grid 4 Quyền Lợi Trải Nghiệm */
+.benefit-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 22px 0 26px;
+}
+.benefit-card {
+  background: var(--brand-light-gold);
+  border: 1px dashed var(--brand-gold);
+  border-radius: 12px;
+  padding: 16px 18px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  transition: all 0.25s ease;
+}
+.benefit-card:hover {
+  background: #ffffff;
+  border-style: solid;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(139, 24, 27, 0.08);
+}
+.benefit-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+.benefit-text strong {
+  color: var(--brand-red);
+  font-size: 14px;
+  display: block;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+}
+.benefit-text span {
+  font-size: 13px;
+  color: var(--brand-muted);
+  line-height: 1.45;
+}
+
+/* Section 3: Form Đăng Ký Học Thử */
+.form-register-panel {
+  background: #ffffff;
+  border: 1px solid var(--brand-border);
+  border-radius: 16px;
+  padding: 40px 35px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
+  max-width: 960px;
+  margin: 0 auto 35px;
+}
+.form-header-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.form-header-title span.badge {
+  color: var(--brand-gold);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 4px;
+}
+.form-header-title h2.es-heading {
+  color: var(--brand-red);
+  font-size: 26px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.es-form .form-row {
+  margin-bottom: 18px;
+}
+.es-form label,
+.es-form .form-row__label {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--brand-dark);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.es-form input[type="text"],
+.es-form input[type="tel"],
+.es-form input[type="email"],
+.es-form select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--brand-border);
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+  box-sizing: border-box;
+  background: #fff;
+  transition: border-color 0.25s ease;
+}
+.es-form input:focus,
+.es-form select:focus {
+  border-color: var(--brand-red);
+  box-shadow: 0 0 0 3px rgba(139, 24, 27, 0.08);
+}
+
+/* Radio Options */
+.form-opts {
+  display: flex;
+  gap: 25px;
+  margin-top: 6px;
+  flex-wrap: wrap;
+}
+.form-opts label.opt {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--brand-dark);
+  cursor: pointer;
+  text-transform: none;
+}
+.form-opts input[type="radio"] {
+  accent-color: var(--brand-red);
+  width: 17px;
+  height: 17px;
+}
+
+.form-register-panel .form-submit {
+  width: 100%;
+  background: var(--brand-red);
+  color: #ffffff;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(139, 24, 27, 0.22);
+  margin-top: 10px;
+}
+.form-register-panel .form-submit:hover {
+  background: var(--brand-deep);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(139, 24, 27, 0.3);
+}
+.form-register-panel .form-note {
+  margin-top: 16px;
+  font-size: 13.5px;
+  color: #27ae60;
+  font-weight: 600;
+  text-align: center;
+  background: #f4faf6;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d5eedf;
+}
+
+/* Section 4: Bản đồ vị trí */
+.map-panel {
+  max-width: 960px;
+  margin: 0 auto 40px;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid var(--brand-border);
+  padding: 15px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+}
+.map-panel iframe {
+  width: 100%;
+  height: 420px;
+  border: none;
+  border-radius: 12px;
+  display: block;
+}
+
+/* Responsive: tablet trở xuống */
+@media (max-width: 768px) {
+  .hero-trial-banner {
+    padding: 45px 18px;
+  }
+  .hero-trial-banner h2 {
+    font-size: 22px;
+  }
+  .benefit-grid {
+    grid-template-columns: 1fr;
+  }
+  .trial-intro-panel,
+  .form-register-panel {
+    padding: 26px 18px;
+  }
+  .form-opts {
+    gap: 15px;
+  }
+  .map-panel iframe {
+    height: 320px;
+  }
+}

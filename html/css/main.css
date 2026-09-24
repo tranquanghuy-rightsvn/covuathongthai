@@ -56,7 +56,7 @@ button{font:inherit;cursor:pointer;border:0;background:none;padding:0;color:inhe
 .site-header.is-sticky .menu>li>a{color:#fff}
 .site-header.is-sticky .menu>li>a:hover,.site-header.is-sticky .menu>li.active>a{color:#ee2}
 .sub-menu{position:absolute;top:100%;left:0;min-width:300px;padding:10px;background:#fff;border-radius:0 0 14px 14px;border-top:3px solid var(--gold);box-shadow:0 18px 40px -14px rgba(107,0,0,.3),0 2px 10px rgba(0,0,0,.08);opacity:0;visibility:hidden;transform:translateY(6px);transition:opacity .25s ease,transform .25s ease,visibility .25s;z-index:10}
-.sub-menu.right{left:auto;right:0}
+.sub-menu.right{left:auto;}
 .menu>li:hover>.sub-menu,.menu>li:focus-within>.sub-menu{opacity:1;visibility:visible;transform:none}
 .sub-menu li+li{margin-top:2px}
 .sub-menu a{display:flex;align-items:center;gap:9px;padding:11px 16px;border-radius:9px;color:var(--ink);font-size:15px;font-weight:600;line-height:20px;white-space:nowrap;transition:background .2s,color .2s,padding-left .2s}
