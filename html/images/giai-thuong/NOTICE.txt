@@ -1,0 +1,37 @@
+Ảnh minh hoạ trang Giải thưởng — nguồn ảnh stock miễn phí.
+Unsplash License (https://unsplash.com/license) và Pixabay Content License (https://pixabay.com/service/license-summary/):
+dùng miễn phí cho mục đích thương mại, không bắt buộc ghi nguồn.
+
+cup-1.jpg  <-  https://images.unsplash.com/photo-1578269174936-2709b6aeb913
+cup-2.jpg  <-  https://cdn.pixabay.com/photo/2017/09/16/00/42/trophy-2754165_1280.jpg
+cup-3.jpg  <-  https://images.unsplash.com/photo-1677640724372-adb865d29aa8
+cup-4.jpg  <-  https://images.unsplash.com/photo-1514820720301-4c4790309f46 (đã cắt)
+cup-5.jpg  <-  https://images.unsplash.com/photo-1665680674724-3a3b3368e036
+cup-6.jpg  <-  https://images.unsplash.com/photo-1705925716592-259267037a03
+medal-01.jpg  <-  https://cdn.pixabay.com/photo/2018/07/10/21/53/tournament-3529744_1280.jpg
+medal-02.jpg  <-  https://cdn.pixabay.com/photo/2016/07/28/15/28/winner-1548239_1280.jpg
+medal-03.jpg  <-  https://cdn.pixabay.com/photo/2013/11/15/21/51/cup-211240_1280.jpg
+medal-04.jpg  <-  https://cdn.pixabay.com/photo/2019/11/14/18/38/medal-4626851_1280.jpg
+medal-05.jpg  <-  https://images.unsplash.com/photo-1790548156651-8a46f6b76715
+medal-06.jpg  <-  https://images.unsplash.com/photo-1706374503312-7a4a4c030d2d
+medal-07.jpg  <-  https://images.unsplash.com/photo-1706374503210-5f200b0b315b
+medal-08.jpg  <-  https://images.unsplash.com/photo-1790016120325-59bdb0108501
+medal-09.jpg  <-  https://images.unsplash.com/photo-1759688983881-0742f416a4b4 (đã cắt)
+medal-10.jpg  <-  https://images.unsplash.com/photo-1760996888608-6a1a5651ccd0
+medal-11.jpg  <-  https://cdn.pixabay.com/photo/2015/02/24/00/43/medal-646943_1280.jpg
+medal-12.jpg  <-  https://images.unsplash.com/photo-1790553589409-b3b321b9c0e0
+medal-13.jpg  <-  https://cdn.pixabay.com/photo/2016/08/26/15/59/medal-1622529_1280.png (nền trắng, đã cắt)
+medal-14.jpg  <-  https://cdn.pixabay.com/photo/2018/07/10/21/53/tournament-3529744_1280.jpg
+medal-15.jpg  <-  https://cdn.pixabay.com/photo/2019/11/14/18/38/medal-4626851_1280.jpg
+medal-16.jpg  <-  https://images.unsplash.com/photo-1706374503312-7a4a4c030d2d
+medal-17.jpg  <-  https://images.unsplash.com/photo-1760996888608-6a1a5651ccd0
+gallery/g01.jpg  <-  https://images.unsplash.com/photo-1543756070-dd3109556b0e
+gallery/g02.jpg  <-  https://images.unsplash.com/photo-1613902863716-8a8a96fc1de2
+gallery/g03.jpg  <-  https://images.unsplash.com/photo-1586165368502-1bad197a6461
+gallery/g04.jpg  <-  https://images.unsplash.com/photo-1625750331870-624de6fd3452
+gallery/g05.jpg  <-  https://images.unsplash.com/photo-1632053123075-48adab29994c
+gallery/g06.jpg  <-  https://images.unsplash.com/photo-1529699211952-734e80c4d42b
+gallery/g07.jpg  <-  https://images.unsplash.com/photo-1619976336288-38db38e4c503
+gallery/g08.jpg  <-  https://images.unsplash.com/photo-1523875194681-bedd468c58bf
+gallery/g09.jpg  <-  https://images.unsplash.com/photo-1596507457972-0ab33221e1cf
+gallery/g10.jpg  <-  https://images.unsplash.com/photo-1617083855008-9950a885c564

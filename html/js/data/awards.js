@@ -1,18 +1,20 @@
 /* Dữ liệu trang Giải thưởng. Mỗi học viên một mục; các con số tổng do js/awards.js tự tính.
    medal: "gold" | "silver" | "bronze" (huy chương cá nhân), "award" (đạt giải, không có huy chương), "none".
    cup: kèm Cup vô địch. team: có huy chương đồng đội. event: dùng chung khi nhiều lượt thuộc cùng một giải.
-   board: G = bảng nữ, U = bảng chung. */
-window.TT_AWARDS = [
+   board: G = bảng nữ, U = bảng chung.
+   id: dùng cho link riêng (giai-thuong#id) — chỉ chữ thường không dấu, số và gạch ngang.
+   photo: ảnh đại diện (tuỳ chọn); bỏ trống thì hiện chữ cái đầu của tên.
+   img / cupImg: tên file trong images/giai-thuong/ (không kèm .jpg).
+   gallery: thư viện "Khoảnh khắc đáng nhớ" chung của học viện; size: "big" | "wide" | "tall" (bỏ trống = ô thường). */
+window.TT_AWARDS = {
+  students: [
   {
+    id: "cam",
     name: "Cam",
+    photo: "",
     season: "09/10/2025 – 09/10/2026",
     asOf: "27/09/2026",
     games: { win: 122, draw: 6, loss: 40 },
-    moments: {
-      src: "images/giai-thuong/khoanh-khac.jpg",
-      caption: "45 khoảnh khắc từ 19 giải đấu có ảnh — xếp theo trí nhớ, không theo thứ hạng.",
-      credit: "Ảnh: gia đình & ban tổ chức các giải"
-    },
     tournaments: [
       { date: "2025-10-09", name: "Giải cờ vua Trường TH Lê Quý Đôn – Nữ khối lớp 1", board: "G6 · lớp 1", result: "Nhất", score: 3, max: 3, medal: "award" },
       { date: "2025-10-18", name: "Giải cờ vua - Đại hội TDTT phường Từ Liêm lần thứ nhất – Nữ khối lớp 1", short: "TDTT phường Từ Liêm", board: "G6 · lớp 1", result: "Nhất", score: 5, max: 5, medal: "gold", team: true, img: "medal-01" },
@@ -41,4 +43,17 @@ window.TT_AWARDS = [
       { date: "2026-09-27", name: "Giải vô địch cờ vua xã Thư Lâm mở rộng lần thứ I - Năm 2026", short: "Thư Lâm mở rộng I", board: "G7", result: "Nhất", score: 6, max: 6, medal: "gold", cup: true, img: "medal-17", cupImg: "cup-6" }
     ]
   }
-];
+  ],
+  gallery: [
+    { src: "images/giai-thuong/gallery/g01.jpg", alt: "Các kỳ thủ thi đấu trong một giải cờ vua", size: "big" },
+    { src: "images/giai-thuong/gallery/g02.jpg", alt: "Bàn tay đang đi quân cờ" },
+    { src: "images/giai-thuong/gallery/g03.jpg", alt: "Hai quân mã đen trắng đối đầu", size: "tall" },
+    { src: "images/giai-thuong/gallery/g04.jpg", alt: "Quân vua trắng dưới ánh đèn" },
+    { src: "images/giai-thuong/gallery/g05.jpg", alt: "Thế cờ trên bàn cờ đỏ trắng", size: "wide" },
+    { src: "images/giai-thuong/gallery/g06.jpg", alt: "Các quân cờ gỗ trên bàn cờ" },
+    { src: "images/giai-thuong/gallery/g07.jpg", alt: "Quân tốt đen trên bàn cờ" },
+    { src: "images/giai-thuong/gallery/g08.jpg", alt: "Kỳ thủ cân nhắc nước đi" },
+    { src: "images/giai-thuong/gallery/g09.jpg", alt: "Toàn cảnh bàn cờ nhìn từ trên xuống", size: "wide" },
+    { src: "images/giai-thuong/gallery/g10.jpg", alt: "Quân cờ gỗ cận cảnh" }
+  ]
+};

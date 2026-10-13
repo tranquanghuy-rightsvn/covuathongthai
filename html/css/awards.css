@@ -1,12 +1,39 @@
 /* ===== Trang Giải thưởng ===== */
 .aw-page{padding-block:10px 50px}
-.aw-intro{max-width:860px;margin-bottom:28px;font-family:var(--f-open);font-size:16px;line-height:27px;color:#444}
+.aw-intro{max-width:860px;margin-bottom:24px;font-family:var(--f-open);font-size:16px;line-height:27px;color:#444}
 
+/* Tổng hợp toàn học viện */
+.aw-overview{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:38px}
+.aw-overview li{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;min-height:104px;padding:16px 10px;border-radius:14px;background:linear-gradient(135deg,var(--red),#c11717);box-shadow:var(--shadow-sm);text-align:center}
+.aw-overview strong{font-family:var(--f-open);font-size:36px;line-height:1;font-weight:800;color:#ffd667}
+.aw-overview span{font-family:var(--f-open);font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.9)}
+
+.aw-section{margin-bottom:38px}
+.aw-section--gallery{margin-top:44px;margin-bottom:0}
+.aw-heading{display:flex;align-items:center;gap:14px;margin-bottom:18px;font-family:var(--f-open);font-size:24px;line-height:1.25;font-weight:800;text-transform:uppercase;color:var(--ink)}
+.aw-heading::after,.aw-title::after{content:"";flex:1;min-width:30px;height:2px;border-radius:2px;background:linear-gradient(90deg,var(--gold),rgba(212,175,55,0))}
+
+/* Bảng vàng học viên */
+.aw-roster{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.aw-student{display:flex;align-items:center;gap:14px;height:100%;padding:14px 16px;border:1px solid #efe1b8;border-radius:14px;background:#fff;transition:border-color .2s,box-shadow .2s,transform .2s}
+.aw-student:hover{border-color:var(--gold);box-shadow:var(--shadow-sm);transform:translateY(-2px)}
+.aw-student[aria-current="true"]{border-color:var(--red);background:#fffaf3;box-shadow:inset 0 0 0 1px var(--red),var(--shadow-sm)}
+.aw-avatar{display:flex;align-items:center;justify-content:center;flex:0 0 54px;width:54px;height:54px;overflow:hidden;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--gold-2));font-family:var(--f-open);font-size:22px;font-weight:800;color:#fff}
+.aw-avatar img{width:100%;height:100%;object-fit:cover}
+.aw-avatar--lg{flex-basis:72px;width:72px;height:72px;font-size:30px}
+.aw-student__body{display:flex;flex-direction:column;gap:3px;min-width:0;font-family:var(--f-open)}
+.aw-student__name{font-size:17px;font-weight:800;color:var(--ink)}
+.aw-student__season{font-size:12px;color:#888}
+.aw-student__medals{display:flex;flex-wrap:wrap;gap:4px 12px;margin-top:4px;font-size:13px;font-weight:700;color:#555}
+.aw-student__medals span{display:inline-flex;align-items:center;gap:5px}
+
+/* Hồ sơ học viên */
+.aw-profile-slot{scroll-margin-top:100px}
 .aw-profile{background:#fff;border:1px solid #f1e6cf;border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:32px 34px 36px}
-.aw-profile+.aw-profile{margin-top:36px}
-.aw-profile__head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-bottom:22px;border-bottom:1px solid #f1e6cf}
-.aw-eyebrow{display:inline-block;margin-bottom:6px;font-family:var(--f-open);font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-2)}
-.aw-profile__name{font-family:var(--f-open);font-size:32px;line-height:1.2;font-weight:800;color:var(--ink)}
+.aw-profile__head{display:flex;align-items:center;gap:18px;flex-wrap:wrap;padding-bottom:22px;border-bottom:1px solid #f1e6cf}
+.aw-profile__who{flex:1;min-width:220px}
+.aw-eyebrow{display:inline-block;margin-bottom:4px;font-family:var(--f-open);font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-2)}
+.aw-profile__name{font-family:var(--f-open);font-size:30px;line-height:1.2;font-weight:800;color:var(--ink)}
 .aw-profile__name span{color:var(--red)}
 .aw-season{padding:8px 16px;border:1px solid #e9d9a8;border-radius:999px;background:var(--cream);font-family:var(--f-open);font-size:15px;font-weight:700;color:var(--ink);white-space:nowrap}
 
@@ -22,7 +49,7 @@
 .aw-block{margin-top:34px}
 .aw-title{display:flex;align-items:baseline;gap:10px;margin-bottom:16px;font-family:var(--f-open);font-size:18px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--red)}
 .aw-title small{font-size:14px;font-weight:600;letter-spacing:0;text-transform:none;color:#888;white-space:nowrap}
-.aw-title::after{content:"";flex:1;min-width:30px;height:2px;align-self:center;border-radius:2px;background:linear-gradient(90deg,var(--gold),rgba(212,175,55,0))}
+.aw-title::after{align-self:center}
 
 .aw-bar{display:flex;height:16px;overflow:hidden;border-radius:999px;background:#eee}
 .aw-bar span{display:block;height:100%}
@@ -53,10 +80,9 @@
 .aw-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px}
 .aw-card{position:relative;display:flex;flex-direction:column;padding:10px 10px 12px;border:1px solid #efe1b8;border-radius:14px;background:#fffdf7;transition:transform .2s,box-shadow .2s}
 .aw-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-sm)}
-.aw-card__img{display:flex;align-items:center;justify-content:center;height:150px;margin-bottom:10px;border-radius:10px;background:#fff;overflow:hidden}
-.aw-card__img img{width:auto;max-width:100%;height:100%;object-fit:contain}
-.aw-card__img--oval img{border-radius:50%/42%}
-.aw-card__no{position:absolute;top:8px;left:8px;z-index:1;display:flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;font-family:var(--f-open);font-size:12px;font-weight:800;color:#fff;box-shadow:0 1px 3px rgba(0,0,0,.2)}
+.aw-card__img{aspect-ratio:6/5;margin-bottom:10px;overflow:hidden;border-radius:10px;background:#f5efe2}
+.aw-card__img img{display:block;width:100%;height:100%;object-fit:cover}
+.aw-card__no{position:absolute;top:16px;left:16px;z-index:1;display:flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;font-family:var(--f-open);font-size:12px;font-weight:800;color:#fff;box-shadow:0 0 0 2px #fff,0 1px 4px rgba(0,0,0,.3)}
 .aw-card__no--gold{background:#d9ad2b}.aw-card__no--silver{background:#9aa3ad}.aw-card__no--bronze{background:#c2794f}
 .aw-card__meta{display:flex;justify-content:space-between;gap:6px;font-family:var(--f-open);font-size:12px;color:#888}
 .aw-card__meta b{color:#555}
@@ -64,6 +90,11 @@
 .aw-card__foot{display:flex;align-items:center;justify-content:space-between;gap:6px;padding-top:8px;border-top:1px dashed #eadfc4;font-family:var(--f-open);font-size:13px}
 .aw-card__result{display:flex;align-items:center;gap:4px;font-weight:700;color:var(--red)}
 .aw-card__foot b{color:var(--ink)}
+
+/* Thu gọn danh sách dài */
+.is-collapsed .aw-extra{display:none}
+.aw-more{display:block;margin:18px auto 0;padding:10px 24px;border:1px solid var(--red);border-radius:999px;background:#fff;font-family:var(--f-open);font-size:14px;font-weight:700;color:var(--red);cursor:pointer;transition:background .2s,color .2s}
+.aw-more:hover,.aw-more:focus-visible{background:var(--red);color:#fff}
 
 .aw-table-wrap{position:relative;overflow-x:auto;border:1px solid #f1e6cf;border-radius:14px;-webkit-overflow-scrolling:touch}
 .aw-table{width:100%;min-width:780px;border-collapse:collapse;font-family:var(--f-open);font-size:14px}
@@ -86,19 +117,31 @@
 .aw-summary b{font-size:17px;font-weight:800;color:var(--ink)}
 .aw-note{margin-top:10px;font-family:var(--f-open);font-size:13px;line-height:20px;color:#999}
 
-.aw-moments{position:relative;display:block;max-width:640px;margin-inline:auto;overflow:hidden;border-radius:14px;box-shadow:var(--shadow-sm)}
-.aw-moments img{display:block;width:100%;height:auto;transition:transform .4s}
-.aw-moments:hover img{transform:scale(1.02)}
-.aw-moments__hint{position:absolute;right:12px;bottom:12px;padding:6px 12px;border-radius:999px;background:rgba(0,0,0,.6);font-family:var(--f-open);font-size:13px;color:#fff}
-.aw-moments+.aw-note{text-align:center}
+/* Khoảnh khắc đáng nhớ — lưới ghép */
+.aw-bento{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:200px;grid-auto-flow:dense;gap:10px}
+.aw-tile{overflow:hidden;border-radius:14px;background:#efe8da}
+.aw-tile a{display:block;height:100%}
+.aw-tile img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.aw-tile a:hover img,.aw-tile a:focus-visible img{transform:scale(1.04)}
+.aw-tile--big{grid-column:span 2;grid-row:span 2}
+.aw-tile--wide{grid-column:span 2}
+.aw-tile--tall{grid-row:span 2}
 
 @media (max-width:1024px){
   .aw-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
   .aw-chips{grid-template-columns:repeat(3,1fr)}
+  .aw-bento{grid-auto-rows:160px}
 }
 @media (max-width:767px){
+  .aw-overview{grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:30px}
+  .aw-overview li{min-height:88px}
+  .aw-overview strong{font-size:30px}
+  .aw-heading{font-size:20px}
+  .aw-roster{display:flex;gap:12px;overflow-x:auto;padding:2px 2px 10px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+  .aw-roster li{flex:0 0 min(280px,84%);scroll-snap-align:start}
   .aw-profile{padding:22px 16px 26px;border-radius:14px}
-  .aw-profile__name{font-size:25px}
+  .aw-avatar--lg{flex-basis:56px;width:56px;height:56px;font-size:24px}
+  .aw-profile__name{font-size:23px}
   .aw-stats{grid-template-columns:repeat(2,1fr);gap:12px}
   .aw-stat{min-height:92px}
   .aw-stat strong{font-size:32px}
@@ -107,4 +150,5 @@
   .aw-chips{grid-template-columns:repeat(2,1fr)}
   .aw-chip--team{grid-column:1/-1}
   .aw-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .aw-bento{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:130px;gap:8px}
 }
