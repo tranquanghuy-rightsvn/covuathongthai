@@ -48,7 +48,7 @@ button{font:inherit;cursor:pointer;border:0;background:none;padding:0;color:inhe
 .logo img{width:68px;height:68px;border-radius:6px}
 .menu{display:flex;align-items:center;gap:4px;height:60px;position:relative}
 .menu>li{position:relative}
-.menu>li>a{display:flex;align-items:center;height:60px;padding:20px;font-size:15px;font-weight:700;line-height:20px;text-transform:uppercase;color:#000;transition:color .2s}
+.menu>li>a{display:flex;align-items:center;height:60px;padding:20px;font-size:15px;font-weight:700;line-height:20px;text-transform:uppercase;white-space:nowrap;color:#000;transition:color .2s}
 .menu>li.has-sub>a{padding-right:20px}
 .menu>li.has-sub>a::after{content:"";width:6px;height:6px;margin-left:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-2px) rotate(45deg)}
 .menu>li>a:hover,.menu>li.active>a{color:var(--menu-active)}
@@ -168,10 +168,12 @@ button{font:inherit;cursor:pointer;border:0;background:none;padding:0;color:inhe
 /* ===== Responsive: header + footer ===== */
 @media (max-width:1366px){
   .navbar{padding-inline:38px 15px}
+  .menu>li>a,.menu>li.has-sub>a{padding:20px 12px}
+  .menu>li.active>a::before{left:12px;right:12px}
 }
 @media (max-width:1200px){
-  .menu>li>a{padding:20px 12px;font-size:14px}
-  .menu>li.active>a::before{left:12px;right:12px}
+  .menu>li>a,.menu>li.has-sub>a{padding:20px 9px;font-size:13px}
+  .menu>li.active>a::before{left:9px;right:9px}
   .navbar{padding-inline:15px}
   .footer-main .container{grid-template-columns:repeat(4,1fr);padding-inline:15px}
 }
